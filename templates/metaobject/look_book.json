@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "nov_lookbook_product_GEtMHV": {
+      "type": "nov-lookbook-product",
+      "blocks": {
+        "lookbook_jNgzYQ": {
+          "type": "lookbook",
+          "settings": {
+            "pin_position_1": "Top: 38%; Left: 30%",
+            "pin_product_1": "mya-long-ribbed-dress"
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_jNgzYQ"
+      ],
+      "settings": {
+        "heading": "<p>Mya Dress<\/p>",
+        "heading_c": "#222222",
+        "subheading": "<p>Discover Luxurious Sophistication in Our Collection of Knitted Ribbed Summer Dresses Featuring Finest Italian Thread.<\/p>",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "lookbook_image": "shopify:\/\/shop_images\/IMG_7599_jpg.jpg",
+        "border_radius": 0,
+        "autoplay": true,
+        "dot": true,
+        "container": "container",
+        "background_color": "#fff",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "nov_lookbook_product_RErbcQ": {
+      "type": "nov-lookbook-product",
+      "blocks": {
+        "lookbook_EfL8Rg": {
+          "type": "lookbook",
+          "settings": {
+            "pin_position_1": "Top: 38%; Left: 30%",
+            "pin_product_1": "women-s-casual-knitted-trousers"
+          }
+        },
+        "lookbook_3VrMiz": {
+          "type": "lookbook",
+          "settings": {
+            "pin_position_1": "Top: 35%; Left: 53%",
+            "pin_product_1": "casual-wool-knitted-top-with-hood"
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_EfL8Rg",
+        "lookbook_3VrMiz"
+      ],
+      "settings": {
+        "heading": "<p>Casual Elegance Reimagined<\/p>",
+        "heading_c": "#222222",
+        "subheading": "<p>The Luxe Leisure Edit – Comfort Meets Sophistication<\/p>",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "lookbook_image": "shopify:\/\/shop_images\/IMG_9202.jpg",
+        "border_radius": 0,
+        "autoplay": true,
+        "dot": true,
+        "container": "container",
+        "background_color": "#fff",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "nov_lookbook_product_GEtMHV",
+    "nov_lookbook_product_RErbcQ"
+  ]
+}

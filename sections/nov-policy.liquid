@@ -1,0 +1,450 @@
+{% assign sst = section.settings %}
+<div class="distance{% if sst.class != blank %} {{ sst.class }}{% endif %}{% if sst.animate == true %} wow fadeInUp animated{% endif %}">
+  {% if sst.container == 'container' %}
+    <div class="container">
+  {% elsif sst.container == 'container-fluid' %}
+    <div class="container-fluid">
+  {% else %}
+    <div class="container-full">
+  {% endif %} 
+    {% if sst.heading != blank or sst.subheading != blank %}
+      <div class="title_section {{ sst.title_alignment }} mb-100 mb-lg-50">
+        <span class="title" style="color: {{ sst.heading_c }};">{{ sst.heading }}</span>
+        {% if sst.subheading != blank %}
+          <span class="sub_title" style="color: {{ sst.subheading_c }};">{{ sst.subheading }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if section.blocks.size > 0 %}
+      <div class="row">
+        {% for block in section.blocks %}
+          {% assign bst = block.settings %}
+          <div class="nov-policy-item {{ sst.width_xl }} {{ sst.width_lg }} {{ sst.width_md }} {{ sst.width_sm }} {{ sst.width_xs }} {% if sst.bg_i == true %} bg-icon{% endif %} {% if bst.class != blank %} {{ bst.class }}{% endif %}">
+            {% if sst.style == 'style1' %}
+              <div class="policy__item--content style1 text-md-center d-flex d-md-block">
+                {% if bst.policy_icon != blank %}
+                  <div class="policy-icon d-inline-flex align-items-center justify-content-center mb-20 mb-sm-0 position-relative">
+                    <img data-wpsob="1" data-wpsob-height="1" height="1" data-wpsob-width="1" width="1" data-wpsob-lazy="1" loading="lazy" class="lazyload" data-src="{{ bst.policy_icon | img_url: '200x' }}" alt="icon_policy">
+                  </div>
+                {% endif %}
+                <div class="heading--policy">
+                  {% if bst.title_policy != blank %}<div class="title-policy f_pr font-800">{{ bst.title_policy }}</div>{% endif %}
+                  {% if bst.desc_policy != blank %}<div class="desc-policy{% if bst.title_policy != blank %} mt-5{% endif %}">{{ bst.desc_policy }}</div>{% endif %}
+                  {% if bst.tl != blank %}
+                    <a href="{{ bst.link }}" class="font-600">
+                      {{ bst.tl }}
+                      <i class="zmdi zmdi-chevron-right"></i>
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+            {% if sst.style == 'style2' %}
+              <div class="policy__item--content style2 d-flex d-md-block d-lg-flex align-items-center">
+                {% if bst.policy_icon != blank %}
+                  <div class="policy-icon d-inline-flex align-items-center justify-content-center position-relative mb-md-20 mb-sm-0">
+                    <img data-wpsob="1" data-wpsob-height="1" height="1" data-wpsob-width="1" width="1" data-wpsob-lazy="1" loading="lazy" class="lazyload" data-src="{{ bst.policy_icon | img_url: '200x' }}" alt="icon_policy">
+                  </div>
+                {% endif %}
+                <div class="heading--policy">
+                  {% if bst.title_policy != blank %}<div class="title-policy f_pr font-800">{{ bst.title_policy }}</div>{% endif %}
+                  {% if bst.desc_policy != blank %}<div class="desc-policy{% if bst.title_policy != blank %} mt-5{% endif %}">{{ bst.desc_policy }}</div>{% endif %}
+                  {% if bst.tl != blank %}
+                    <a href="{{ bst.link }}" class="font-600">
+                      {{ bst.tl }}
+                      <i class="zmdi zmdi-chevron-right"></i>
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>  
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Vinova Policy",
+    "class": "section-policy",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<p>Vinova Policy</p>"
+      },
+      {
+        "type": "color",
+        "id": "heading_c",
+        "label": "Heading color",
+        "default": "#222222"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Sub heading",
+        "default": "<p>Subtitle from happy customers</p>"
+      },
+      {
+        "type": "color",
+        "id": "subheading_c",
+        "label": "Sub heading color",
+        "default": "#666666"
+      },
+      {
+        "type": "select",
+        "id": "title_alignment",
+        "label": "Heading alignment",
+        "default": "text-center",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Center"
+          },
+          {
+            "value": "text-right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type":  "header",
+        "content": "Style item policy"
+      },
+      {
+        "type": "select",
+        "id": "style",
+        "label": "Style",
+        "default": "style1",
+        "options": [
+          {"value": "style1", "label": "Style 1"},
+          {"value": "style2", "label": "Style 2"}
+        ]
+      },
+      {
+        "type": "number",
+        "id": "width_icon",
+        "label": "Max width icon policy (px)",
+        "default": 90
+      },
+      {
+        "type": "number",
+        "id": "height_icon",
+        "label": "Max height icon policy (px)",
+        "default": 30
+      },
+      {
+        "type": "checkbox",
+        "id": "bg_i",
+        "label": "Show background icon"
+      },
+      {
+        "type": "number",
+        "id": "bg_i_w",
+        "label": "Width background icon policy (px)",
+        "default": 85
+      },
+      {
+        "type": "color",
+        "id": "bg_icon",
+        "label": "Background icon",
+        "default": "#ffffff"
+      },
+      {
+        "type": "number",
+        "id": "text_fz",
+        "label": "Title policy font size (px)",
+        "default": 16
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Title policy colors",
+        "default": "#222222"
+      },
+      {
+        "type": "color",
+        "id": "desc_color",
+        "label": "Description policy colors",
+        "default": "#666666"
+      },
+      {
+        "type": "number",
+        "id": "desc_fz",
+        "label": "Description policy font size (px)",
+        "default": 13
+      },
+      {
+        "type":  "header",
+        "content": "Width policy item per row"
+      },
+      {
+        "type": "select",
+        "id": "width_xl",
+        "label": "Large desktop",
+        "info": "Breakpoint 1200px ↑",
+        "default": "col-xl-4",
+        "options": [
+          {"value": "col-xl-1", "label": "1/12"},
+          {"value": "col-xl-2", "label": "2/12"},
+          {"value": "col-xl-3", "label": "3/12"},
+          {"value": "col-xl-4", "label": "4/12"},
+          {"value": "col-xl-5", "label": "5/12"},
+          {"value": "col-xl-6", "label": "6/12"},
+          {"value": "col-xl-7", "label": "7/12"},
+          {"value": "col-xl-8", "label": "8/12"},
+          {"value": "col-xl-9", "label": "9/12"},
+          {"value": "col-xl-10", "label": "10/12"},
+          {"value": "col-xl-11", "label": "11/12"},
+          {"value": "col-xl-12", "label": "12/12"},
+          {"value": "col-xl-cus-5", "label": "1/5"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "width_lg",
+        "label": "Desktop",
+        "info": "Breakpoint 992px ↑",
+        "default": "col-lg-4",
+        "options": [
+          {"value": "col-lg-1", "label": "1/12"},
+          {"value": "col-lg-2", "label": "2/12"},
+          {"value": "col-lg-3", "label": "3/12"},
+          {"value": "col-lg-4", "label": "4/12"},
+          {"value": "col-lg-5", "label": "5/12"},
+          {"value": "col-lg-6", "label": "6/12"},
+          {"value": "col-lg-7", "label": "7/12"},
+          {"value": "col-lg-8", "label": "8/12"},
+          {"value": "col-lg-9", "label": "9/12"},
+          {"value": "col-lg-10", "label": "10/12"},
+          {"value": "col-lg-11", "label": "11/12"},
+          {"value": "col-lg-12", "label": "12/12"},
+          {"value": "col-lg-cus-5", "label": "1/5"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "width_md",
+        "label": "Tablet",
+        "info": "Breakpoint 768px ↑",
+        "default": "col-md-4",
+        "options": [
+          {"value": "col-md-1", "label": "1/12"},
+          {"value": "col-md-2", "label": "2/12"},
+          {"value": "col-md-3", "label": "3/12"},
+          {"value": "col-md-4", "label": "4/12"},
+          {"value": "col-md-5", "label": "5/12"},
+          {"value": "col-md-6", "label": "6/12"},
+          {"value": "col-md-7", "label": "7/12"},
+          {"value": "col-md-8", "label": "8/12"},
+          {"value": "col-md-9", "label": "9/12"},
+          {"value": "col-md-10", "label": "10/12"},
+          {"value": "col-md-11", "label": "11/12"},
+          {"value": "col-md-12", "label": "12/12"},
+          {"value": "col-md-cus-5", "label": "1/5"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "width_sm",
+        "label": "Large mobile",
+        "info": "Breakpoint 576px ↑",
+        "default": "col-sm-12",
+        "options": [
+          {"value": "col-sm-1", "label": "1/12"},
+          {"value": "col-sm-2", "label": "2/12"},
+          {"value": "col-sm-3", "label": "3/12"},
+          {"value": "col-sm-4", "label": "4/12"},
+          {"value": "col-sm-5", "label": "5/12"},
+          {"value": "col-sm-6", "label": "6/12"},
+          {"value": "col-sm-7", "label": "7/12"},
+          {"value": "col-sm-8", "label": "8/12"},
+          {"value": "col-sm-9", "label": "9/12"},
+          {"value": "col-sm-10", "label": "10/12"},
+          {"value": "col-sm-11", "label": "11/12"},
+          {"value": "col-sm-12", "label": "12/12"},
+          {"value": "col-sm-cus-5", "label": "1/5"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "width_xs",
+        "label": "Mobile",
+        "info": "Breakpoint 575px ↓",
+        "default": "col-12",
+        "options": [
+          {"value": "col-1", "label": "1/12"},
+          {"value": "col-2", "label": "2/12"},
+          {"value": "col-3", "label": "3/12"},
+          {"value": "col-4", "label": "4/12"},
+          {"value": "col-5", "label": "5/12"},
+          {"value": "col-6", "label": "6/12"},
+          {"value": "col-7", "label": "7/12"},
+          {"value": "col-8", "label": "8/12"},
+          {"value": "col-9", "label": "9/12"},
+          {"value": "col-10", "label": "10/12"},
+          {"value": "col-11", "label": "11/12"},
+          {"value": "col-12", "label": "12/12"}
+        ]
+      },
+      {
+        "type":  "header",
+        "content": "Design option"
+      },
+      {
+        "type": "checkbox",
+        "id": "animate",
+        "label": "Show animated",
+        "default":   true
+      },
+      {
+        "type": "select",
+        "id": "container",
+        "label": "Container",
+        "default": "container",
+        "options": [
+          {"value": "container", "label": "Container"},
+          {"value": "container-fluid", "label": "Container fluid"},
+          {"value": "container-full", "label": "Container full width"}
+        ]
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background colors"
+      },
+      {
+        "type": "range",
+        "id": "bg_opacity",
+        "min": 0,
+        "max": 100,
+        "step": 10,
+        "label": "Background opacity",
+        "default": 100
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background image"
+      },
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Class"
+      },
+      {
+        "type": "number",
+        "id": "distance_top",
+        "label": "Top spacing section (px)",
+        "default": 30
+      },
+      {
+        "type": "number",
+        "id": "distance_bottom",
+        "label": "Bottom spacing section (px)",
+        "default": 30
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item_policy",
+        "name": "Policy Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "policy_icon",
+            "label": "Policy icon"
+          },
+          {
+            "type": "text",
+            "id": "title_policy",
+            "label": "Title policy",
+            "default": "Free Delivery From $ 250"
+          },
+          {
+            "type": "richtext",
+            "id": "desc_policy",
+            "label": "Description policy",
+            "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor</p>"
+          },
+          {
+            "type": "text",
+            "id": "tl",
+            "label": "Link text"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "class",
+            "label": "Class"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vinova Policy",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "item_policy"
+          },
+          {
+            "type": "item_policy"
+          },
+          {
+            "type": "item_policy"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+<style>
+  {%- assign bg_image = sst.background_image -%}
+  #shopify-section-{{ section.id }} .distance {
+    padding-top: {{ sst.distance_top }}px;
+    padding-bottom: {{ sst.distance_bottom }}px;
+    {% if sst.background_color != blank %}
+      background-color: rgba({{ sst.background_color | color_to_rgb | remove: 'rgb(' | remove: 'rgba(' | remove: ')' | remove: ', 0.0' }}, {{ sst.bg_opacity }}%);
+    {% endif %}
+    {% if bg_image.src != blank %}
+      background-image: url("{{ bg_image | img_url: '1920x' }}");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    {% endif %}
+  }
+  #shopify-section-{{ section.id }} .title-policy {
+    font-size: {{ sst.text_fz | divided_by: 10.0 | append: 'rem' }};
+    color: {{ sst.text_color }};
+  }
+  #shopify-section-{{ section.id }} .desc-policy {
+    font-size: {{ sst.desc_fz | divided_by: 10.0 | append: 'rem' }};
+    color: {{ sst.desc_color }};
+  }
+  #shopify-section-{{ section.id }} img {
+    max-width: {{ sst.width_icon | append: 'px' }};
+    max-height: {{ sst.height_icon | append: 'px' }};
+  }
+  #shopify-section-{{ section.id }} .bg-icon .policy-icon {
+    width: {{ sst.bg_i_w | append: 'px' }};
+    min-width: {{ sst.bg_i_w | append: 'px' }};
+    height: {{ sst.bg_i_w | append: 'px' }};
+    border-radius: 100%;
+    background-color: {{ sst.bg_icon }};
+  }
+</style>

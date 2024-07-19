@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "main": {
+      "type": "nov-page-faqs",
+      "blocks": {
+        "15fb5f34-b88d-452a-a459-a155fbf3c50c": {
+          "type": "faq",
+          "settings": {
+            "item_title": "What is your return policy?",
+            "color_title": "#232630",
+            "fz_title": "16px",
+            "item_content": "We have a 30-day return policy; send back your unused items within 30 days of purchase.\n\nTerms and conditions apply. Contact us for more details.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": ""
+          }
+        },
+        "f36d99f0-20e0-4ec9-b2ea-3eea65ac3e82": {
+          "type": "faq",
+          "settings": {
+            "item_title": "What are the payment options?",
+            "color_title": "#232630",
+            "fz_title": "16px",
+            "item_content": "We accept all major credit cards, Apple Pay and Paypal.\n\nOrders will be processed within 48 hours of payment receipt.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": ""
+          }
+        },
+        "06e092c0-ae35-475a-9b51-1d58129c82a3": {
+          "type": "faq",
+          "settings": {
+            "item_title": "Do you ship internationally?",
+            "color_title": "#232630",
+            "fz_title": "16px",
+            "item_content": "Yes! We proudly ship to customers all around the world. For more information, please refer to our Shipping and Returns page.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": ""
+          }
+        },
+        "74d8dd51-2e35-49c0-88df-e1c45645f17c": {
+          "type": "faq",
+          "settings": {
+            "item_title": "Do you sell gift cards?",
+            "color_title": "#232630",
+            "fz_title": "16px",
+            "item_content": "Coming soon! Don't hesitate to get in touch with us for more details.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": ""
+          }
+        },
+        "4ee00231-8e56-4c78-abb2-d73e40f1a7ec": {
+          "type": "faq",
+          "settings": {
+            "item_title": "How long will it take to receive my purchases?",
+            "color_title": "#232630",
+            "fz_title": "16px",
+            "item_content": "All orders placed with Aalkami London are processed and shipped within 1-2 business days after the order is placed. For UK orders, delivery typically takes 2-3 working days. For international orders, delivery typically takes 5-7 working days.\nThese are general guidelines and some delays may occur depending on the courier.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": ""
+          }
+        },
+        "38baf562-ad54-4fa9-a8f4-e79f4ae6078b": {
+          "type": "faq",
+          "disabled": true,
+          "settings": {
+            "item_title": "Why can’t I log into my account?",
+            "color_title": "#232630",
+            "fz_title": "16px",
+            "item_content": "Maecenas congue metus id turpis iaculis mattis. Sed pellentesque id arcu id scelerisque. Ut ullamcorper rutrum justo, at blandit eros maximus ut. Integer non tincidunt justo, rhoncus Aenean venenatis sed purus ac sollicitudin. Nulla mauris risus, commodo et luctus rutrum, lobortis sed mauris. Integer congue, sem elementum varius tristique, erat nulla rutrum risus, a imperdiet nulla lorem fermentum erat. Pellentesque elementum justo at velit fringilla, eu feugiat erat fermentum. Vivamus libero dolor, porta eget vehicula eu, iaculis id lacus. Sed interdum convallis sapien, eget faucibus sapien. Proin hendrerit lacus turpis.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "15fb5f34-b88d-452a-a459-a155fbf3c50c",
+        "f36d99f0-20e0-4ec9-b2ea-3eea65ac3e82",
+        "06e092c0-ae35-475a-9b51-1d58129c82a3",
+        "74d8dd51-2e35-49c0-88df-e1c45645f17c",
+        "4ee00231-8e56-4c78-abb2-d73e40f1a7ec",
+        "38baf562-ad54-4fa9-a8f4-e79f4ae6078b"
+      ],
+      "settings": {
+        "xl": 5,
+        "lg": 4,
+        "md": 3,
+        "sm": 2,
+        "xs": 2,
+        "fz_name": "14px",
+        "color_link": "#232630",
+        "bg_name": "#f0f0f0",
+        "bg_name_hv": "#e2e2e2",
+        "text1": "Delivery Policy",
+        "link1": "#",
+        "text2": "Return & Refund",
+        "link2": "#",
+        "text3": "Privacy Policy",
+        "link3": "#",
+        "text4": "Size Guide",
+        "link4": "#",
+        "text5": "Payment & Taxes",
+        "link5": "#",
+        "title": "",
+        "color_title": "#232630",
+        "fz_title": "14px",
+        "text_content": "Frequently asked questions",
+        "color_content": "#232630",
+        "fz_content": "14px",
+        "eb_contact": true,
+        "title_answer": "We're Here to Help!",
+        "c_answer": "#0d2235",
+        "fz_answer": "2.2rem",
+        "sub_answer": "Can't find the answer you are looking for?",
+        "c_subanswer": "#0d2235",
+        "fz_subanswer": "2.2rem",
+        "text_button": "Contact us now",
+        "fz_button": "10px",
+        "eb_button": true,
+        "c_button": "#ffffff",
+        "eb_bg_button": false,
+        "bg_button": "#0d2235",
+        "eb_bg_button_hv": false,
+        "bg_button_hv": "#167bd3",
+        "title_alignment": "text-center",
+        "class": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

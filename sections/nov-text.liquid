@@ -1,0 +1,441 @@
+{% assign sst = section.settings %}
+<div class="distance{% if sst.animate == true %} wow fadeInUp animated{% endif %}{% if sst.class != blank %} {{ sst.class }}{% endif %}">
+  {% if sst.container == 'container' %}
+    <div class="container">
+  {% elsif sst.container == 'container-fluid' %}
+    <div class="container-fluid">
+  {% else %}
+    <div class="container-full">
+  {% endif %} 
+    <div class="nov-block__text {{ sst.title_alignment }}">
+      {% for block in section.blocks %}
+        {% assign bst = block.settings %}
+        {% if block.type == 'text' %}
+          <div class="nov-text {{ bst.t_fw }} block-{{ forloop.index }}">{{ bst.text }}</div>
+        {% endif %}
+        {% if block.type == 'btn' %}
+          <a href="{{ bst.btn_link }}" class="btn btn-{{ bst.btn_size }} block-{{ forloop.index }}">{{ bst.btn }}</a>
+        {% endif %}
+        {% if block.type == 'policy' %}
+          <div class="policy block-{{ forloop.index }}">
+            <div class="row">
+              {% if bst.p1 != blank %}
+                <div class="policy-item col-sm d-flex align-items-center text-left mb-xs-20">
+                  {% if bst.icon1 != blank %}
+                    <div class="p-icon"><img data-src="{{ bst.icon1 | img_url: '100x' }}" class="lazyload"></div>
+                  {% endif %}
+                  <span class="font-600">{{ bst.p1 }}</span>
+                </div>
+              {% endif %}
+              {% if bst.p2 != blank %}
+                <div class="policy-item col-sm d-flex align-items-center text-left mb-xs-20">
+                  {% if bst.icon2 != blank %}
+                    <div class="p-icon"><img data-src="{{ bst.icon2 | img_url: '100x' }}" class="lazyload"></div>
+                  {% endif %}
+                  <span class="font-600">{{ bst.p2 }}</span>
+                </div>
+              {% endif %}
+              {% if bst.p3 != blank %}
+                <div class="policy-item col-sm d-flex align-items-center text-left">
+                  {% if bst.icon3 != blank %}
+                    <div class="p-icon"><img data-src="{{ bst.icon3 | img_url: '100x' }}" class="lazyload"></div>
+                  {% endif %}
+                  <span class="font-600">{{ bst.p3 }}</span>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Vinova Text",
+    "class": "section-text",
+    "settings": [
+      {
+        "type": "select",
+        "id": "title_alignment",
+        "label": "Content alignment",
+        "default": "text-center",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Center"
+          },
+          {
+            "value": "text-right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type":  "header",
+        "content": "Design option"
+      },
+      {
+        "type": "checkbox",
+        "id": "animate",
+        "label": "Show animated",
+        "default":   true
+      },
+      {
+        "type": "select",
+        "id": "container",
+        "label": "Container",
+        "default": "container",
+        "options": [
+          { "value": "container", "label": "Container" },
+          { "value": "container-fluid", "label": "Container fluid" },
+          { "value": "container-full", "label": "Container full width" }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background colors"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background image"
+      },
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Class"
+      },
+      {
+        "type": "number",
+        "id": "distance_top",
+        "label": "Top spacing section (px)",
+        "default": 30
+      },
+      {
+        "type": "number",
+        "id": "distance_bottom",
+        "label": "Bottom spacing section (px)",
+        "default": 30
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Vinova Text</p>"
+          },
+          {
+            "type": "range",
+            "id": "t_s",
+            "min": 11,
+            "max": 50,
+            "step": 1,
+            "label": "Text size",
+            "default": 13
+          },
+          {
+            "type": "range",
+            "id": "t_s_md",
+            "min": 11,
+            "max": 50,
+            "step": 1,
+            "label": "Text size tablet",
+            "default": 13,
+            "info": "Breakpoint 991px ↓"
+          },
+          {
+            "type": "color",
+            "id": "t_c",
+            "label": "Text color",
+            "default": "#222222"
+          },
+          {
+            "type": "select",
+            "id": "t_fw",
+            "label": "Text font weight",
+            "default": "font-400",
+            "options": [
+              {"value": "font-300","label": "Light"},
+              {"value": "font-400","label": "Regular"},
+              {"value": "font-500","label": "Medium"},
+              {"value": "font-600","label": "SemiBold"},
+              {"value": "font-700","label": "Bold"},
+              {"value": "font-800","label": "ExtraBold"},
+              {"value": "font-900","label": "Black"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "t_tt",
+            "label": "Text transform",
+            "default": "none",
+            "options": [
+              { "value": "capitalize", "label": "Capitalize" },
+              { "value": "uppercase", "label": "Uppercase" },
+              { "value": "none", "label": "None" }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "t_lh",
+            "label": "Text line height",
+            "default": "1.5"
+          },
+          {
+            "type": "text",
+            "id": "t_lt",
+            "label": "Text letter spacing",
+            "default": "0"
+          },
+          {
+            "type": "number",
+            "id": "t_m",
+            "label": "Text max with (px)",
+            "default": 1320
+          },
+          {
+            "type": "number",
+            "id": "distance_bottom",
+            "label": "Bottom spacing section (px)",
+            "default": 5
+          }
+        ]
+      },
+      {
+        "type": "btn",
+        "name": "Button",
+        "settings": [
+          {
+            "type": "text",
+            "id": "btn",
+            "label": "Button",
+            "default": "Read more"
+          },
+          {
+            "type": "url",
+            "id": "btn_link",
+            "label": "Button link"
+          },
+          {
+            "type": "select",
+            "id": "btn_size",
+            "label": "Button size",
+            "default": "normal",
+            "options": [
+              { "value": "normal", "label": "Normal" },
+              { "value": "medium", "label": "Medium" },
+              { "value": "large", "label": "Large" },
+              { "value": "xlarge", "label": "Extra Large" }
+            ]
+          },
+          {
+            "type": "color",
+            "id": "c_btn",
+            "label": "Button color",
+            "default": "#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "b_btn",
+            "label": "Button background color",
+            "default": "#222222"
+          },
+          {
+            "type": "color",
+            "id": "c_btn_h",
+            "label": "Button color hover",
+            "default": "#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "b_btn_h",
+            "label": "Button background color hover",
+            "default": "#222222"
+          },
+          {
+            "type": "number",
+            "id": "distance_bottom",
+            "label": "Bottom spacing section (px)",
+            "default": 5
+          }
+        ]
+      },
+      {
+        "type": "policy",
+        "name": "Policy",
+        "settings": [
+          {
+            "type": "color",
+            "id": "c_p",
+            "label": "Color",
+            "default": "#222222"
+          },
+          {
+            "type": "header",
+            "content": "Policy 1"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon1",
+            "label": "Icon 1"
+          },
+          {
+            "type": "richtext",
+            "id": "p1",
+            "label": "Text 1"
+          },
+          {
+            "type": "header",
+            "content": "Policy 2"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon2",
+            "label": "Icon 2"
+          },
+          {
+            "type": "richtext",
+            "id": "p2",
+            "label": "Text 2"
+          },
+          {
+            "type": "header",
+            "content": "Policy 3"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon3",
+            "label": "Icon 3"
+          },
+          {
+            "type": "richtext",
+            "id": "p3",
+            "label": "Text 3"
+          },
+          {
+            "type": "header",
+            "content": "Style"
+          },
+          {
+            "type": "number",
+            "id": "p_s",
+            "label": "Font size (px)",
+            "default": 13
+          },
+          {
+            "type": "number",
+            "id": "p_m",
+            "label": "Block max with (px)",
+            "default": 1320
+          },
+          {
+            "type": "color",
+            "id": "c_btn",
+            "label": "Button color",
+            "default": "#ffffff"
+          },
+          {
+            "type": "number",
+            "id": "distance_bottom",
+            "label": "Bottom spacing section (px)",
+            "default": 30
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vinova Text",
+        "blocks": [
+          {
+            "type": "text",
+            "settings": {
+              "text": "<p>Lorem ipsum</p>",
+              "t_s": 20,
+              "t_fw": "font-700",
+              "distance_bottom": 20
+            }
+          },
+          {
+            "type": "text",
+            "settings": {
+              "text": "<p>Maecenas eu nibh pulvinar, mattis lorem eget, convallis turpis. Maecenas sollicitudin lectus augue, vel vehicula nulla condimentum sit amet. Nam id tellus convallis, sollicitudin est a, rhoncus quam. Ut a sem aliquam, aliquet tortor non, cursus enim. Cras at aliquet risus.</p>",
+              "t_s": 16,
+              "t_fw": "font-400",
+              "distance_bottom": 30
+            }
+          },
+          {
+            "type": "btn",
+            "settings": {
+              "btn": "Shop now"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+<style>
+  #shopify-section-{{ section.id }} .distance {
+    padding-top: {{ sst.distance_top | append: 'px' }};
+    padding-bottom: {{ sst.distance_bottom | append: 'px' }};
+    {% if sst.background_color != blank %}
+      background-color: {{ sst.background_color }};
+    {% endif %}
+    {% if sst.background_image != blank %}
+      background-image: url("{{ sst.background_image | img_url: '1920x' }}");
+      background-repeat: no-repeat;
+    {% endif %}
+  }
+  {% for block in section.blocks %}
+    {% assign bst = block.settings %}
+    #shopify-section-{{ section.id }} .block-{{ forloop.index }}.nov-text {
+      color: {{ bst.t_c }};
+      font-size: {{ bst.t_s | divided_by: 10.0 | append: 'rem' }};
+      line-height: {{ bst.t_lh }};
+      letter-spacing: {{ bst.t_lt | append: 'px' }};
+      text-transform: {{ bst.t_tt }};
+      max-width: {{ bst.t_m | append: 'px' }};
+      margin-bottom: {{ bst.distance_bottom | append: 'px' }};
+    }
+    #shopify-section-{{ section.id }} .block-{{ forloop.index }}.btn {
+      color: {{ bst.c_btn }};
+      background-color: {{ bst.b_btn }};
+      margin-bottom: {{ bst.distance_bottom | append: 'px' }};
+    }
+    #shopify-section-{{ section.id }} .block-{{ forloop.index }}.btn:hover {
+      color: {{ bst.c_btn_h }} !important;
+      background-color: {{ bst.b_btn_h }} !important;
+    }
+    #shopify-section-{{ section.id }} .block-{{ forloop.index }}.policy {
+      color: {{ bst.c_p }} !important;
+      max-width: {{ bst.p_m | append: 'px' }};
+      font-size: {{ bst.p_s | divided_by: 10.0 | append: 'rem' }};
+      margin-bottom: {{ bst.distance_bottom | append: 'px' }};
+    }
+  {% endfor %}
+  @media(max-width: 991px) {
+    #shopify-section-{{ section.id }} .distance {
+      padding-top: {{ sst.distance_top | times: 0.7 | round: 0 | append: 'px' }};
+      padding-bottom: {{ sst.distance_bottom | times: 0.7 | round: 0 | append: 'px' }};
+    }
+    {% for block in section.blocks %}
+      {% assign bst = block.settings %}
+      #shopify-section-{{ section.id }} .block-{{ forloop.index }}.nov-text {
+        font-size: {{ bst.t_s_md | divided_by: 10.0 | append: 'rem' }};
+      }
+    {% endfor %}
+  }
+</style>

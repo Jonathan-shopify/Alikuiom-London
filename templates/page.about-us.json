@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "nov-page-about-us",
+      "blocks": {
+        "36565fd9-4086-4fa5-8c15-db85e063a1b1": {
+          "type": "image",
+          "settings": {
+            "class": ""
+          }
+        },
+        "19efe45f-ad63-4c96-96a2-845f284fb3d7": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "color_title": "#232630",
+            "fz_title": "14px",
+            "text_content": "At AALKAMI London, we blend timeless elegance with sustainability to offer luxurious women's knitwear. Each piece in our collection is crafted with the belief that fashion should be both beautiful and enduring, designed to last beyond the fleeting trends of seasonal wear.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": "font-700  mt-50"
+          }
+        },
+        "3b132045-2d40-4e4a-beac-9bcf8cda2932": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "color_title": "#232630",
+            "fz_title": "14px",
+            "text_content": "Our Commitment to Sustainable Luxury\n<br>\nWe are dedicated to opposing throw-away fashion by creating knitwear that not only looks exquisite but also withstands the test of time. By focusing on high-quality, ethically sourced materials and meticulous craftsmanship, we ensure each garment not only enhances your wardrobe but also supports ethical fashion practices.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": "mt-30"
+          }
+        },
+        "151784c6-3925-4595-ac6b-344922c5139e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "color_title": "#232630",
+            "fz_title": "14px",
+            "text_content": "For Every Woman <br>\n\n\nOur collections are curated to meet the needs of every woman, whether you're refreshing your wardrobe or searching for that perfect piece of knitwear. Our detailed product descriptions provide transparency about the materials used and the sustainable journey they undergo, allowing you to make informed choices that align with your values.",
+            "color_content": "#232630",
+            "fz_content": "14px",
+            "class": "mt-30"
+          }
+        },
+        "0e2d07ef-c64c-4922-a3af-a8c60a55a04a": {
+          "type": "quote",
+          "settings": {
+            "background_color": "#f1f1f1",
+            "image_quote": "shopify:\/\/shop_images\/about.webp",
+            "icon_quotes": "shopify:\/\/shop_images\/FEVICON.png",
+            "text_content": "<p><strong>Join Our Movement<\/strong><\/p><p>Explore AALKAMI and experience the fusion of luxury and sustainability. We invite you to shop with us and support a more responsible fashion industry. Each purchase helps us continue our mission to provide fashion that celebrates and respects our planet and its people.<\/p>",
+            "color_content": "#232630",
+            "fz_content": "2rem",
+            "lh_content": "40px",
+            "author": "Ioulia",
+            "color_author": "#232630",
+            "fz_author": "13px",
+            "class": "mt-90"
+          }
+        }
+      },
+      "block_order": [
+        "36565fd9-4086-4fa5-8c15-db85e063a1b1",
+        "19efe45f-ad63-4c96-96a2-845f284fb3d7",
+        "3b132045-2d40-4e4a-beac-9bcf8cda2932",
+        "151784c6-3925-4595-ac6b-344922c5139e",
+        "0e2d07ef-c64c-4922-a3af-a8c60a55a04a"
+      ],
+      "settings": {}
+    },
+    "1660960323abfb3055": {
+      "type": "nov-img-text",
+      "blocks": {
+        "7bdf095c-a57b-4673-bd1c-8a497ea7ad35": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Why choose us ?<\/strong><\/p>",
+            "t_s": 22,
+            "t_s_md": 18,
+            "t_c": "#0d2235",
+            "t_fw": "font-800",
+            "t_tt": "none",
+            "t_lh": "1.5",
+            "t_lt": "0",
+            "t_m": 1320,
+            "distance_bottom": 20
+          }
+        },
+        "22b08cd0-39c0-4d7b-ad29-100877b35ac2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Sustainable Luxury<\/strong>: At AALKAMI, we believe in the beauty of sustainability. Our luxury knitwear is crafted from premium, ethically sourced materials, ensuring that every piece supports both the environment and exquisite fashion.<\/p><p><strong>Timeless Design<\/strong>: Our designs transcend seasonal trends, offering classic styles that enhance your wardrobe year after year. With AALKAMI, invest in knitwear that looks just as good tomorrow as it does today.<\/p><p><strong>Transparency and Trust<\/strong>: We are committed to transparency about our materials and manufacturing processes, allowing you to trust in the integrity and quality of your purchases.<\/p><p><strong>Exclusivity<\/strong>: Each AALKAMI piece is crafted with meticulous attention to detail, offering exclusivity and personal touch that mass-produced garments simply cannot match.<\/p><p>Experience the difference with AALKAMI – where fashion, sustainability, and timeless elegance converge.<\/p>",
+            "t_s": 14,
+            "t_s_md": 14,
+            "t_c": "#505157",
+            "t_fw": "font-400",
+            "t_tt": "none",
+            "t_lh": "1.9",
+            "t_lt": "0",
+            "t_m": 1320,
+            "distance_bottom": 5
+          }
+        }
+      },
+      "block_order": [
+        "7bdf095c-a57b-4673-bd1c-8a497ea7ad35",
+        "22b08cd0-39c0-4d7b-ad29-100877b35ac2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "image": "shopify:\/\/shop_images\/mobile_banner.jpg",
+        "image_size": "full",
+        "position": "right",
+        "alignment": "text-left",
+        "spacing": 30,
+        "container": "container",
+        "background_color": "",
+        "bg_size": "full",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "436a868c-889a-4ac7-8958-e6d4b6b6d5cd": {
+      "type": "nov-line",
+      "settings": {
+        "height": 1,
+        "color": "#d9d9d9",
+        "style": "solid",
+        "opacity": 100,
+        "animate": false,
+        "has_fullwidth": false,
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "e0b5f762-dd19-4e02-bd66-eb1acd452996": {
+      "type": "nov-img-text",
+      "blocks": {
+        "fa6eaa9d-f8dd-4297-bbd9-5fd0bd528ffb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Trusted online shopping<\/strong><\/p>",
+            "t_s": 22,
+            "t_s_md": 18,
+            "t_c": "#222222",
+            "t_fw": "font-800",
+            "t_tt": "none",
+            "t_lh": "1.5",
+            "t_lt": "0",
+            "t_m": 1320,
+            "distance_bottom": 20
+          }
+        },
+        "46058ecb-b439-43a4-bf10-8e2e8f43bbff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop with confidence at AALKAMI London, where we prioritize your security and <br\/>satisfaction. Our seamless, secure online shopping experience ensures <br\/>that your personal information is protected at every step. We offer a <br\/>transparent return policy and dedicated customer service to assist with <br\/>any inquiries. With fast, reliable shipping and easy tracking, your <br\/>luxury knitwear arrives promptly at your doorstep. Choose AALKAMI for a <br\/>shopping experience that is as reliable as it is luxurious.<\/p>",
+            "t_s": 14,
+            "t_s_md": 13,
+            "t_c": "#505157",
+            "t_fw": "font-400",
+            "t_tt": "none",
+            "t_lh": "1.9",
+            "t_lt": "0",
+            "t_m": 1320,
+            "distance_bottom": 5
+          }
+        }
+      },
+      "block_order": [
+        "fa6eaa9d-f8dd-4297-bbd9-5fd0bd528ffb",
+        "46058ecb-b439-43a4-bf10-8e2e8f43bbff"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "image": "shopify:\/\/shop_images\/shopping-gift-wrap.jpg",
+        "image_size": "full",
+        "position": "left",
+        "alignment": "text-left",
+        "spacing": 30,
+        "container": "container",
+        "background_color": "",
+        "bg_size": "full",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660960323abfb3055",
+    "436a868c-889a-4ac7-8958-e6d4b6b6d5cd",
+    "e0b5f762-dd19-4e02-bd66-eb1acd452996"
+  ]
+}

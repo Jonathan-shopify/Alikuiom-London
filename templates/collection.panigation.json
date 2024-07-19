@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+        "category": "category",
+        "show_more": 5,
+        "products_per_page": 12,
+        "sort_enable": true,
+        "loadmore": false,
+        "type_loadmore": "btn",
+        "cb": true,
+        "show_tags": true,
+        "show_desc": true,
+        "bg_b": "#f2f2f2",
+        "show_recently": true
+      }
+    },
+    "166020887020e948ae": {
+      "type": "nov-policy",
+      "blocks": {
+        "166020887041ee3f6a-0": {
+          "type": "item_policy",
+          "settings": {
+            "policy_icon": "shopify:\/\/shop_images\/p-8_4c4c4f7d-462d-46d6-b3da-63940513e88e.png",
+            "title_policy": "FREE US DELIVERY",
+            "desc_policy": "<p>Free shipping on all order above $200<\/p>",
+            "tl": "Learn More",
+            "link": "#",
+            "class": "mb-sm-30"
+          }
+        },
+        "166020887041ee3f6a-1": {
+          "type": "item_policy",
+          "settings": {
+            "policy_icon": "shopify:\/\/shop_images\/p-14_45e2f700-8c0c-4a24-97e6-1c6f54ef2e5a.png",
+            "title_policy": "PREMIUM QUALITY",
+            "desc_policy": "<p>Printed to the best standards available<\/p>",
+            "tl": "Learn More",
+            "link": "#",
+            "class": "mb-sm-30"
+          }
+        },
+        "166020887041ee3f6a-2": {
+          "type": "item_policy",
+          "settings": {
+            "policy_icon": "shopify:\/\/shop_images\/p-15_860b79d8-da24-4f7a-befa-b346e0201ee4.png",
+            "title_policy": "SECURE PAYMENT",
+            "desc_policy": "<p>Return it within 30 days for an exchange.<\/p>",
+            "tl": "Learn More",
+            "link": "#",
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "166020887041ee3f6a-0",
+        "166020887041ee3f6a-1",
+        "166020887041ee3f6a-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "style": "style2",
+        "width_icon": 41,
+        "height_icon": 34,
+        "bg_i": true,
+        "bg_i_w": 85,
+        "bg_icon": "#e9ebeb",
+        "text_fz": 13,
+        "text_color": "#222222",
+        "desc_color": "#666666",
+        "desc_fz": 13,
+        "width_xl": "col-xl-4",
+        "width_lg": "col-lg-4",
+        "width_md": "col-md-4",
+        "width_sm": "col-sm-12",
+        "width_xs": "col-12",
+        "animate": true,
+        "container": "container",
+        "background_color": "",
+        "bg_opacity": 100,
+        "class": "",
+        "distance_top": 60,
+        "distance_bottom": 30
+      }
+    },
+    "1660210192fc453daa": {
+      "type": "nov-line",
+      "settings": {
+        "height": 1,
+        "color": "#dcdcdc",
+        "style": "solid",
+        "opacity": 100,
+        "animate": false,
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "recent-products": {
+      "type": "nov-recently-viewed",
+      "settings": {
+        "heading": "<p>RECENTLY VIEWED PRODUCTS<\/p>",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "grid_number_xxl": 5,
+        "grid_number": 3,
+        "grid_number_lg": 3,
+        "grid_number_md": 3,
+        "grid_number_sm": 2,
+        "grid_number_xs": 2,
+        "limit": 13,
+        "show_nav": false,
+        "animate": true,
+        "container": "container",
+        "background_color": "",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166020887020e948ae",
+    "1660210192fc453daa",
+    "recent-products"
+  ]
+}

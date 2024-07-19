@@ -1,0 +1,10 @@
+
+{% if template contains 'product' %}
+	{{ 'photoswipe.css' | asset_url | stylesheet_tag }}
+{% endif %}
+{{ 'novstyle.css' | asset_url | stylesheet_tag }}
+{% comment %} {% render 'novstyle-css' %}
+{% render 'novstyle-css1' %}
+{% render 'novstyle-css2' %}
+{% render 'novstyle-css3' %}  {% endcomment %}
+{% include 'nov-product-color-custom' %} 

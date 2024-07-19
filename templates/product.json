@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "main": {
+      "type": "nov-product-template",
+      "blocks": {
+        "03cca96b-c43d-43d4-8322-c16e4b7e8266": {
+          "type": "block_text",
+          "settings": {
+            "custom_title": "Delivery policy",
+            "custom_content": "<p><strong>Domestic (UK) Delivery:<\/strong><\/p><ul><li><strong>Standard Delivery:<\/strong> Arrives within 3-5 business days.<\/li><li><strong>Express Delivery:<\/strong> Arrives within 1-2 business days, available for an additional fee.<\/li><\/ul><p><strong>International Delivery:<\/strong><\/p><ul><li><strong>Standard Delivery:<\/strong> Typically arrives within 5-10 business days, depending on the destination.<\/li><li><strong>Express Delivery:<\/strong> Quicker options available, arriving within 3-5 business days, at an additional cost.<\/li><\/ul><p>Orders are processed promptly, and tracking information is provided for all shipments to ensure you can monitor your order's progress.<\/p>"
+          }
+        },
+        "a3d01db6-4304-4e3d-b6f3-f75fc7a51212": {
+          "type": "block_text",
+          "settings": {
+            "custom_title": "Shipping & Return",
+            "custom_content": "<p><strong>Domestic (UK):<\/strong><\/p><ul><li><strong>Standard Shipping:<\/strong> Orders are shipped via standard delivery and typically arrive within 3-5 business days.<\/li><li><strong>Express Shipping:<\/strong> Available at an additional charge, orders arrive within 1-2 business days.<\/li><\/ul><p><strong>International:<\/strong><\/p><ul><li><strong>Standard International Shipping:<\/strong> Deliveries generally take 5-10 business days, depending on the destination.<\/li><li><strong>Express International Shipping:<\/strong> Faster delivery options are available at an additional cost, with arrival times ranging from 3-5 business days.<\/li><\/ul><p><strong>Returns Policy<\/strong><\/p><p><strong>Domestic and International Returns:<\/strong><\/p><ul><li><strong>Returns Window:<\/strong> Items can be returned within 28 days of receipt.<\/li><li><strong>Condition:<\/strong> Products must be returned unworn, undamaged, and in original packaging with all tags attached.<\/li><li><strong>Refund Processing:<\/strong> Once the return is received and inspected, refunds are typically processed within 10 business days. Refunds are issued to the original payment method.<\/li><li><strong>Exchange:<\/strong> Subject to availability, items can be exchanged within the returns window under the same conditions as returns.<\/li><\/ul>"
+          }
+        },
+        "03b6d121-b452-4ee2-beed-a6128ccc6fd5": {
+          "type": "block_customtab",
+          "disabled": true,
+          "settings": {
+            "custom_title": "Custom tab",
+            "t1": "Lorem ipsum dolor sit amet",
+            "c1": "<p>Maecenas ullamcorper erat mi, vel consequat enim suscipit at.<\/p>",
+            "t2": "Quisque in felis ut tellus",
+            "c2": "<p>Pellentesque a elit at elit auctor tempus sed vitae mi<\/p>",
+            "t3": "Morbi blandit auctor",
+            "c3": "<p>Vestibulum sollicitudin tortor dui, quis aliquet sapien convallis sed.<\/p>",
+            "t4": "Sed sit amet risus quis velit lacinia gravida.",
+            "c4": "<p>Aenean interdum elementum arcu. Vivamus purus lorem, semper quis libero et.<\/p>",
+            "t5": "Morbi dictum orci neque.",
+            "c5": "<p>Curabitur vehicula tellus sit amet neque placerat, vel sagittis.<\/p>",
+            "t6": "",
+            "c6": "",
+            "t7": "",
+            "c7": "",
+            "t8": "",
+            "c8": "",
+            "t9": "",
+            "c9": "",
+            "t10": "",
+            "c10": ""
+          }
+        },
+        "017de3aa-924c-4bbc-b2b0-94c01780f48d": {
+          "type": "policy",
+          "settings": {
+            "title_policy": "FAST SHIPPING",
+            "desc_policy": "",
+            "tl": "Learn More",
+            "link": "#",
+            "class": "mb-sm-30"
+          }
+        },
+        "51918806-a73f-4609-b19a-664f3d28b59c": {
+          "type": "policy",
+          "settings": {
+            "title_policy": "PREMIUM QUALITY",
+            "desc_policy": "",
+            "tl": "Learn More",
+            "link": "#",
+            "class": "mb-sm-30"
+          }
+        },
+        "b7cfd8ab-e741-45a8-bd02-9bb90b8bc10b": {
+          "type": "policy",
+          "settings": {
+            "title_policy": "SECURE PAYMENT",
+            "desc_policy": "",
+            "tl": "Learn More",
+            "link": "#",
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "03cca96b-c43d-43d4-8322-c16e4b7e8266",
+        "a3d01db6-4304-4e3d-b6f3-f75fc7a51212",
+        "03b6d121-b452-4ee2-beed-a6128ccc6fd5",
+        "017de3aa-924c-4bbc-b2b0-94c01780f48d",
+        "51918806-a73f-4609-b19a-664f3d28b59c",
+        "b7cfd8ab-e741-45a8-bd02-9bb90b8bc10b"
+      ],
+      "settings": {
+        "aspect": "34",
+        "show_border_thumb": false,
+        "c_border": "#ececec",
+        "show_stick_product": true,
+        "show_quantity_selector": true,
+        "product_swatch_enable": true,
+        "img_swatch": false,
+        "show_share": true,
+        "show_ask": true,
+        "show_sizeguide": false,
+        "show_vendor": false,
+        "show_sku": false,
+        "show_categories": false,
+        "show_tags": false,
+        "show_available": false,
+        "show_des": true,
+        "enable_zoom": true,
+        "show_progress_deals": true,
+        "show_countdown": true,
+        "show_related": true,
+        "related_limit": 10,
+        "show_description": true,
+        "show_payments": true,
+        "title_payments": "Guaranteed safe checkout:",
+        "time": "We aim to ship your items within 2 days when possible.",
+        "size_time": "12px",
+        "color_time": "#232630",
+        "truck": "Items are usually shipped for next working day delivery in the UK.",
+        "size_truck": "12px",
+        "color_truck": "#232630",
+        "background_color": "",
+        "show_policy": true,
+        "width_icon": 41,
+        "height_icon": 34,
+        "bg_i": true,
+        "bg_i_w": 85,
+        "bg_icon": "#e9ebeb",
+        "text_fz": 13,
+        "width_xl": "col-xl-4",
+        "width_lg": "col-lg-4",
+        "width_md": "col-md-4",
+        "width_sm": "col-sm-12",
+        "width_xs": "col-12",
+        "text_color": "#000000",
+        "desc_color": "#505157",
+        "show_review": false,
+        "bg_review": "#f1f1f1"
+      }
+    },
+    "166244001551a5ea57": {
+      "type": "nov-line",
+      "settings": {
+        "height": 1,
+        "color": "#dcdcdc",
+        "style": "solid",
+        "opacity": 100,
+        "animate": true,
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": 60,
+        "distance_bottom": 60
+      }
+    },
+    "166243121355988ca2": {
+      "type": "nov-product-recommendations",
+      "settings": {
+        "heading": "<p>YOU MIGHT ALSO LIKE<\/p>",
+        "heading_c": "#0d2235",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "grid_number_xxl": 4,
+        "grid_number": 4,
+        "grid_number_lg": 4,
+        "grid_number_md": 3,
+        "grid_number_sm": 2,
+        "grid_number_xs": 2,
+        "limit": 8,
+        "viewmore": true,
+        "animate": true,
+        "container": "container",
+        "background_color": "",
+        "bg_opacity": 100,
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "16624401629ea2421a": {
+      "type": "nov-line",
+      "settings": {
+        "height": 1,
+        "color": "#dcdcdc",
+        "style": "solid",
+        "opacity": 100,
+        "animate": true,
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": 70,
+        "distance_bottom": 60
+      }
+    },
+    "16624339592c4072d4": {
+      "type": "nov-link-list",
+      "blocks": {
+        "1662433959182cad36-0": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luxe_Merino_Wool_Roll_Neck_Jumper_180x_200f5be2-4546-41a5-b5e8-08056225979b.png",
+            "collection": "autumn-winter"
+          }
+        },
+        "1662433959182cad36-1": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Women_s_Pleated_Knitted_Skirt_Front_Side_180x_713e8feb-ac92-4ae6-b5a1-54162f7c978b.jpg",
+            "collection": "autumn-winter-new-collection"
+          }
+        },
+        "1662433959182cad36-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "autumn-winter-sale"
+          }
+        },
+        "227f5feb-fa54-4943-b22d-a9f24065b576": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mya_Long_Ribbed_Dress_Front.jpg",
+            "collection": "high-summer-offers"
+          }
+        },
+        "4f21ee62-b3ff-41de-bce4-47dd38b67612": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dima_Knitted_Zip_Front_Jacket_Front_Style_180x_5feb71ad-5168-4dd1-9682-e5cded184a37.jpg",
+            "collection": "new-collection-ss-24-collection"
+          }
+        },
+        "f32fdf1a-5e7a-48f0-a712-dc955d8b92fd": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luella_Sleeveless_Cable-Knit_Top_Front_180x_a6f9c05b-e458-44e1-8469-c97a11f684aa.jpg",
+            "collection": "ss-23-collection-new-collection"
+          }
+        }
+      },
+      "block_order": [
+        "1662433959182cad36-0",
+        "1662433959182cad36-1",
+        "1662433959182cad36-2",
+        "227f5feb-fa54-4943-b22d-a9f24065b576",
+        "4f21ee62-b3ff-41de-bce4-47dd38b67612",
+        "f32fdf1a-5e7a-48f0-a712-dc955d8b92fd"
+      ],
+      "settings": {
+        "heading": "<p>BROWSE COLLECTIONS FOR MORE INSPRIRATION<\/p>",
+        "heading_c": "#0d2235",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "border_radius": 13,
+        "color_link": "#0d2235",
+        "color_link_h": "#000000",
+        "text_c": "#232630",
+        "background_i": "#f3f3f3",
+        "background_i_h": "#f3f3f3",
+        "grid_number": 5,
+        "grid_number_lg": 5,
+        "grid_number_md": 4,
+        "grid_number_sm": 3,
+        "grid_number_xs": 2,
+        "container": "container",
+        "background_color": "#ffffff",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "recent-products": {
+      "type": "nov-recently-viewed",
+      "settings": {
+        "heading": "<p>RECENTLY VIEWED PRODUCTS<\/p>",
+        "heading_c": "#0d2235",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "grid_number_xxl": 5,
+        "grid_number": 4,
+        "grid_number_lg": 4,
+        "grid_number_md": 3,
+        "grid_number_sm": 2,
+        "grid_number_xs": 2,
+        "limit": 10,
+        "show_nav": false,
+        "animate": true,
+        "container": "container",
+        "background_color": "",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166244001551a5ea57",
+    "166243121355988ca2",
+    "16624401629ea2421a",
+    "16624339592c4072d4",
+    "recent-products"
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "sections": {
+    "ae3eac1a-ca70-4467-a805-0c2c8e47a35c": {
+      "type": "nov-countdown",
+      "disabled": true,
+      "settings": {
+        "heading": "Don't Miss <strong>70% Off<\/strong> All Sale! No Code Needed!",
+        "heading_c": "#ffffff",
+        "heading_hl": "#fff000",
+        "countdown_timeend": "2024\/09\/03",
+        "border_radius": 100,
+        "c_cd": "#222222",
+        "bg_cd": "#fff000",
+        "btn": "Shop now",
+        "btn_link": "shopify:\/\/collections\/flash-deals",
+        "c_btn": "#222222",
+        "b_btn": "#ffffff",
+        "c_btn_h": "#000000",
+        "b_btn_h": "#fff000",
+        "container": "container",
+        "background_color": "#232323",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2": {
+      "type": "nov-text-scroll",
+      "blocks": {
+        "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-0": {
+          "type": "item",
+          "settings": {
+            "icon": "zmdi zmdi-flash",
+            "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+          }
+        },
+        "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-1": {
+          "type": "item",
+          "settings": {
+            "icon": "zmdi zmdi-flash",
+            "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+          }
+        },
+        "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-2": {
+          "type": "item",
+          "settings": {
+            "icon": "zmdi zmdi-flash",
+            "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+          }
+        },
+        "7baa7e32-a93b-4967-920c-ece117f9e391": {
+          "type": "item",
+          "settings": {
+            "icon": "zmdi zmdi-flash",
+            "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+          }
+        },
+        "5a9cc39a-da0d-4f75-b10d-66da5b10f4cc": {
+          "type": "item",
+          "settings": {
+            "icon": "zmdi zmdi-flash",
+            "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-0",
+        "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-1",
+        "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-2",
+        "7baa7e32-a93b-4967-920c-ece117f9e391",
+        "5a9cc39a-da0d-4f75-b10d-66da5b10f4cc"
+      ],
+      "disabled": true,
+      "settings": {
+        "time": 60,
+        "t_s": 10,
+        "t_s_md": 11,
+        "t_c": "#222222",
+        "t_fw": "font-700",
+        "t_tt": "none",
+        "t_lh": "1.5",
+        "t_lt": "0",
+        "animate": false,
+        "container": "container-full",
+        "background_color": "#ffc5ae",
+        "bg_opacity": 100,
+        "class": "",
+        "distance_top": 20,
+        "distance_bottom": 15
+      }
+    },
+    "112c6ebf-0d3e-4474-a810-89df30908ec0": {
+      "type": "nov-slideshow",
+      "blocks": {
+        "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5376.jpg",
+            "img_xs": "shopify:\/\/shop_images\/IMG_5376.jpg",
+            "img_animate": false,
+            "position_img": "Width: 23%; Left:39%; Top: 20%",
+            "position_xl_img": "Width: 23%; Left:39%; Top: 20%",
+            "position_lg_img": "Width: 23%; Left:39%; Top: 20%",
+            "position_md_img": "Width: 23%; Left:39%; Top: 20%",
+            "position_sm_img": "Width: 28%; Left:37%; Top: 6%",
+            "position_xs_img": "Width: 23%; Left:39%; Top: 20%",
+            "caption_1": "Chic Comfort",
+            "color_cap1": "#ffffff",
+            "fz_cap1_xxl": 15,
+            "fz_cap1_xl": 15,
+            "fz_cap1_lg": 15,
+            "fz_cap1_md": 20,
+            "fz_cap1_sm": 11,
+            "fz_cap1_xs": 8,
+            "fw1": "600",
+            "fs1": "normal",
+            "tt1": "uppercase",
+            "ff1": "heading",
+            "let1": 0,
+            "line_height1": "1.5",
+            "ts1_w": 0,
+            "ts1_c": "#000000",
+            "mb1": 15,
+            "mb1_lg": 10,
+            "mb1_md": 10,
+            "mb1_xs": 5,
+            "cap_animate_1": "fadeInLeft",
+            "caption_2": "Style Refined",
+            "color_cap2": "#ffffff",
+            "fz_cap2_xxl": 13,
+            "fz_cap2_xl": 13,
+            "fz_cap2_lg": 20,
+            "fz_cap2_md": 15,
+            "fz_cap2_sm": 10,
+            "fz_cap2_xs": 11,
+            "fw2": "600",
+            "fs2": "normal",
+            "tt2": "uppercase",
+            "ff2": "heading",
+            "let2": 0,
+            "line_height2": "1.5",
+            "mb2": 10,
+            "mb2_lg": 10,
+            "mb2_md": 10,
+            "mb2_xs": 10,
+            "cap_animate_2": "fadeInRight",
+            "caption_3": "Modern Silhouettes <br> for Timeless Appeal <br>\nFind Your Perfect Fit",
+            "color_cap3": "#ffffff",
+            "fz_cap3_xxl": 16,
+            "fz_cap3_xl": 15,
+            "fz_cap3_lg": 11,
+            "fz_cap3_md": 9,
+            "fz_cap3_sm": 9,
+            "fz_cap3_xs": 7,
+            "fw3": "600",
+            "fs3": "normal",
+            "tt3": "none",
+            "ff3": "body",
+            "let3": 0,
+            "line_height3": "1.5",
+            "mb3": 35,
+            "mb3_lg": 25,
+            "mb3_md": 10,
+            "mb3_xs": 11,
+            "cap_animate_3": "fadeInUp",
+            "caption_4": "",
+            "color_cap4": "#ffffff",
+            "fz_cap4_xxl": 14,
+            "fz_cap4_xl": 14,
+            "fz_cap4_lg": 13,
+            "fz_cap4_md": 12,
+            "fz_cap4_sm": 9,
+            "fz_cap4_xs": 7,
+            "fw4": "400",
+            "fs4": "normal",
+            "tt4": "uppercase",
+            "ff4": "heading",
+            "let4": 2,
+            "line_height4": "1.5",
+            "ts4_w": 0,
+            "ts4_c": "",
+            "mb4": 50,
+            "mb4_lg": 0,
+            "mb4_md": 20,
+            "mb4_xs": 10,
+            "cap_animate_4": "fadeInUp",
+            "caption_btn": "View More",
+            "slider_link": "shopify:\/\/collections\/shop-all-collections",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#000000",
+            "caption2_btn": "",
+            "slider_link2": "",
+            "c_btn2": "#ffffff",
+            "b_btn2": "#222222",
+            "c_btn2_h": "#ffffff",
+            "b_btn2_h": "#222222",
+            "cap_content": "fullbox",
+            "text_align": "left",
+            "position": "Width: 100%; Left:1%; Top: 34%",
+            "position_xl": "Width: 100%; Left:1%; Top: 35%",
+            "position_lg": "Width: 100%; Left:1%; Top: 30%",
+            "position_md": "Width: 100%; Left:1%; Top: 20%",
+            "position_sm": "Width: 100%; Left:1%; Top: 15%",
+            "position_xs": "Width: 100%; Left:1%; Top: 22%"
+          }
+        },
+        "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_Project.webp",
+            "img_xs": "shopify:\/\/shop_images\/New_Project_f29502ab-75b7-4b70-b271-5c820cb471dd.webp",
+            "img_animate": false,
+            "position_img": "Width: 33%; Left:33%; Top: 10%",
+            "position_xl_img": "Width: 33%; Left:33%; Top: 10%",
+            "position_lg_img": "Width: 33%; Left:33%; Top: 10%",
+            "position_md_img": "Width: 33%; Left:33%; Top: 10%",
+            "position_sm_img": "Width: 33%; Left:33%; Top: 10%",
+            "position_xs_img": "Width: 33%; Left:33%; Top: 10%",
+            "caption_1": "Style for Every <br> Occasion",
+            "color_cap1": "#ffffff",
+            "fz_cap1_xxl": 12,
+            "fz_cap1_xl": 10,
+            "fz_cap1_lg": 12,
+            "fz_cap1_md": 10,
+            "fz_cap1_sm": 8,
+            "fz_cap1_xs": 7,
+            "fw1": "600",
+            "fs1": "normal",
+            "tt1": "uppercase",
+            "ff1": "heading",
+            "let1": 5,
+            "line_height1": "1.5",
+            "ts1_w": 1,
+            "ts1_c": "",
+            "mb1": 15,
+            "mb1_lg": 10,
+            "mb1_md": 10,
+            "mb1_xs": 5,
+            "cap_animate_1": "fadeInDown",
+            "caption_2": "Spring Summer",
+            "color_cap2": "#ffffff",
+            "fz_cap2_xxl": 15,
+            "fz_cap2_xl": 15,
+            "fz_cap2_lg": 15,
+            "fz_cap2_md": 15,
+            "fz_cap2_sm": 9,
+            "fz_cap2_xs": 9,
+            "fw2": "600",
+            "fs2": "normal",
+            "tt2": "uppercase",
+            "ff2": "heading",
+            "let2": 0,
+            "line_height2": "1.5",
+            "mb2": 10,
+            "mb2_lg": 10,
+            "mb2_md": 10,
+            "mb2_xs": 5,
+            "cap_animate_2": "fadeInRight",
+            "caption_3": "Superior Style Perfection",
+            "color_cap3": "#ffffff",
+            "fz_cap3_xxl": 12,
+            "fz_cap3_xl": 12,
+            "fz_cap3_lg": 12,
+            "fz_cap3_md": 11,
+            "fz_cap3_sm": 9,
+            "fz_cap3_xs": 7,
+            "fw3": "400",
+            "fs3": "normal",
+            "tt3": "none",
+            "ff3": "heading",
+            "let3": 0,
+            "line_height3": "1",
+            "mb3": 65,
+            "mb3_lg": 50,
+            "mb3_md": 30,
+            "mb3_xs": 20,
+            "cap_animate_3": "fadeInLeft",
+            "caption_4": "",
+            "color_cap4": "#ffffff",
+            "fz_cap4_xxl": 14,
+            "fz_cap4_xl": 14,
+            "fz_cap4_lg": 13,
+            "fz_cap4_md": 12,
+            "fz_cap4_sm": 11,
+            "fz_cap4_xs": 10,
+            "fw4": "300",
+            "fs4": "normal",
+            "tt4": "uppercase",
+            "ff4": "heading",
+            "let4": 2,
+            "line_height4": "1.5",
+            "ts4_w": 0,
+            "ts4_c": "",
+            "mb4": 50,
+            "mb4_lg": 0,
+            "mb4_md": 20,
+            "mb4_xs": 10,
+            "cap_animate_4": "fadeInUp",
+            "caption_btn": "Shop now",
+            "slider_link": "shopify:\/\/collections\/shop-all-collections",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#000000",
+            "caption2_btn": "",
+            "slider_link2": "",
+            "c_btn2": "#ffffff",
+            "b_btn2": "#222222",
+            "c_btn2_h": "#ffffff",
+            "b_btn2_h": "#222222",
+            "cap_content": "container",
+            "text_align": "right",
+            "position": "Width: 100%; Left:4%; Top: 34%",
+            "position_xl": "Width: 100%; Left:-2%; Top: 34%",
+            "position_lg": "Width: 100%; Left:-2%; Top: 30%",
+            "position_md": "Width: 100%; Left:-1%; Top: 25%",
+            "position_sm": "Width: 100%; Left:1%; Top: 15%",
+            "position_xs": "Width: 100%; Left:1%; Top: 25%"
+          }
+        },
+        "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5046.jpg",
+            "img_xs": "shopify:\/\/shop_images\/IMG_5046.jpg",
+            "img_animate": true,
+            "position_img": "Width: 50%; Left:10%; Top: 40%",
+            "position_xl_img": "Width: 50%; Left:10%; Top: 50%",
+            "position_lg_img": "Width: 50%; Left:10%; Top: 40%",
+            "position_md_img": "Width: 70%; Left:10%; Top: 40%",
+            "position_sm_img": "Width: 80%; Left:10%; Top: 40%",
+            "position_xs_img": "Width: 90%; Left:5%; Top: 40%",
+            "caption_1": "Breezy Chic",
+            "color_cap1": "#ffffff",
+            "fz_cap1_xxl": 12,
+            "fz_cap1_xl": 12,
+            "fz_cap1_lg": 12,
+            "fz_cap1_md": 11,
+            "fz_cap1_sm": 11,
+            "fz_cap1_xs": 10,
+            "fw1": "600",
+            "fs1": "normal",
+            "tt1": "uppercase",
+            "ff1": "heading",
+            "let1": 0,
+            "line_height1": "1.5",
+            "ts1_w": 0,
+            "ts1_c": "#000000",
+            "mb1": 15,
+            "mb1_lg": 10,
+            "mb1_md": 5,
+            "mb1_xs": 5,
+            "cap_animate_1": "fadeInLeft",
+            "caption_2": "Summer Sophistication",
+            "color_cap2": "#ffffff",
+            "fz_cap2_xxl": 14,
+            "fz_cap2_xl": 14,
+            "fz_cap2_lg": 16,
+            "fz_cap2_md": 12,
+            "fz_cap2_sm": 10,
+            "fz_cap2_xs": 9,
+            "fw2": "900",
+            "fs2": "normal",
+            "tt2": "uppercase",
+            "ff2": "heading",
+            "let2": 0,
+            "line_height2": "1.5",
+            "mb2": 10,
+            "mb2_lg": 10,
+            "mb2_md": 10,
+            "mb2_xs": 5,
+            "cap_animate_2": "fadeInRight",
+            "caption_3": "Step into the serene side of summer",
+            "color_cap3": "#ffffff",
+            "fz_cap3_xxl": 12,
+            "fz_cap3_xl": 15,
+            "fz_cap3_lg": 14,
+            "fz_cap3_md": 13,
+            "fz_cap3_sm": 9,
+            "fz_cap3_xs": 7,
+            "fw3": "400",
+            "fs3": "normal",
+            "tt3": "capitalize",
+            "ff3": "heading",
+            "let3": 2,
+            "line_height3": "1",
+            "mb3": 65,
+            "mb3_lg": 50,
+            "mb3_md": 30,
+            "mb3_xs": 20,
+            "cap_animate_3": "fadeInLeft",
+            "caption_4": "",
+            "color_cap4": "#ffffff",
+            "fz_cap4_xxl": 14,
+            "fz_cap4_xl": 14,
+            "fz_cap4_lg": 13,
+            "fz_cap4_md": 12,
+            "fz_cap4_sm": 11,
+            "fz_cap4_xs": 10,
+            "fw4": "400",
+            "fs4": "normal",
+            "tt4": "uppercase",
+            "ff4": "heading",
+            "let4": 2,
+            "line_height4": "1.5",
+            "ts4_w": 0,
+            "ts4_c": "",
+            "mb4": 50,
+            "mb4_lg": 0,
+            "mb4_md": 20,
+            "mb4_xs": 10,
+            "cap_animate_4": "fadeInUp",
+            "caption_btn": "Define Your Summer",
+            "slider_link": "shopify:\/\/collections\/new-collection-ss-24-collection",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#000000",
+            "caption2_btn": "",
+            "slider_link2": "shopify:\/\/collections\/shop-all-collections",
+            "c_btn2": "#000000",
+            "b_btn2": "#ffffff",
+            "c_btn2_h": "#ffffff",
+            "b_btn2_h": "#000000",
+            "cap_content": "fullbox",
+            "text_align": "left",
+            "position": "Width: 100%; Left:4%; Top: 34%",
+            "position_xl": "Width: 100%; Left:4%; Top: 34%",
+            "position_lg": "Width: 100%; Left:4%; Top: 30%",
+            "position_md": "Width: 100%; Left:4%; Top: 25%",
+            "position_sm": "Width: 100%; Left:4%; Top: 15%",
+            "position_xs": "Width: 100%; Left:4%; Top: 25%"
+          }
+        }
+      },
+      "block_order": [
+        "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-0",
+        "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-1",
+        "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-2"
+      ],
+      "settings": {
+        "autoplay": true,
+        "zoom": true,
+        "autoplay_speed": "4000",
+        "h_xs": 300,
+        "loading_bar": true,
+        "bg_load": "#ffffff",
+        "bg_load_opacity": 15,
+        "border_radius": 0,
+        "arrows": false,
+        "dots": true,
+        "s_dot": "style-2",
+        "p_dot": 4,
+        "c_dot": "#ffffff",
+        "bg_dot2": "#ffffff",
+        "bg_dot2_opacity": 20,
+        "show_banner": false,
+        "bn1": "shopify:\/\/shop_images\/IMG_2022.jpg",
+        "bn_t1": "",
+        "bn_link1": "",
+        "bn2": "shopify:\/\/shop_images\/IMG_1161.jpg",
+        "bn_t2": "",
+        "bn_link2": "",
+        "bn3": "shopify:\/\/shop_images\/Slide.jpg",
+        "bn_t3": "",
+        "bn_link3": "",
+        "br_banner": 0,
+        "c_bn_t": "",
+        "gradient": "",
+        "animate": false,
+        "container": "container-full",
+        "background_color": "",
+        "class": "",
+        "distance_top": 0,
+        "distance_bottom": 0
+      }
+    },
+    "7468b340-cf51-429f-bc51-4288984ba785": {
+      "type": "nov-gallery-image",
+      "blocks": {
+        "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1358_580x_962c6f20-d3e2-4884-a6e0-c89f4e2c0528.webp",
+            "img_xs": "shopify:\/\/shop_images\/IMG_1358_580x_962c6f20-d3e2-4884-a6e0-c89f4e2c0528.webp",
+            "link": "shopify:\/\/collections\/new-collection-ss-24-collection",
+            "cta_label": "",
+            "cta_label_c": "#ffffff",
+            "cta_label_n": 22,
+            "cta_label2": "",
+            "cta_label2_c": "#666666",
+            "cta_label2_n": 13,
+            "btn_label": "Timeless Confidence",
+            "btn_label_c": "#222222",
+            "btn_label_ch": "#ffffff",
+            "btn_label_br": "#ffffff",
+            "btn_label_b": "#ffffff",
+            "btn_label_bh": "#000000",
+            "text_align": "center",
+            "bg": "",
+            "bg_opacity": 70,
+            "class": ""
+          }
+        },
+        "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1164.jpg",
+            "img_xs": "shopify:\/\/shop_images\/IMG_1164.jpg",
+            "link": "shopify:\/\/collections\/new-collection-ss-24-collection",
+            "cta_label": "",
+            "cta_label_c": "#ffffff",
+            "cta_label_n": 22,
+            "cta_label2": "",
+            "cta_label2_c": "#666666",
+            "cta_label2_n": 16,
+            "btn_label": "Timeless Chic",
+            "btn_label_c": "#222222",
+            "btn_label_ch": "#ffffff",
+            "btn_label_br": "#ffffff",
+            "btn_label_b": "#ffffff",
+            "btn_label_bh": "#000000",
+            "text_align": "center",
+            "bg": "",
+            "bg_opacity": 100,
+            "class": ""
+          }
+        },
+        "42fd6276-a7b0-44f8-8ecc-b8164921dde1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1312.jpg",
+            "img_xs": "shopify:\/\/shop_images\/IMG_1312.jpg",
+            "link": "shopify:\/\/products\/women-s-cotton-blend-ribbed-midi-dress",
+            "cta_label": "",
+            "cta_label_c": "#222222",
+            "cta_label_n": 22,
+            "cta_label2": "",
+            "cta_label2_c": "#666666",
+            "cta_label2_n": 16,
+            "btn_label": "Timeless elegance",
+            "btn_label_c": "#000000",
+            "btn_label_ch": "#ffffff",
+            "btn_label_br": "#ffffff",
+            "btn_label_b": "#ffffff",
+            "btn_label_bh": "#000000",
+            "text_align": "left",
+            "bg": "",
+            "bg_opacity": 100,
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-0",
+        "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-1",
+        "42fd6276-a7b0-44f8-8ecc-b8164921dde1"
+      ],
+      "settings": {
+        "heading": "<p>TIMELESS COLLECTIONS <\/p><p>SUMMER TRENDS<\/p>",
+        "heading_c": "#222222",
+        "subheading": "<p><strong>Embrace Effortless Style With Our Curated Summer Essentials<\/strong><\/p>",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "md": 3,
+        "bd_radius": 0,
+        "spacing": 15,
+        "style_img_1": false,
+        "style_img_2": true,
+        "animate": false,
+        "background_color": "",
+        "container": "container-full",
+        "class_section": "",
+        "distance_top": 55,
+        "distance_bottom": 0
+      }
+    },
+    "b28d5555-8555-476a-99d0-5cdcb296f7b1": {
+      "type": "nov-gallery-image",
+      "blocks": {
+        "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1863.jpg",
+            "img_xs": "shopify:\/\/shop_images\/IMG_1863.jpg",
+            "link": "shopify:\/\/collections\/shop-all-collections",
+            "cta_label": "",
+            "cta_label_c": "#ffffff",
+            "cta_label_n": 18,
+            "cta_label2": "",
+            "cta_label2_c": "#666666",
+            "cta_label2_n": 16,
+            "btn_label": "Sophisticated Comfort Redefined",
+            "btn_label_c": "#222222",
+            "btn_label_ch": "#ffffff",
+            "btn_label_br": "#ffffff",
+            "btn_label_b": "#ffffff",
+            "btn_label_bh": "#000000",
+            "text_align": "center",
+            "bg": "",
+            "bg_opacity": 100,
+            "class": ""
+          }
+        },
+        "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2025.jpg",
+            "img_xs": "shopify:\/\/shop_images\/IMG_2025.jpg",
+            "link": "shopify:\/\/collections",
+            "cta_label": "",
+            "cta_label_c": "#ffffff",
+            "cta_label_n": 16,
+            "cta_label2": "",
+            "cta_label2_c": "#666666",
+            "cta_label2_n": 16,
+            "btn_label": "Elevate Your Casual",
+            "btn_label_c": "#222222",
+            "btn_label_ch": "#ffffff",
+            "btn_label_br": "#ffffff",
+            "btn_label_b": "#ffffff",
+            "btn_label_bh": "#000000",
+            "text_align": "center",
+            "bg": "",
+            "bg_opacity": 100,
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-0",
+        "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-1"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "md": 2,
+        "bd_radius": 0,
+        "spacing": 15,
+        "style_img_1": false,
+        "style_img_2": true,
+        "animate": false,
+        "background_color": "",
+        "container": "container-full",
+        "class_section": "",
+        "distance_top": 0,
+        "distance_bottom": 30
+      }
+    },
+    "80cd93df-e4f2-4f43-b2dd-49e03c87eb60": {
+      "type": "nov-collection-tabs",
+      "blocks": {
+        "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-0": {
+          "type": "tabitem",
+          "settings": {
+            "tab_title": "New Arrivals",
+            "collection_handle": "new-collection-ss-24-collection"
+          }
+        },
+        "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-1": {
+          "type": "tabitem",
+          "settings": {
+            "tab_title": "Best Sellers",
+            "collection_handle": "shop-all-collections"
+          }
+        }
+      },
+      "block_order": [
+        "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-0",
+        "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "<p>SHOP LOOKBOOK<\/p>",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "xxl": 3,
+        "xl": 3,
+        "lg": 3,
+        "md": 3,
+        "sm": 2,
+        "xs": 2,
+        "row_number": 1,
+        "row_mobile": 2,
+        "spacing": 30,
+        "show_dot": false,
+        "show_nav": true,
+        "nav_style": "style2",
+        "nav_c": "#909090",
+        "nav_ca": "#000000",
+        "nav_bg": "rgba(0,0,0,0)",
+        "nav_bga": "rgba(0,0,0,0)",
+        "nav_bd": "#e2e2e2",
+        "animate": false,
+        "snow": false,
+        "container": "container-full",
+        "background_color": "",
+        "class": "",
+        "distance_top": 95,
+        "distance_bottom": 85
+      }
+    },
+    "8ca94ba4-99b0-4635-bf7c-c5347e242700": {
+      "type": "nov-image-slider",
+      "blocks": {
+        "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1146.jpg",
+            "link": "shopify:\/\/collections\/new-collection-ss-24-collection",
+            "align": "text-center",
+            "title": "",
+            "t_c": "#222222",
+            "t_s": 13,
+            "t_s_md": 13,
+            "stitle": "",
+            "st_c": "#666666",
+            "st_s": 13,
+            "st_s_md": 13,
+            "btn": "Shop Now",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#000000"
+          }
+        },
+        "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1845.jpg",
+            "link": "shopify:\/\/products\/dima-knitted-zip-front-jacket",
+            "align": "text-center",
+            "title": "",
+            "t_c": "#222222",
+            "t_s": 13,
+            "t_s_md": 13,
+            "stitle": "",
+            "st_c": "#666666",
+            "st_s": 13,
+            "st_s_md": 13,
+            "btn": "Shop Now",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#000000"
+          }
+        },
+        "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1900.jpg",
+            "link": "shopify:\/\/products\/long-knitted-cardigan",
+            "align": "text-center",
+            "title": "",
+            "t_c": "#222222",
+            "t_s": 13,
+            "t_s_md": 13,
+            "stitle": "",
+            "st_c": "#666666",
+            "st_s": 13,
+            "st_s_md": 13,
+            "btn": "Shop Now",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#000000"
+          }
+        },
+        "image_JNUbb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2012.jpg",
+            "link": "shopify:\/\/products\/elina-long-hooded-cardigan",
+            "align": "text-left",
+            "title": "",
+            "t_c": "#222222",
+            "t_s": 13,
+            "t_s_md": 13,
+            "stitle": "",
+            "st_c": "#666666",
+            "st_s": 13,
+            "st_s_md": 13,
+            "btn": "Shop now",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#0b0b0b"
+          }
+        },
+        "image_d4dhnV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1345.jpg",
+            "link": "shopify:\/\/collections\/new-collection-ss-24-collection",
+            "align": "text-left",
+            "title": "",
+            "t_c": "#222222",
+            "t_s": 13,
+            "t_s_md": 13,
+            "stitle": "",
+            "st_c": "#666666",
+            "st_s": 13,
+            "st_s_md": 13,
+            "btn": "Shop now",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#222222"
+          }
+        },
+        "image_V8rtwH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1291.jpg",
+            "link": "shopify:\/\/collections\/ss-23-collection-new-collection",
+            "align": "text-left",
+            "title": "",
+            "t_c": "#222222",
+            "t_s": 13,
+            "t_s_md": 13,
+            "stitle": "",
+            "st_c": "#666666",
+            "st_s": 13,
+            "st_s_md": 13,
+            "btn": "Shop now",
+            "c_btn": "#000000",
+            "b_btn": "#ffffff",
+            "c_btn_h": "#ffffff",
+            "b_btn_h": "#222222"
+          }
+        }
+      },
+      "block_order": [
+        "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-0",
+        "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-1",
+        "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-2",
+        "image_JNUbb4",
+        "image_d4dhnV",
+        "image_V8rtwH"
+      ],
+      "settings": {
+        "auto": true,
+        "time": 3,
+        "s_dot": true,
+        "s_nav": true,
+        "spacing": "15",
+        "border_radius": 24,
+        "lg": 1,
+        "md": 1,
+        "sm": 1,
+        "xs": 1,
+        "one_slider": false,
+        "animate": true,
+        "container": "container-fluid",
+        "class": "",
+        "distance_top": 3,
+        "distance_bottom": 120
+      }
+    },
+    "edde0110-7127-4e43-acfb-dcdb0e2c51af": {
+      "type": "nov-lookbook-product",
+      "blocks": {
+        "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-1": {
+          "type": "lookbook",
+          "settings": {
+            "pin_position_1": "Top: 56%; Left: 57%",
+            "pin_product_1": "elina-long-hooded-cardigan"
+          }
+        },
+        "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-0": {
+          "type": "lookbook",
+          "settings": {
+            "pin_position_1": "Top: 40%; Left: 25%",
+            "pin_product_1": "women-s-cotton-drawstring-joggers"
+          }
+        }
+      },
+      "block_order": [
+        "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-1",
+        "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-0"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "lookbook_image": "shopify:\/\/shop_images\/IMG_2022.jpg",
+        "border_radius": 0,
+        "autoplay": true,
+        "dot": true,
+        "container": "container",
+        "background_color": "#ffffff",
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 120
+      }
+    },
+    "f3383534-6809-4d13-9248-61b1ec35cbe1": {
+      "type": "nov-line",
+      "settings": {
+        "height": 1,
+        "color": "#222222",
+        "style": "solid",
+        "opacity": 70,
+        "animate": true,
+        "has_fullwidth": true,
+        "class": "",
+        "distance_top": 30,
+        "distance_bottom": 30
+      }
+    },
+    "d8b810c5-1e86-4f87-b456-ced41e248932": {
+      "type": "nov-policy",
+      "blocks": {
+        "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-0": {
+          "type": "item_policy",
+          "settings": {
+            "policy_icon": "shopify:\/\/shop_images\/return.png",
+            "title_policy": "30 DAYS RETURN",
+            "desc_policy": "<p><strong>Return it within 30 days.<\/strong><\/p>",
+            "tl": "",
+            "link": "",
+            "class": "mb-sm-30"
+          }
+        },
+        "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-1": {
+          "type": "item_policy",
+          "settings": {
+            "policy_icon": "shopify:\/\/shop_images\/shipping_2.png",
+            "title_policy": "FREE UK DELIVERY",
+            "desc_policy": "<p><strong>On orders over £150!<\/strong><\/p>",
+            "tl": "",
+            "link": "",
+            "class": "mb-sm-30"
+          }
+        },
+        "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-2": {
+          "type": "item_policy",
+          "settings": {
+            "policy_icon": "shopify:\/\/shop_images\/Support_247.png",
+            "title_policy": "SUPPORT 24\/7",
+            "desc_policy": "<p><strong>Contact us 24 hours a day, 7 days a week<\/strong><\/p>",
+            "tl": "",
+            "link": "",
+            "class": ""
+          }
+        }
+      },
+      "block_order": [
+        "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-0",
+        "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-1",
+        "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_c": "#222222",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-left",
+        "style": "style1",
+        "width_icon": 90,
+        "height_icon": 30,
+        "bg_i": false,
+        "bg_i_w": 85,
+        "bg_icon": "#ffffff",
+        "text_fz": 13,
+        "text_color": "#000000",
+        "desc_color": "#000000",
+        "desc_fz": 12,
+        "width_xl": "col-xl-4",
+        "width_lg": "col-lg-4",
+        "width_md": "col-md-4",
+        "width_sm": "col-sm-12",
+        "width_xs": "col-12",
+        "animate": true,
+        "container": "container-full",
+        "background_color": "#e7e8eb",
+        "bg_opacity": 100,
+        "class": "",
+        "distance_top": 120,
+        "distance_bottom": 140
+      }
+    },
+    "e8069628-9f10-44e6-a4d5-1c7b466ba25c": {
+      "type": "nov-gallery-ins",
+      "blocks": {
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1080_b5c38b05-06fe-4779-bf61-a5ec37598091.heic"
+          }
+        },
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9189.jpg"
+          }
+        },
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8630.jpg"
+          }
+        },
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9380.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-0",
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-1",
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-2",
+        "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-3"
+      ],
+      "settings": {
+        "heading": "<p>Follow us on Instagram<\/p>",
+        "heading_c": "#222222",
+        "subheading": "<p>@aalkamilondon<\/p>",
+        "subheading_c": "#393939",
+        "desc": "<p><strong>Discover Aalkami on Instagram and dive into the world of sustainable luxury fashion. Our feed celebrates the elegance of eco-friendly, <br\/>timeless designs made from the finest Italian threads. Follow us to get inspired by our latest collections and see how we're shaping a more sustainable future in fashion. Join our community, share your Aalkami London moments, and tag us to showcase how you wear sustainability with style.<br\/>Tag us and get featured @aalkamilondon<br\/><br\/>https:\/\/www.instagram.com\/aalkamilondon\/<\/strong><\/p>",
+        "desc_c": "#505157",
+        "title_alignment": "text-left",
+        "xl": 2,
+        "lg": 2,
+        "md": 2,
+        "sm": 2,
+        "xs": 2,
+        "spacing": 10,
+        "animate": true,
+        "container": "container-full",
+        "background_color": "#e7e8eb",
+        "class": "",
+        "distance_top": 0,
+        "distance_bottom": 0
+      }
+    },
+    "eb943b35-6685-4229-89ba-ea2a316b21e0": {
+      "type": "nov-testimonials",
+      "blocks": {
+        "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-0": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "Love LOVE this dress so much",
+            "quote": "<p><strong>I love this dress and I couldn’t wait to wear it today. I will definitely be buying more colors.❣️<\/strong><\/p>"
+          }
+        },
+        "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-1": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "Perfect Jumper",
+            "quote": "<p><strong>I liked how comfy and cute this was and it was soft. I love this jumper! It fits perfectly. It’s very well made.<\/strong><\/p>"
+          }
+        },
+        "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-2": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "Good Fit",
+            "quote": "<p><strong>I purchased these and I love them! They are comfy, have some stretch to them, and just fit me good.<\/strong><\/p>"
+          }
+        },
+        "02ba30b7-7798-40cf-9675-583c0670ead2": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "A Gem",
+            "quote": "<p><strong>Finding AALKAMI's knitwear was like uncovering a gem. The short-sleeve hoodie in grey is my latest <br\/>obsession. It's a testament to quality and style, an elegant alternative to the casual norm. Every time I wear it, I feel both cozy and chic—a rare combination. I'm truly impressed by the craftsmanship and the fabric that feels as good as it looks. <\/strong><\/p>"
+          }
+        },
+        "1a9ca0a4-36fc-4172-8cf7-9632af689c04": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "VERY SATISFIED WITH THE PURCHASE",
+            "quote": "<p><strong>Love it. It fits well and very comfortable and chic. Just lovely<\/strong><\/p>"
+          }
+        },
+        "1700f124-748c-4067-a4fd-8ce73b97560e": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "This is so cute",
+            "quote": "<p><strong>Totally smitten with my pink fine wool sweater! It's the ultimate blend of classy and comfy, and the color just pops. Fits like a dream and works with everything. A real style staple!<\/strong><\/p>"
+          }
+        },
+        "ad18e750-8edf-4dd4-bc63-8734fbcf11e1": {
+          "type": "quote",
+          "settings": {
+            "star": 5,
+            "info_other": "Great Fit",
+            "quote": "<p><strong>This dress was so comfortable to wear ,it was a great fit ,also had lots of nice comments,<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-0",
+        "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-1",
+        "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-2",
+        "02ba30b7-7798-40cf-9675-583c0670ead2",
+        "1a9ca0a4-36fc-4172-8cf7-9632af689c04",
+        "1700f124-748c-4067-a4fd-8ce73b97560e",
+        "ad18e750-8edf-4dd4-bc63-8734fbcf11e1"
+      ],
+      "settings": {
+        "heading": "<p>LET CUSTOMERS SPEAK FOR US<\/p>",
+        "heading_c": "#222222",
+        "subheading": "<p><strong>Latest REVIEWS<\/strong><\/p>",
+        "subheading_c": "#a3a3a3",
+        "title_alignment": "text-center",
+        "xl": 3,
+        "lg": 3,
+        "md": 2,
+        "sm": 1,
+        "xs": 1,
+        "spacing": 30,
+        "show_nav": false,
+        "show_dots": true,
+        "c_info": "#222222",
+        "c_t": "#505157",
+        "s_star": true,
+        "c_star": "#ffa41c",
+        "show_avatar": false,
+        "animate": true,
+        "br_container": 0,
+        "tl_radius": true,
+        "tr_radius": true,
+        "bl_radius": true,
+        "br_radius": true,
+        "container": "container-fluid",
+        "background_color": "",
+        "bg_size": "full",
+        "class": "",
+        "distance_top": 140,
+        "distance_bottom": 130
+      }
+    },
+    "7c850b54-3c52-4eb1-9136-eaa4ab21cfe8": {
+      "type": "nov-collection",
+      "blocks": {
+        "8c78c34f-d28e-41e3-8454-9526d5338c02": {
+          "type": "item",
+          "settings": {
+            "title": "SS Most popular",
+            "item1": true,
+            "image1": "shopify:\/\/shop_images\/Mya_Long_Ribbed_Dress_Side_180x_9258c9d7-e90a-46a7-8cf5-8962bc307b78.jpg",
+            "text1": "Ribbed Dress",
+            "link1": "shopify:\/\/products\/mya-long-ribbed-dress",
+            "item2": true,
+            "image2": "shopify:\/\/shop_images\/Elina_Long_Hooded_Cardigan_Front_180x_903c0c95-54ce-4b9b-adba-ec9923355272.jpg",
+            "text2": "Hooded Cardigan",
+            "link2": "shopify:\/\/products\/elina-long-hooded-cardigan",
+            "item3": true,
+            "image3": "shopify:\/\/shop_images\/Adrienne_Front_Style_180x_608e61c0-62a3-42df-90c2-1d9d6e12d307.png",
+            "text3": "Adrienne",
+            "link3": "shopify:\/\/products\/adrienne",
+            "item4": true,
+            "image4": "shopify:\/\/shop_images\/Luella_Sleeveless_Cable-Knit_Top_Front_180x_67b0c3ab-f3ee-4b44-acde-c793b1b96866.jpg",
+            "text4": "Knit Top",
+            "link4": "shopify:\/\/products\/luella-sleeveless-cable-knit-top",
+            "item5": true,
+            "image5": "shopify:\/\/shop_images\/Karis_A-line_Long_Skirt_Left_180x_1c59eb92-b81e-4025-8a63-1dc1b0abee59.jpg",
+            "text5": "Long Skirt",
+            "link5": "shopify:\/\/products\/karis-a-line-long-skirt",
+            "item6": true,
+            "image6": "shopify:\/\/shop_images\/Women_s_Track_Pants_Front_180x_f03843c7-ae26-424d-938c-79db8d54554b.jpg",
+            "text6": "Track Pants",
+            "link6": "shopify:\/\/products\/women-s-track-pants",
+            "item7": false,
+            "text7": "Cardigans",
+            "link7": "#",
+            "item8": false,
+            "text8": "Sweatpants",
+            "link8": "#",
+            "item9": false,
+            "text9": "",
+            "link9": "",
+            "item10": false,
+            "text10": "",
+            "link10": ""
+          }
+        },
+        "49a44052-3a83-4ca6-bc07-819b2e931ba8": {
+          "type": "item",
+          "settings": {
+            "title": "Timeless Classics",
+            "item1": true,
+            "image1": "shopify:\/\/shop_images\/Slim_Fit_Trousers_180x_77d6ca95-d179-4c20-9aa3-95af8a0e2670.jpg",
+            "text1": "Slim Trousers",
+            "link1": "shopify:\/\/products\/slim-fit-trousers",
+            "item2": true,
+            "image2": "shopify:\/\/shop_images\/Luxe_Merino_Wool_Roll_Neck_Jumper_1120x_c6882a17-7294-4113-8edd-b6585b4a56fa.png",
+            "text2": "Neck Jumper",
+            "link2": "shopify:\/\/products\/luxe-merino-wool-roll-neck-jumper",
+            "item3": true,
+            "image3": "shopify:\/\/shop_images\/Long_Ribbed_Knitted_Skirt_180x_eca0df6f-0f8d-4ea5-8a33-2d043a40421d.jpg",
+            "text3": "Knitted Skirt",
+            "link3": "shopify:\/\/products\/long-ribbed-knitted-skirt",
+            "item4": true,
+            "image4": "shopify:\/\/shop_images\/Pleated_MIDI_Knitted_Skirt_180x_ff9c20ad-02c8-4219-beb8-901004e3067c.jpg",
+            "text4": "Knitted Skirt",
+            "link4": "shopify:\/\/products\/pleated-midi-knitted-skirt",
+            "item5": true,
+            "image5": "shopify:\/\/shop_images\/Women_s_Luxurious_Wool_Jumper_180x_1.png",
+            "text5": "Wool Jumper",
+            "link5": "shopify:\/\/products\/women-s-luxurious-wool-jumper",
+            "item6": true,
+            "image6": "shopify:\/\/shop_images\/Merino_Wool_High_Neck_Sleeveless_Top_180x_73dc1367-d9ec-4373-a419-b7d5048e49bb.jpg",
+            "text6": "Sleeveless Top",
+            "link6": "shopify:\/\/products\/merino-wool-high-neck-sleeveless-top",
+            "item7": false,
+            "text7": "Skinny Jeans",
+            "link7": "#",
+            "item8": false,
+            "text8": "Winter Coats",
+            "link8": "#",
+            "item9": false,
+            "text9": "",
+            "link9": "",
+            "item10": false,
+            "text10": "",
+            "link10": ""
+          }
+        }
+      },
+      "block_order": [
+        "8c78c34f-d28e-41e3-8454-9526d5338c02",
+        "49a44052-3a83-4ca6-bc07-819b2e931ba8"
+      ],
+      "settings": {
+        "heading": "<p>POPULAR COLLECTIONS<\/p>",
+        "heading_c": "#ffffff",
+        "subheading": "",
+        "subheading_c": "#666666",
+        "title_alignment": "text-center",
+        "aspect": "11",
+        "border_radius": 0,
+        "round": true,
+        "c_tab": "#ffffff",
+        "c_tab_act": "#222222",
+        "bg_tab": "#000000",
+        "bg_tab_act": "#ffffff",
+        "b_tab": "#333333",
+        "color_link": "#ffffff",
+        "color_link_h": "#acacac",
+        "xxl": 8,
+        "xl": 6,
+        "lg": 5,
+        "md": 4,
+        "sm": 3,
+        "xs": 3,
+        "spacing": 70,
+        "nav": false,
+        "container": "container-fluid",
+        "background_color": "#000000",
+        "class": "",
+        "distance_top": 95,
+        "distance_bottom": 90
+      }
+    }
+  },
+  "order": [
+    "ae3eac1a-ca70-4467-a805-0c2c8e47a35c",
+    "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2",
+    "112c6ebf-0d3e-4474-a810-89df30908ec0",
+    "7468b340-cf51-429f-bc51-4288984ba785",
+    "b28d5555-8555-476a-99d0-5cdcb296f7b1",
+    "80cd93df-e4f2-4f43-b2dd-49e03c87eb60",
+    "8ca94ba4-99b0-4635-bf7c-c5347e242700",
+    "edde0110-7127-4e43-acfb-dcdb0e2c51af",
+    "f3383534-6809-4d13-9248-61b1ec35cbe1",
+    "d8b810c5-1e86-4f87-b456-ced41e248932",
+    "e8069628-9f10-44e6-a4d5-1c7b466ba25c",
+    "eb943b35-6685-4229-89ba-ea2a316b21e0",
+    "7c850b54-3c52-4eb1-9136-eaa4ab21cfe8"
+  ]
+}

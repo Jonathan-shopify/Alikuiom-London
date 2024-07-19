@@ -1,0 +1,12 @@
+
+{% if settings.enable_stickymenu_mobile %}
+  {% include 'nov-stickymenu-mobile' %}
+{% endif %}
+{% if settings.show_fake_order_inner_page %}
+  {% include 'nov-popup-fake-order' %}
+{% else %}
+  {% if template.name == 'index' %}
+    {% include 'nov-popup-fake-order' %}
+  {% endif %}
+{% endif %}
+{% include 'nov-popup-GDPR' %}

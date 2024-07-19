@@ -1,0 +1,436 @@
+{% assign sst = section.settings %}
+{% if sst.md == 5 %}
+  {%- assign md = 'col-md-cus-5' -%}
+{% else %}
+  {%- assign md = 12 | divided_by: sst.md | prepend: 'col-md-' -%}
+{% endif %}
+<div class="distance{% if sst.class_section != blank %} {{ sst.class_section }}{% endif %}{% if sst.animate == true %} wow fadeInUp animated{% endif %}">
+  {% if sst.container == 'container' %}
+    <div class="container">
+  {% elsif sst.container == 'container-fluid' %}
+    <div class="container-fluid">
+  {% else %}
+    <div class="container-full">
+  {% endif %}
+    {% if sst.heading != blank or sst.subheading != blank %}
+      <div class="title_section {{ sst.title_alignment }}">
+        {% if sst.heading != blank %}<span class="title" style="color: {{ sst.heading_c }};">{{ sst.heading }}</span>{% endif %}
+        {% if sst.subheading != blank %}
+          <span class="sub_title" style="color: {{ sst.subheading_c }};">{{ sst.subheading }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+    <div class="row spacing-{{ sst.spacing }}">
+      {% for block in section.blocks %}
+        {% assign bst = block.settings %}
+        <div class="{{ md }} gallery-image_column mb-{{ sst.spacing }}{% if bst.class != blank %} {{ bst.class }}{% endif %}">
+          <div class="gallery-image__item overflow_hidden position-relative{% if bst.cta_label != blank or bst.btn_label != blank %} hs-cap{% endif %}{% if sst.style_img_1 %} nov-sh-image-1{% endif %}{% if sst.style_img_2 %} nov-sh-image-2{% endif %}">
+            {% if bst.link != blank %}
+              <a class="w-100 gallery-image__link" href="{{ bst.link }}">
+            {% endif %}
+            {% if bst.image != blank %}
+              {% assign img_url = bst.image %}
+              <div class="respone_image{% if bst.img_xs != blank %} d-none d-sm-block{% endif %}" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                <img class="lazyload"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                  data-src="{{ img_url | img_url: '180x' }}"
+                  data-srcset="{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w,{{ img_url | img_url: '768x' }} 768w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w,{{ img_url | img_url: '1296x' }} 1296w,{{ img_url | img_url: '1512x' }} 1512w,{{ img_url | img_url: '1728x' }} 1728w, {{ img_url | img_url: '2048x' }} 2048w" data-sizes="auto" alt="{{ img_url.alt }}">
+              </div>
+            {% else %}
+              {%- capture current -%}{% cycle 1, 2, 3 %}{%- endcapture -%}
+              {{ 'hero-apparel-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            {% if bst.img_xs != blank %}
+              {% assign img_url = bst.img_xs %}
+              <div class="respone_image d-sm-none" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                <img class="lazyload"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                  data-src="{{ img_url | img_url: '180x' }}"
+                  data-srcset="{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w" data-sizes="auto" alt="{{ img_url.alt }}">
+              </div>
+            {% endif %}
+            {% if bst.link != blank %}
+              </a>
+            {% endif %}
+            {% if bst.bg == 'rgba(0,0,0,0)' %}
+              {% assign bg = 'n_bg' %}
+            {% elsif bst.bg != blank %}
+              {% assign bg = 'bg' %}
+            {% endif %}
+            {% if bst.cta_label != blank or bst.cta_label2 != blank or bst.btn_label != blank %}
+              <div class="gallery-image__caption{% if bst.cta_label != blank or bst.cta_label2 != blank %} has-text{% endif %} position-absolute bottom-center b-4{% if bst.btn_label != blank %} has-btn{% endif %} {{ bg }} text-{{ bst.text_align }} cap-{{ forloop.index }}">
+                <div class="image-caption__content">
+                  {% if bst.cta_label != blank %}
+                    <div class="gallery-image__text1 font-800"><span style="color: {{ bst.cta_label_c }}">{{ bst.cta_label }}</span></div>
+                  {% endif %}
+                  {% if bst.cta_label2 != blank %}
+                    <div class="gallery-image__text2 mt-15 mt-xs-10 f_pr" style="color: {{ bst.cta_label2_c }}">{{ bst.cta_label2 }}</div>
+                  {% endif %}
+                  {% if bst.btn_label != blank %}
+                    <a href="{{ bst.link }}" class="btn btn-medium d-inline-block f_pr font-900{% if bst.cta_label != blank or bst.cta_label2 != blank %} mt-35 mt-md-25{% endif %}" style="color: {{ bst.btn_label_c }}; background-color: {{ bst.btn_label_b }}; border-color: {{ bst.btn_label_br }}">{{ bst.btn_label }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div><!-- End container -->
+</div>
+{% if section.blocks.size == 0 %}
+  {% include 'no-blocks' %}
+{% endif %}
+{% schema %}
+  {
+    "name": "Vinova Gallery Image",
+    "class": "section-gallery-image",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<p>Vinova Gallery Image</p>"
+      },
+      {
+        "type": "color",
+        "id": "heading_c",
+        "label": "Heading color",
+        "default": "#222222"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Sub heading",
+        "default": "<p>Subtitle from happy customers</p>"
+      },
+      {
+        "type": "color",
+        "id": "subheading_c",
+        "label": "Sub heading color",
+        "default": "#666666"
+      },
+      {
+        "type": "select",
+        "id": "title_alignment",
+        "label": "Heading alignment",
+        "default": "text-left",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Center"
+          },
+          {
+            "value": "text-right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type":  "header",
+        "content": "Image item per row"
+      },
+      {
+        "type": "range",
+        "id": "md",
+        "min": 1,
+        "max": 6,
+        "step": 1,
+        "label": "Image item per row",
+        "default": 3
+      },
+      {
+        "type": "header",
+        "content": "Item image style"
+      },
+      {
+        "type": "range",
+        "id": "bd_radius",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Border radius image",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "spacing",
+        "min": 0,
+        "max": 60,
+        "step": 5,
+        "label": "Spacing items",
+        "default": 20
+      },
+      {
+        "type": "header",
+        "content": "Style hover image"
+      },
+      {
+        "type": "checkbox",
+        "id": "style_img_1",
+        "label": "Style hover image 1"
+      },
+      {
+        "type": "checkbox",
+        "id": "style_img_2",
+        "label": "Style hover image 2",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Design section"
+      },
+      {
+        "type": "checkbox",
+        "id": "animate",
+        "label": "Show animated",
+        "default":   true
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background colors"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background image"
+      },
+      {
+        "type": "select",
+        "id": "container",
+        "label": "Container",
+        "default": "container",
+        "options": [
+          { "value": "container", "label": "Container" },
+          { "value": "container-fluid", "label": "Container fluid" },
+          { "value": "container-full", "label": "Container full width" }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "class_section",
+        "label": "Class"
+      },
+      {
+        "type": "number",
+        "id": "distance_top",
+        "label": "Top spacing section (px)",
+        "default": 30
+      },
+      {
+        "type": "number",
+        "id": "distance_bottom",
+        "label": "Bottom spacing section (px)",
+        "default": 30
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "img_xs",
+            "label": "Image mobile 575px ↓"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link",
+            "info": "========================"
+          },
+          {
+            "type": "text",
+            "id": "cta_label",
+            "label": "Caption 1",
+            "default": "Lorem ipsum"
+          },
+          {
+            "type": "color",
+            "id": "cta_label_c",
+            "label": "Caption 1 color",
+            "default": "#222222"
+          },
+          {
+            "type": "number",
+            "id": "cta_label_n",
+            "label": "Caption 1 font size",
+            "default": 22
+          },
+          {
+            "type": "richtext",
+            "id": "cta_label2",
+            "label": "Caption 2",
+            "default": "<p>Quisque id odio sit amet erat</p>"
+          },
+          {
+            "type": "color",
+            "id": "cta_label2_c",
+            "label": "Caption 2 color",
+            "default": "#222222"
+          },
+          {
+            "type": "number",
+            "id": "cta_label2_n",
+            "label": "Caption 2 font size",
+            "default": 16
+          },
+          {
+            "type": "text",
+            "id": "btn_label",
+            "label": "Text button",
+            "default": "Shop now"
+          },
+          {
+            "type": "color",
+            "id": "btn_label_c",
+            "label": "Text button color",
+            "default": "#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "btn_label_ch",
+            "label": "Button color hover",
+            "default": "#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "btn_label_br",
+            "label": "Button border color",
+            "default": "#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "btn_label_b",
+            "label": "Button background",
+            "default": "#222222"
+          },
+          {
+            "type": "color",
+            "id": "btn_label_bh",
+            "label": "Button background hover",
+            "default": "#000000"
+          },
+          {
+            "type": "select",
+            "id": "text_align",
+            "label": "Text align",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ]
+          },
+          {
+            "type": "color",
+            "id": "bg",
+            "label": "Background"
+          },
+          {
+            "type": "range",
+            "id": "bg_opacity",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "label": "Background opacity",
+            "default": 100
+          },
+          {
+            "type": "text",
+            "id": "class",
+            "label": "Class"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vinova Image Gallery",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image"
+          },
+          {
+            "type": "image"
+          },
+          {
+            "type": "image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+<style>
+  {%- assign bg_image = sst.background_image -%}
+  #shopify-section-{{ section.id }} .distance {
+    padding-top: {{ sst.distance_top }}px;
+    padding-bottom: {{ sst.distance_bottom }}px;
+    {% if sst.background_color != blank %}
+      background-color: {{ sst.background_color }};
+    {% endif %}
+    {% if bg_image.src != blank %}
+      background-image: url("{{ bg_image | img_url: '1920x' }}");background-repeat: no-repeat;background-size: cover;
+    {% endif %}
+  }
+  #shopify-section-{{ section.id }} .gallery-image__item {
+    border-radius: {{ sst.bd_radius }}px;
+  }
+  {% for block in section.blocks %}
+    {% assign bst = block.settings %}
+    #shopify-section-{{ section.id }} .bg .cap-{{ forloop.index }} {
+      background-color: rgba({{ bst.bg | color_to_rgb | remove: 'rgb(' | remove: 'rgba(' | remove: ')' | remove: ', 0.0' }}, {{ bst.bg_opacity }}%);
+    }
+    #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .btn:hover {
+      color: {{ bst.btn_label_ch }} !important;
+      border-color: {{ bst.btn_label_bh }} !important;
+      background-color: {{ bst.btn_label_bh }} !important;
+    }
+    #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .gallery-image__text1 {
+      font-size: {{ bst.cta_label_n }}px;
+    }
+    #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .gallery-image__text2 {
+      font-size: {{ bst.cta_label2_n }}px;
+    }
+    @media(max-width: 1199px) {
+      #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .gallery-image__text1 {
+        font-size: {{ bst.cta_label_n | times: 0.8 | round: 0 }}px;
+      }
+      #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .gallery-image__text2 {
+        font-size: {{ bst.cta_label2_n | times: 0.8 | round: 0 }}px;
+      }
+    }
+    @media(max-width: 767px) {
+      #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .gallery-image__text1 {
+        font-size: clamp(14px, {{ bst.cta_label_n | times: 0.6 | round: 0 | append: 'px' }}, 20px);
+      }
+      #shopify-section-{{ section.id }} .cap-{{ forloop.index }} .gallery-image__text2 {
+        font-size: min(11px, {{ bst.cta_label2_n | times: 0.6 | round: 0 | append: 'px' }}, 16px);
+      }
+    }
+  {% endfor %}
+</style>

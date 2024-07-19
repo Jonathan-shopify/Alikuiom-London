@@ -1,0 +1,353 @@
+{% assign sst = section.settings %}
+<div class="distance{% if sst.class != blank %} {{ sst.class }}{% endif %}" data-section-id="{{ section.id }}" data-section-type="nov-slick">
+  {% if sst.container == 'container' %}
+    <div class="container">
+  {% elsif sst.container == 'container-fluid' %}
+    <div class="container-fluid">
+  {% else %}
+    <div class="container-full">
+  {% endif %}
+    {% if sst.heading != blank %}
+      <div class="title_section mb-45 {{ sst.title_alignment }}">
+        <span class="title" style="color: {{ sst.heading_c }};">{{ sst.heading }}</span>
+        {% if sst.subheading != blank %}
+          <span class="sub_title" style="color: {{ sst.subheading_c }};">{{ sst.subheading }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+    {% if section.blocks.size > 0 %}
+      <div class="nov-content-lookbook position-relative">
+        <div class="row">
+          <div class="col-md-8 col-sm-7">
+            <div class="nov-content__left">
+              <div class="lookbook__thumb position-relative">
+                {% if sst.lookbook_image != blank %}
+                  {% assign img_url = sst.lookbook_image %}
+                  <div class="respone_image" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                    <img class="img-featured lazyload"
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                      data-src="{{ img_url | img_url: '180x' }}"
+                      data-srcset="{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w,{{ img_url | img_url: '768x' }} 768w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w,{{ img_url | img_url: '1296x' }} 1296w,{{ img_url | img_url: '1512x' }} 1512w,{{ img_url | img_url: '1728x' }} 1728w, {{ img_url | img_url: '2048x' }} 2048w" data-sizes="auto" alt="{{ img_url.alt }}">
+                  </div>
+                {% else %}
+                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% for block in section.blocks %}
+                  <div class="item-lookbook position-absolute" style="{{ block.settings.pin_position_1 }}">
+                    <span class="number-lookbook active" data-slick-to data-index="{{ forloop.index0 }}"{% if forloop.first == true %} current{% endif %}></span>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-5 mt-xs-20">
+            <div class="nov-slick-carousel grid--view-items row spacing-0 spacing-xs-10"
+              data-autoplay="{{ sst.autoplay }}"
+              data-autoplaytimeout="4000"
+              data-dots="{{ sst.dot }}"
+              data-nav="false"
+              data-items="1"
+              data-items_xs="2"
+              data-loop="true">
+              {% for block in section.blocks %}
+                {% if block.settings.pin_product_1 != blank %}
+                  {% assign sectionId = section.id | append: block.id %}
+                  {% assign product = all_products[block.settings.pin_product_1] %}
+                  {% assign on_sale = false %}
+                  {% if product.compare_at_price_min > product.price_min %}
+                    {% assign on_sale = true %}
+                  {% endif %}
+                  {% assign sold_out = true %}
+                  {% if product.available %}
+                    {% assign sold_out = false %}
+                  {% endif %}
+                  {% assign variantCount = product.variants | size %}
+                  {% assign option_color_swatch = settings.option_color_swatch | downcase %}
+                  {% assign url = '' %}
+                  {% for option in product.options_with_values %}
+                      {% assign option_name = option.name | downcase %}
+                      {% if option_color_swatch contains option_name %}
+                        {% assign product_option = option %}
+                        {% assign index = forloop.index0 %}
+                        {% assign position = forloop.index | minus: 1 %}
+                        {% for variant in product.variants limit: 1 %}
+                          {% if variant.image != null %}
+                            {% assign url = variant.image.src %}
+                          {% endif %}
+                        {% endfor %}
+                        {% break %}
+                      {% else %}
+                        {% assign position = 0 %}
+                      {% endif %}
+                  {% endfor %}
+                  <div class="item p_item">
+                    <div class="item-product{% if settings.b_pro %} h_bd{% endif %}" data-product-id="product-{{ product.id }}" data-json-product='{"variants": {{ product.variants | json }},"media": {{product.media | json}}}'>
+                      <div class="inner-top">
+                        <div class="product-top thumbnail-container{% if product.images.size > 1 %} has-multiimage{% endif %}">
+                          <a href="{{ product.url | within: collection }}">
+                            {% assign img_url = product.featured_image %}
+                            <div class="respone_image" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                              <img class="product__thumbnail lazyload" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="{{ img_url | img_url: '260x' }}" data-srcset="{{ img_url | img_url: '260x' }} 260w,{{ img_url | img_url: '360x' }} 360w,{{ img_url | img_url: '540x' }} 540w,{{ img_url | img_url: '720x' }} 720w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w" data-sizes="auto" alt="{{ img_url.alt }}">
+                              {% for image in product.images %}
+                                {% assign img_url = image.src %}
+                                {% if forloop.first != true %}
+                                  <img class="product__thumbnail-second lazyload" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" data-src="{{ img_second | img_url: '260x' }}" data-srcset="{{ img_url | img_url: '260x' }} 260w,{{ img_url | img_url: '360x' }} 360w,{{ img_url | img_url: '540x' }} 540w,{{ img_url | img_url: '720x' }} 720w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w" data-sizes="auto" alt="{{ img_url.alt }}">
+                                  {% break %}
+                                {% endif %}
+                              {% endfor %}
+                            </div>
+                          </a>
+                          {% assign date_created = product.created_at | date:'%s' %}
+                          {% assign date_now = 'now' | date:'%s' %}
+                          {% assign difference = date_now | minus: date_created %}
+                          {% assign date_end = settings.time_newproduct | times: 86400 %}
+                          <div class="product--badge">
+                            {% if product.compare_at_price > product.price and settings.show_compare_price %}
+                            <span class="badge badge--sale-pt"><i class="zmdi zmdi-flash"></i>&nbsp;-{{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round: 4 }}%</span>
+                            {% endif %}
+                            {% if difference < date_end and settings.show_new %}
+                              <div class="badge badge--sale-rt mt-5">{{ 'products.product.new' | t }}</div>
+                            {% endif %}
+                          </div>
+                          {% if settings.wishlist_enable or settings.quickview_enable %}
+                            <div class="button--top">
+                              {% if settings.wishlist_enable %}
+                                {% render 'nov-wishlist', id: product.id, handle: product.handle %}
+                              {% endif %}
+                              {% if settings.quickview_enable %}
+                                {% render 'nov-quickview', id: product.variants.first.id, handle: product.handle %}
+                              {% endif %}
+                            </div>
+                          {% endif %}
+                          <div class="product__popup-swatch">
+                            {% render 'add-to-cart-form', product: product, sold_out: sold_out, id: 'grid-product-form-', position: position, sectionId: sectionId, blockId: blockId %}
+                          </div>
+                        </div>
+                        
+                        <div class="product__info">
+                          <div class="d-xxl-flex align-item-center justify-content-between">
+                            <div class="product__title"><a href="{{ product.url | within: collection }}"><span>{{ product.title }}</span></a></div>
+                            {% if settings.show_rating %}
+                             {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+                            {% endif %}
+                          </div>
+                          <div class="price-box mt-5">
+                            {% if on_sale %}
+                            <div class="price-sale">
+                              <span class="special-price" data-price-grid>{{ product.variants[0].price | money }}</span>
+                              <span class="old-price" data-compare-price-grid>{{ product.variants[0].compare_at_price | money }}</span>
+                            </div>
+                            {% else %}
+                              <div class="price-regular">
+                                <span data-price-grid>{{ product.variants[0].price | money }}</span>
+                              </div>
+                            {% endif %}
+                          </div>
+                          {% render 'item-swatch', product: product, option_color_swatch: option_color_swatch, downcased_option: option_name, product_option: product_option, index: index %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% else %}
+                  {%- capture current -%}{% cycle 1, 2, 3, 4 %}{%- endcapture -%}
+                  <div class="item">
+                    {{ 'product-apparel-' | append: current | placeholder_svg_tag : 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if section.blocks.size == 0 %}
+    {% include 'no-blocks' %}
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Vinova LookBook Product",
+    "class": "section-lookbook-product",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<p>Vinova Lookbook Product</p>"
+      },
+      {
+        "type": "color",
+        "id": "heading_c",
+        "label": "Heading color",
+        "default": "#222222"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Sub heading",
+        "default": "<p>Subtitle from happy customers</p>"
+      },
+      {
+        "type": "color",
+        "id": "subheading_c",
+        "label": "Sub heading color",
+        "default": "#666666"
+      },
+      {
+        "type": "select",
+        "id": "title_alignment",
+        "label": "Heading alignment",
+        "default": "text-left",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Center"
+          },
+          {
+            "value": "text-right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type":  "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "lookbook_image",
+        "label": "Image",
+        "info": "770 x 850px recommended"
+      },
+      {
+        "type": "range",
+        "id": "border_radius",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Border radius image",
+        "default": 0
+      },
+      {
+        "type":  "header",
+        "content": "Slider option"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Auto play",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "dot",
+        "label": "Dots",
+        "default": true
+      },
+      {
+        "type":  "header",
+        "content": "Design Option"
+      },
+      {
+        "type": "select",
+        "id": "container",
+        "label": "Container",
+        "default": "container",
+        "options": [
+          { "value": "container", "label": "Container" },
+          { "value": "container-fluid", "label": "Container fluid" },
+          { "value": "container-full", "label": "Container full width" }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background colors",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Class"
+      },
+      {
+        "type": "number",
+        "id": "distance_top",
+        "label": "Top spacing section (px)",
+        "default": 30
+      },
+      {
+        "type": "number",
+        "id": "distance_bottom",
+        "label": "Bottom spacing section (px)",
+        "default": 30
+      }
+    ],
+    "blocks": [
+      {
+        "type": "lookbook",
+        "name": "Lookbook Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "pin_position_1",
+            "label": "Pin position",
+            "info": "Example: Top: 50%; Left: 20%",
+            "default": "Top: 50%; Left: 20%"
+          },
+          {
+            "type": "product",
+            "id": "pin_product_1",
+            "label": "Select Pin Product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vinova Lookbook - Product",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "lookbook",
+            "settings": {
+              "pin_position_1": "Top: 38%; Left: 30%"
+            }
+          },
+          {
+            "type": "lookbook",
+            "settings": {
+              "pin_position_1": "Top: 35%; Left: 53%"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+{%- assign bg_image = sst.background_image -%}
+<style>
+  #shopify-section-{{ section.id }} .distance {
+    padding-top: {{ sst.distance_top | append: 'px' }};
+    padding-bottom: {{ sst.distance_bottom | append: 'px' }};
+    {% if sst.background_color != blank %}
+      background-color: {{ sst.background_color }};
+    {% endif %}
+  }
+  @media(max-width: 575px) {
+    #shopify-section-{{ section.id }} .distance {
+      padding-top: {{ sst.distance_top | times: 0.7 | round: 0 | append: 'px' }};
+      padding-bottom: {{ sst.distance_bottom | times: 0.7 | round: 0 | append: 'px' }};
+    }
+  }
+  #shopify-section-{{ section.id }} .lookbook__thumb {
+    border-radius: {{ sst.border_radius | append: 'px' }};
+    overflow: hidden;
+    transform: translateZ(0);
+  }
+</style>

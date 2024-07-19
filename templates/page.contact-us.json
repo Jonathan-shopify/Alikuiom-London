@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "main": {
+      "type": "nov-page-contact",
+      "settings": {
+        "has_fullwidth": false,
+        "map": false,
+        "iframe_map": "",
+        "form": true,
+        "title_form": "Get in touch",
+        "color_title": "#0d2235",
+        "fz_title": "2.2rem",
+        "sub_form": "Please enter the details of your requesst. A member of our support staff will respond as soon as possible.",
+        "color_sub": "#232630",
+        "fz_sub": "12px",
+        "title_alignment": "text-left",
+        "text_button": "",
+        "fz_button": "10px",
+        "eb_c_button": false,
+        "c_button": "rgba(0,0,0,0)",
+        "eb_bg_button": false,
+        "bg_button": "rgba(0,0,0,0)",
+        "eb_bg_button_hv": false,
+        "bg_button_hv": "rgba(0,0,0,0)",
+        "boxInfor": true,
+        "address": "AALKAMI LTD  71-75 Shelton Street, London  England  WC2H 9JQ",
+        "c_address": "#232630",
+        "fz_address": "14px",
+        "lh_address": "20px",
+        "email": "support@aalkami.com",
+        "c_email": "#232630",
+        "fz_email": "14px",
+        "lh_email": "20px",
+        "call": "",
+        "c_call": "#232630",
+        "fz_call": "14px",
+        "lh_call": "20px",
+        "time": "10am - 6pm",
+        "c_time": "#232630",
+        "fz_time": "14px",
+        "lh_time": "20px",
+        "social": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

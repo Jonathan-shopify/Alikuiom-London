@@ -1,0 +1,1 @@
+!function(){var o="#LoginModal",e="[data-login-field]",n=document.querySelector(o),a=document.querySelector(e);if(n){var d=new window.Modals("LoginModal","login-modal",{focusOnOpen:"Password"});a.hasAttribute("data-error")&&d.open()}}();

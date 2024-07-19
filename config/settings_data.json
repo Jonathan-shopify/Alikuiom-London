@@ -1,0 +1,1925 @@
+{
+  "current": {
+    "purchase_action": "active",
+    "license": "f9ba9949-5f43-4684-8789-983bcdd1bc0e",
+    "theme_color_default": "#000000",
+    "theme_color_primary": "#000000",
+    "color_body": "rgba(0,0,0,0)",
+    "body_bg": "shopify:\/\/shop_images\/background.jpg",
+    "heading_text": "#222222",
+    "sub_heading_text": "#acacac",
+    "color_body_text": "#505157",
+    "color_menu": "#222222",
+    "color_menu_ac": "#000000",
+    "color_menu_sticky": "#222222",
+    "color_menu_sticky_ac": "#000000",
+    "color_sub_menu": "#505157",
+    "color_title_megamenu": "#222222",
+    "color_borders": "#e7e8eb",
+    "color_borders_second": "#d0d3d7",
+    "color_button": "#e9ebeb",
+    "color_button_hover": "#000000",
+    "color_button_text": "#222222",
+    "type_google": true,
+    "type_base_size": 13,
+    "type_header_family": "poppins_n4",
+    "type_base_family": "poppins_n4",
+    "type_base_family_google": "Spartan",
+    "share_twitter": false,
+    "share_pinterest": false,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/aalkami.store",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/aalkamilondon\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@aalkami",
+    "social_vimeo_link": "",
+    "type_sidebar_blog": "sidebar_left",
+    "type_sidebar_article": "sidebar_hidden",
+    "type_sidebar": "sidebar_left",
+    "type_sidebar_product": "default",
+    "enable_rtl": true,
+    "lang_iso_rtl": "ar, ha, dv, fr, ger,",
+    "show_newsletter_popup": true,
+    "newsletter_sm": true,
+    "preferences_newsletter": false,
+    "title_newsletter": "NEWSLETTER",
+    "desc_newsletter": "<strong>Get 10% off your first purchase! Plus, be the first to know  about sales, new product launches and exclusive offers!<\/strong>",
+    "notify_newsletter": "<strong>Don't show this popup again<strong><\/strong><\/strong>",
+    "bg_newsletter": "shopify:\/\/shop_images\/2E4A6920-5484-4C0C-8AF0-FE323284C5E9.jpg",
+    "supported_currencies": "USD, ($) US Dollars | EUR, (€) Euro | GBP, (£) British Pounds",
+    "key_trend_1": "Jumper",
+    "key_trend_2": "Dress",
+    "key_trend_3": "jacket",
+    "key_trend_4": "Hood",
+    "key_trend_5": "Skirt",
+    "bg_br_df": "#ffffff",
+    "c_br_h_df": "#000000",
+    "c_br_t_df": "#505157",
+    "spacing_br_t": 23,
+    "spacing_br_b": 23,
+    "c_br_collec": "#ffffff",
+    "bg_br_collec": "shopify:\/\/shop_images\/Breadcrumb-moda.jpg",
+    "spacing_t_collec": 147,
+    "spacing_b_collec": 147,
+    "countdown_deal_t": "END IN :",
+    "icon_deal": "shopify:\/\/shop_images\/icon-bolt.gif",
+    "countdown_deal": "2024\/09\/03",
+    "spacing_t_inner": 85,
+    "spacing_b_inner": 90,
+    "time_newproduct": 30,
+    "b_pro": false,
+    "b_pro_color": "#232323",
+    "br_pi": 0,
+    "color_product_item": "rgba(0,0,0,0)",
+    "color_product_name": "#222222",
+    "color_price": "#000000",
+    "color_reduced_price": "#909090",
+    "color_badge_new": "#7eca4e",
+    "color_badge_sale": "#bbffbb",
+    "color_product_icon": "#727272",
+    "bg_pi": "#ffffff",
+    "show_new": false,
+    "show_rating": true,
+    "wishlist_enable": true,
+    "use_color_swatch": true,
+    "option_color_swatch": "Color",
+    "color_swatch_style": "color",
+    "payment_button_enable": true,
+    "tooltip_enable": true,
+    "color1": "black white",
+    "img_color1": "shopify:\/\/shop_images\/black-white.png",
+    "color2": "blue white",
+    "img_color2": "shopify:\/\/shop_images\/blue-white.png",
+    "color3": "green white",
+    "img_color3": "shopify:\/\/shop_images\/green-white.png",
+    "color4": "red white",
+    "img_color4": "shopify:\/\/shop_images\/red-white.png",
+    "color5": "plum white",
+    "img_color5": "shopify:\/\/shop_images\/white-plum.png",
+    "color6": "black fabric",
+    "img_color6": "shopify:\/\/shop_images\/black_aa51ec9f-f20c-44e5-acfb-e78aa32eb0c4.jpg",
+    "color7": "blue fabric",
+    "img_color7": "shopify:\/\/shop_images\/blue_dbaeb76f-7411-4d40-8183-f984dd56599a.jpg",
+    "color8": "brown fabric",
+    "img_color8": "shopify:\/\/shop_images\/brown_040fb480-8bfb-4000-8b44-2fb206e97a7b.jpg",
+    "color9": "green fabric",
+    "img_color9": "shopify:\/\/shop_images\/green_515fbdb0-f3f2-4020-a6cd-05262f46acde.jpg",
+    "free_shipping": 200,
+    "terms_conditions": "<p>I agree with the <a href=\"#\" title=\"#\"><strong>Terms<\/strong> & <strong>conditions<\/strong><\/a><\/p>",
+    "shipping_calculator_default_country": "United Kingdom",
+    "collec_1_name": "",
+    "collec_1": "",
+    "collec_2_name": "",
+    "collec_2": "",
+    "collec_3_name": "",
+    "collec_3": "",
+    "collec_4_name": "",
+    "collec_4": "",
+    "i_flash": "shopify:\/\/shop_images\/i-1_6623c5d1-6cec-464a-b454-3d73802bfc05.png",
+    "gradient_deal": "linear-gradient(90deg, rgba(249, 200, 88, 1), rgba(255, 130, 70, 1) 100%)",
+    "show_day": false,
+    "qv_available": false,
+    "qv_tags": false,
+    "qv_vendor": false,
+    "email": "<p><strong>Email:<\/strong> support@aalkami.com<\/p>",
+    "hotline": "",
+    "favicon": "shopify:\/\/shop_images\/AALKAMI_London_Logo.png",
+    "link_page_wishlist": "shopify:\/\/pages\/wishlist",
+    "show_fake_order": false,
+    "show_fake_order_inner_page": false,
+    "cookiegdpr": true,
+    "cookiegdpr_content": "<strong>The cookie settings on this website are set to 'allow all cookies' to give you the very best experience. Please click Accept Cookies to continue to use the site.<\/strong>",
+    "cookiegdpr_policy_link": "https:\/\/www.aalkami.london\/pages\/privacy-policy",
+    "checkout_logo_image": "shopify:\/\/shop_images\/AALKAMI_London_Logo.png",
+    "checkout_logo_position": "left",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#000000",
+    "second_heading_text": "#222222",
+    "search_limit": 5,
+    "mini_cart_type": "canvas",
+    "c_br_df": "#0d2235",
+    "background_color": "#ffffff",
+    "background_image": "shopify:\/\/shop_images\/breadcrumb.jpg",
+    "color_text_head": "#0d2235",
+    "color_breacrumb_collection": "#ffffff",
+    "distance_top": 147,
+    "distance_bottom": 147,
+    "background_image_product_detail": "shopify:\/\/shop_images\/breacrumb-detail_82edd3aa-ceab-4206-ad41-53878e220c7d.jpg",
+    "image_overlay_opacity": 0,
+    "title_alignment": "justify-content-center",
+    "cd_tt": "END IN :",
+    "countdown_timeend": "2023\/09\/07",
+    "title_currency": "Currency",
+    "account_type": "dropdown",
+    "img_canvas_account": "shopify:\/\/shop_images\/logo_59f8cb84-ca55-4990-a5a3-47229ec1ea5f.png",
+    "img_canvas_account_link": "#",
+    "sections": {
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "blog_show_comment": true,
+          "page_show_list": 3,
+          "page_show_column": 3,
+          "page_show_grid": 3
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "4"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_image_feature": true,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
+        }
+      },
+      "nov-header": {
+        "type": "nov-header",
+        "blocks": {
+          "93ea3501-be40-49e7-9b08-bd6c912e4509": {
+            "type": "text",
+            "settings": {
+              "novmenu_item": "Collection",
+              "desc": "",
+              "fw": true,
+              "novmenu_menu_enable": true,
+              "show_title": true,
+              "novmenu_xl": "col-xl-9",
+              "novmenu_lg": "col-lg-9",
+              "submenu_xl": "col-xl-4",
+              "submenu_lg": "col-lg-4",
+              "banner_br": 5,
+              "novmenu_banner_enable1": true,
+              "banner_1_xl": "col-xl-3",
+              "banner_1_lg": "col-lg-3",
+              "image_size1": "330x320",
+              "novmenu_banner_link1": "",
+              "class_bn1": "",
+              "novmenu_banner_enable2": false,
+              "banner_2_xl": "col-xl-4",
+              "banner_2_lg": "col-lg-4",
+              "image_size2": "255x300",
+              "novmenu_banner_link2": "",
+              "class_bn2": "",
+              "novmenu_banner_enable3": false,
+              "banner_3_xl": "col-xl-8",
+              "banner_3_lg": "col-lg-8",
+              "image_size3": "255x300",
+              "novmenu_banner_link3": "",
+              "class_bn3": "",
+              "collection_enable": false,
+              "collection_xl": "col-xl-3",
+              "collection_lg": "col-lg-3",
+              "name_collec_1": "Best Sellers",
+              "link_1": "#",
+              "name_collec_2": "New Arrival",
+              "link_2": "#",
+              "name_collec_3": "Top Trending",
+              "link_3": "#",
+              "name_collec_4": "Top Trending",
+              "link_4": "#",
+              "name_collec_5": "Denim Collection",
+              "link_5": "#",
+              "product_enable": false,
+              "product_xl": "col-xl-3",
+              "product_lg": "col-lg-3",
+              "title_product": "Featured Product",
+              "product_1": "cargo-jeans",
+              "product_2": "blended-wool-coat",
+              "product_3": "eco-aware-coat",
+              "autoplay": true
+            }
+          },
+          "c4d762cf-b0df-4827-a41d-7a2e922a300e": {
+            "type": "text",
+            "settings": {
+              "novmenu_item": "Products",
+              "desc": "",
+              "fw": true,
+              "novmenu_menu_enable": true,
+              "show_title": true,
+              "novmenu_xl": "col-xl-9",
+              "novmenu_lg": "col-lg-9",
+              "submenu_xl": "col-xl-4",
+              "submenu_lg": "col-lg-4",
+              "banner_br": 5,
+              "novmenu_banner_enable1": false,
+              "banner_1_xl": "col-xl-4",
+              "banner_1_lg": "col-lg-4",
+              "image_size1": "255x300",
+              "novmenu_banner_link1": "",
+              "class_bn1": "",
+              "novmenu_banner_enable2": false,
+              "banner_2_xl": "col-xl-4",
+              "banner_2_lg": "col-lg-4",
+              "image_size2": "255x300",
+              "novmenu_banner_link2": "",
+              "class_bn2": "",
+              "novmenu_banner_enable3": false,
+              "banner_3_xl": "col-xl-4",
+              "banner_3_lg": "col-lg-4",
+              "image_size3": "255x300",
+              "novmenu_banner_link3": "",
+              "class_bn3": "",
+              "collection_enable": false,
+              "collection_xl": "col-xl-3",
+              "collection_lg": "col-lg-3",
+              "name_collec_1": "Best Sellers",
+              "link_1": "",
+              "name_collec_2": "New Arrival",
+              "link_2": "",
+              "name_collec_3": "Top Trending",
+              "link_3": "",
+              "name_collec_4": "Top Trending",
+              "link_4": "",
+              "name_collec_5": "Denim Collection",
+              "link_5": "",
+              "product_enable": true,
+              "product_xl": "col-xl-2",
+              "product_lg": "col-lg-3",
+              "title_product": "Featured Product",
+              "product_1": "denim-coat",
+              "product_2": "cargo-jeans",
+              "product_3": "classic-shirt-with-pocket",
+              "autoplay": true
+            }
+          }
+        },
+        "block_order": [
+          "93ea3501-be40-49e7-9b08-bd6c912e4509",
+          "c4d762cf-b0df-4827-a41d-7a2e922a300e"
+        ],
+        "settings": {
+          "header_top": false,
+          "t_call": "Call Us Now :",
+          "call": "0123-456-789",
+          "show_countdown": false,
+          "countdown_title": "",
+          "icon_cd": "zmdi zmdi-flash",
+          "countdown_header": "",
+          "c_cdt": "",
+          "c_cd": "",
+          "bg_cd": "",
+          "bg_cd_t": "",
+          "shop_link_text": "",
+          "shop_link": "",
+          "c_t": "#000000",
+          "bg_t": "#ffffff",
+          "bg_t_opacity": 100,
+          "account": "rbb-icon-human-user-11",
+          "wishlist": "rbb-icon-wishlist-17",
+          "cart_type": "cart",
+          "cart": "6",
+          "c_ct": "#505157",
+          "c_ci": "#000000",
+          "bg_ci": "#e9ebeb",
+          "bg_c": "#ffffff",
+          "bg_c_opacity": 100,
+          "bg_b": "#000000",
+          "bg_b_opacity": 100,
+          "logo": "shopify:\/\/shop_images\/logo_1.png",
+          "w_logo": 155,
+          "logo_mobile": "shopify:\/\/shop_images\/AALKAMI_London_Logo.png",
+          "wm_logo": 102,
+          "stickymenu": true,
+          "c_i_sticky": "#222222",
+          "bg_sticky": "#ffffff",
+          "bg_sticky_opacity": 80,
+          "stickymenu_sm": true,
+          "bg_m": "#ffffff",
+          "c_icon_m": "#000000",
+          "novmenu_enable": true,
+          "show_icons": true,
+          "main_linklist": "main-menu"
+        }
+      },
+      "nov-footer": {
+        "type": "nov-footer",
+        "blocks": {
+          "f07c73bb-d27e-4c8f-aa9f-0b297a5f79aa": {
+            "type": "block_html",
+            "settings": {
+              "block_title": "",
+              "img": "shopify:\/\/shop_images\/AALKAMI_London_Logo.png",
+              "html_content": "<strong>Discover the elegance of AALKAMI’s luxury knitwear, meticulously crafted for the modern woman. Committed to ethical and sustainable fashion, we offer timeless pieces that elevate any wardrobe. Shop with us and experience the pinnacle of sustainable luxury fashion. Join our community online and embrace a style that values both beauty and responsibility.<\/strong>",
+              "block_class": "mb-lg-50",
+              "grid_xl": "col-xl-4",
+              "grid_lg": "col-lg-9",
+              "grid_md": "col-md-12",
+              "grid_sm": "col-sm-12"
+            }
+          },
+          "f6ba09a2-5b33-4a70-bb1f-f9ce5a863f8a": {
+            "type": "block_menu",
+            "settings": {
+              "block_title": "CUSTOMER CARE",
+              "menu_handle": "footer",
+              "block_class": "mb-sm-40",
+              "grid_xl": "col-xl-3",
+              "grid_lg": "col-lg-4",
+              "grid_md": "col-md-4",
+              "grid_sm": "col-sm-4"
+            }
+          },
+          "7bc132ea-2140-4ea6-9b0a-1b5ae123eb38": {
+            "type": "block_menu",
+            "settings": {
+              "block_title": "Shop Information",
+              "menu_handle": "main-menu",
+              "block_class": "",
+              "grid_xl": "col-xl-3",
+              "grid_lg": "col-lg-4",
+              "grid_md": "col-md-4",
+              "grid_sm": "col-sm-4"
+            }
+          },
+          "067df720-a158-45f2-888a-2c08d3a39a28": {
+            "type": "block_multi",
+            "settings": {
+              "block_title": "Currency and Language",
+              "h_t": true,
+              "c_t": "Currency",
+              "enable_currency": true,
+              "l_t": "Language",
+              "enable_language": true,
+              "s_t": "Follow us",
+              "social": true,
+              "block_class": "",
+              "grid_xl": "col-xl-2",
+              "grid_lg": "col-lg-4",
+              "grid_md": "col-md-4",
+              "grid_sm": "col-sm-4"
+            }
+          }
+        },
+        "block_order": [
+          "f07c73bb-d27e-4c8f-aa9f-0b297a5f79aa",
+          "f6ba09a2-5b33-4a70-bb1f-f9ce5a863f8a",
+          "7bc132ea-2140-4ea6-9b0a-1b5ae123eb38",
+          "067df720-a158-45f2-888a-2c08d3a39a28"
+        ],
+        "settings": {
+          "animate": false,
+          "color_t": "#222222",
+          "color": "#505157",
+          "bg_copy": "#f1f1f1",
+          "opacity": 100,
+          "background_color": "#f1f1f1",
+          "newsletter": true,
+          "newsletter_title": "SIGN UP FOR AALKAMI LONDON NEWS",
+          "newsletter_title_c": "#222222",
+          "newsletter_des": "<p><strong>Get 10% off your first purchase! Plus, be the first to know about sales, new product launches and exclusive offers!<\/strong><\/p>",
+          "newsletter_des_c": "#505157",
+          "bgc_news": "",
+          "copyright": "<strong>Copyright © 2024 AALKAMI LTD. All rights reserved.<strong><\/strong><\/strong>",
+          "copy_c": "#505157",
+          "mobile_acc": true
+        }
+      },
+      "nov-product-template": {
+        "type": "nov-product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "product_swatch_enable": true,
+          "show_share": true,
+          "show_vendor": false,
+          "show_sku": true,
+          "show_categories": true,
+          "show_tags": true,
+          "show_available": true,
+          "show_des": true,
+          "enable_zoom": true,
+          "show_related": true,
+          "show_description": true,
+          "show_payments": true,
+          "title_payments": "Guaranteed safe checkout:",
+          "payments": "shopify:\/\/shop_images\/payment.png",
+          "time": "Orders ship within 5 to 10 business days.",
+          "size_time": "12px",
+          "color_time": "#494949",
+          "truck": "Hoorey ! This item ships free to the US",
+          "size_truck": "12px",
+          "color_truck": "#494949",
+          "background_color": "",
+          "show_review": true
+        }
+      },
+      "nov-page-contact": {
+        "type": "nov-page-contact",
+        "settings": {
+          "iframe_map": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d4082.7742465747338!2d-79.38287617561478!3d43.64905556573276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d2a57d767f%3A0x935ab2eb9fd5fb31!2sFirst%20Canadian%20Place!5e0!3m2!1svi!2s!4v1591603052999!5m2!1svi!2s",
+          "social": false
+        }
+      },
+      "nov-page-faqs": {
+        "type": "nov-page-faqs",
+        "blocks": {
+          "3526ffb7-415c-4d22-ae57-ade26348009e": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Sed est elit posuere ac semper at hendrerit a neque?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "350dd52a-5a67-4cdd-8b96-2c19bd158761": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Why Lorem ipsum dolor sit amet ?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "ad824580-169d-4232-aac5-72de44b65a2f": {
+            "type": "faq",
+            "settings": {
+              "item_title": "What maecenas commodo mi urna, quis accumsan ligula gravida at ?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "ecb276ad-04cc-4c9c-832e-892642fced38": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Integer venenatis suscipit urna id imperdiet. In et mi quis sapien tristique sodales sit amet nec justo ?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "5710c37c-6a79-481c-9fc4-1cbb239a99c5": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Donec lobortis dolor a arcu auctor tincidunt ac fermentum enim ?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "c5f181a0-f9ad-4de1-82f0-825dc7286149": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Maecenas vitae placerat metus ?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "122f9f41-3f4a-4b9f-9aef-3a61fb4866be": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Vestibulum nulla velit, tincidunt id neque sed ?",
+              "item_content": "Volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          },
+          "5b3a4407-bae8-412d-a1fc-397ddedd7faa": {
+            "type": "faq",
+            "settings": {
+              "item_title": "Sed est elit posuere ac semper at hendrerit a neque?",
+              "item_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus lorem eu justo tincidunt mollis"
+            }
+          }
+        },
+        "block_order": [
+          "3526ffb7-415c-4d22-ae57-ade26348009e",
+          "350dd52a-5a67-4cdd-8b96-2c19bd158761",
+          "ad824580-169d-4232-aac5-72de44b65a2f",
+          "ecb276ad-04cc-4c9c-832e-892642fced38",
+          "5710c37c-6a79-481c-9fc4-1cbb239a99c5",
+          "c5f181a0-f9ad-4de1-82f0-825dc7286149",
+          "122f9f41-3f4a-4b9f-9aef-3a61fb4866be",
+          "5b3a4407-bae8-412d-a1fc-397ddedd7faa"
+        ],
+        "settings": {
+          "title": "Frequently asked question"
+        }
+      },
+      "nov-page-sizeguide": {
+        "type": "nov-page-sizeguide",
+        "blocks": {
+          "3c48c1d8-1244-4f74-94c5-d7f518782a15": {
+            "type": "size_tab",
+            "settings": {
+              "title_tab": "Women",
+              "c_title_tab": "#000000",
+              "fz_title_tab": "15px",
+              "jump_to_1": "Tops + Dresses",
+              "radio_jump_to_1a": "in.",
+              "html_jump_to_1a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bust<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hips<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>US\/CAN<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>XS<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32-33<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>24-25<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>35-36<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>0\/1<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>S<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>34-35<\/span>\n<\/td>\n<td style=\"width: 135px;\">\n<div><meta charset=\"utf-8\"><\/div>\n<span>26-27<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>37-38<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>3\/5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36-37<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28-29<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>39-40<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>7\/9<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38.5-40<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td style=\"width: 135px;\">\n<div><meta charset=\"utf-8\"><\/div>\n<span>30.5-32<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>41.5-43<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>11\/13<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>41 1\/2<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>33 1\/2<\/span>\n<\/td>\n<td>44 1\/2<\/td>\n<td>15<\/td>\n<\/tr>\n<tr>\n<td>1X<\/td>\n<td>44-45.5<\/td>\n<td>37-38.5<\/td>\n<td>47-48.5<\/td>\n<td>14\/16<\/td>\n<\/tr>\n<tr>\n<td>2X<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n47-49<\/td>\n<td>40-42<\/td>\n<td>50-52<\/td>\n<td>18\/20<\/td>\n<\/tr>\n<tr>\n<td>3X<\/td>\n<td>51-53<\/td>\n<td>44-46<\/td>\n<td>54-56<\/td>\n<td>22\/24<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_1b": "cm",
+              "html_jump_to_1b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bust<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hips<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>UK<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>EU<\/span>\n<\/td>\n<td><span>AUS<\/span><\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>XS<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81-84<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>61-64<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>89-91<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>2\/4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32\/34<\/span>\n<\/td>\n<td><span>4\/6<\/span><\/td>\n<\/tr>\n<tr>\n<td>S<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>86-89<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>66-69<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>94-97<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>6\/8<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36\/38<\/span>\n<\/td>\n<td><span>8<\/span><\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91-94<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>71-74<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>99-102<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>10\/12<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>40<\/span>\n<\/td>\n<td><span>10\/12<\/span><\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>98-102<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>77-81<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>105-109<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>14<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42<\/span>\n<\/td>\n<td><span>14\/16<\/span><\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n105<span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>85<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>113<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>16<\/span><span><\/span>\n<\/td>\n<td>44<\/td>\n<td>18<\/td>\n<\/tr>\n<tr>\n<td>1X<\/td>\n<td>112-116<\/td>\n<td><span>94-98<\/span><\/td>\n<td><span>119-123<\/span><\/td>\n<td><span>18<\/span><\/td>\n<td>44\/46<\/td>\n<td>18\/20<\/td>\n<\/tr>\n<tr>\n<td>2X<\/td>\n<td>119-124<\/td>\n<td><span>102-107<\/span><\/td>\n<td><span>127-132<\/span><\/td>\n<td><span>20\/22<\/span><\/td>\n<td>48\/50<\/td>\n<td>22\/24<\/td>\n<\/tr>\n<tr>\n<td>3X<\/td>\n<td>129-135<\/td>\n<td><span>112-117<\/span><\/td>\n<td><span>137-142<\/span><\/td>\n<td><span>24\/26<\/span><\/td>\n<td>52\/54<\/td>\n<td>26\/28<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "jump_to_2": "Bottoms, + Skirts",
+              "radio_jump_to_2a": "in.",
+              "html_jump_to_2a": "<table>\n<tbody>\n<tr>\n<td>Size<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist <\/span>\n<\/td>\n<td><span>Hips <\/span><\/td>\n<td><span>US\/CAN<\/span><\/td>\n<\/tr>\n<tr>\n<td>XS<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>24-25<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>35-36<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>0\/1<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>S<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>26-27<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>37-38<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n3\/5<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28-29<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n39-40<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n7\/9<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>30.5-32<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n41.5-43<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n11\/13<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n33 1\/2<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n44 1\/2<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n15<\/td>\n<\/tr>\n<tr>\n<td>1X<\/td>\n<td>37-38.5<\/td>\n<td>47-48.5<\/td>\n<td>14\/16<\/td>\n<\/tr>\n<tr>\n<td>2X<\/td>\n<td>40-42<\/td>\n<td>50-52<\/td>\n<td>18\/20<\/td>\n<\/tr>\n<tr>\n<td>3X<\/td>\n<td>44-46<\/td>\n<td>54-56<\/td>\n<td>22\/24<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_2b": "cm",
+              "html_jump_to_2b": "<table>\n<tbody>\n<tr>\n<td>Size<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hips<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>UK<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>EU<\/span>\n<\/td>\n<td>AUS<\/td>\n<\/tr>\n<tr>\n<td>XS<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>61-64<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>89-91<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>2\/4<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32\/34<\/span><span><\/span>\n<\/td>\n<td>4\/6<\/td>\n<\/tr>\n<tr>\n<td>S<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>66-69<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>94-97<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>6\/8<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36\/38<\/span><span><\/span>\n<\/td>\n<td>8<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>71-74<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>99-102<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>10\/12<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>40<\/span>\n<\/td>\n<td>10\/12<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>77-81<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>105-109<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>14<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n42<\/td>\n<td>14\/16<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>85<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>113<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>16<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n44<\/td>\n<td>18<\/td>\n<\/tr>\n<tr>\n<td>1X<\/td>\n<td>94-98<\/td>\n<td>119-123<\/td>\n<td>18<\/td>\n<td>44\/46<\/td>\n<td>18\/20<\/td>\n<\/tr>\n<tr>\n<td>2X<\/td>\n<td>102-107<\/td>\n<td>127-132<\/td>\n<td>20\/22<\/td>\n<td>48\/50<\/td>\n<td>22\/24<\/td>\n<\/tr>\n<tr>\n<td>3X<\/td>\n<td>112-117<\/td>\n<td>137-142<\/td>\n<td>24\/26<\/td>\n<td>52\/54<\/td>\n<td>26\/28<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "jump_to_3": "",
+              "radio_jump_to_3a": "",
+              "html_jump_to_3a": "<table width=\"100%\">\n<tbody>\n<tr>\n<td>Size<\/td>\n<td> <span>US\/CAN<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>UK<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>EU<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>AUS<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>5<\/span>\n<\/td>\n<td>5<\/td>\n<td><span>3<\/span><\/td>\n<td><span>36<\/span><\/td>\n<td><span>5<\/span><\/td>\n<\/tr>\n<tr>\n<td>5.5<\/td>\n<td>5.5<\/td>\n<td><span>3.5<\/span><\/td>\n<td><span>36.5<\/span><\/td>\n<td><span>5.5<\/span><\/td>\n<\/tr>\n<tr>\n<td>6<\/td>\n<td>6<\/td>\n<td><span>4<\/span><\/td>\n<td><span>37<\/span><\/td>\n<td><span>6<\/span><\/td>\n<\/tr>\n<tr>\n<td>6.5<\/td>\n<td>6.5<\/td>\n<td><span>4.5<\/span><\/td>\n<td><span>37.5<\/span><\/td>\n<td><span>6.5<\/span><\/td>\n<\/tr>\n<tr>\n<td>7<\/td>\n<td>7<\/td>\n<td><span>5<\/span><\/td>\n<td><span>38<\/span><\/td>\n<td><span>7<\/span><\/td>\n<\/tr>\n<tr>\n<td>7.5<\/td>\n<td>7.5<\/td>\n<td><span>5.5<\/span><\/td>\n<td><span>38.5<\/span><\/td>\n<td><span>7.5<\/span><\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>8<\/td>\n<td>6<\/td>\n<td>39<\/td>\n<td>8<\/td>\n<\/tr>\n<tr>\n<td>8.5<\/td>\n<td>8.5<\/td>\n<td>6.5<\/td>\n<td>39.5<\/td>\n<td>8.5<\/td>\n<\/tr>\n<tr>\n<td>9<\/td>\n<td>9<\/td>\n<td>7<\/td>\n<td>40<\/td>\n<td>9<\/td>\n<\/tr>\n<tr>\n<td>9.5<\/td>\n<td>9.5<\/td>\n<td>7.5<\/td>\n<td>40.5<\/td>\n<td>9.5<\/td>\n<\/tr>\n<tr>\n<td>10<\/td>\n<td>10<\/td>\n<td>8<\/td>\n<td>41<\/td>\n<td>10<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_3b": "",
+              "html_jump_to_3b": "",
+              "jump_to_4": "",
+              "radio_jump_to_4a": "in.",
+              "html_jump_to_4a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bust<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hips<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Cup size<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>XS<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32-33<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>24-25<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>35-36<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32A-32B<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>S<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>34-35<\/span>\n<\/td>\n<td style=\"width: 135px;\">\n<div><meta charset=\"utf-8\"><\/div>\n<span>26-27<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n37-38<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32C-34B<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36-37<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28-29<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n39-40<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>34C-36B<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38.5-40<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td style=\"width: 135px;\">\n<div><meta charset=\"utf-8\"><\/div>\n<span>30.5-32<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n41.5-43<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36C-38C<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>41 1\/2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n33 1\/2<\/td>\n<td>44 1\/2<\/td>\n<td>38D-40D<\/td>\n<\/tr>\n<tr>\n<td>1X<\/td>\n<td>44-44.5<\/td>\n<td>37-38.5<\/td>\n<td>47-48.5<\/td>\n<td>42C-42D<\/td>\n<\/tr>\n<tr>\n<td>2X<\/td>\n<td>47-49<\/td>\n<td>40-42<\/td>\n<td>50-52<\/td>\n<td>44C-44D<\/td>\n<\/tr>\n<tr>\n<td>3X<\/td>\n<td>51-53<\/td>\n<td>44-46<\/td>\n<td>54-56<\/td>\n<td>46C+<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_4b": "cm",
+              "html_jump_to_4b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bust<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hips<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>UK<\/span>\n<\/td>\n<td>EU<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>AUS<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>XS<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81-84<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>61-64<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>89-91<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>70B-70C<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>70B-70C<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>10A-10B<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>S<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>86-89<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>66-69<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>94-97<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>70D-75C<\/span>\n<\/td>\n<td>70D-75C<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>10C-12B<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91-94<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>71-74<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>99-102<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>75D-80C<\/span>\n<\/td>\n<td>75D-80C<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>12C-14B<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>98-102<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>77-81<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>105-109<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>80D-85D<\/span>\n<\/td>\n<td>80D-85D<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>14C-16C<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>105<\/span><br><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<div><meta charset=\"utf-8\"><\/div>\n<span>85<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>113<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>85DD-90DD<\/span>\n<\/td>\n<td>85DD-90DD<\/td>\n<td>16D-18D<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+            }
+          },
+          "8ce46592-307f-48ce-9880-999aa40cd272": {
+            "type": "size_tab",
+            "disabled": true,
+            "settings": {
+              "title_tab": "Men",
+              "c_title_tab": "#000000",
+              "fz_title_tab": "15px",
+              "jump_to_1": "Shirts",
+              "radio_jump_to_1a": "in.",
+              "html_jump_to_1a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Chest<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>S<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>35-37<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>29-31<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38-40<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32-34<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42-44<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36-38<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>46-48<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>40-42<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>50-52<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>44-46<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>54-56<\/span><span><\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>48-50<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_1b": "cm",
+              "html_jump_to_1b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Chest<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>S<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>89-94<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>73.7-78.7<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>96.5-101.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3-86.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7-111.7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91.4-96.5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>116.8-121.9<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>101.5-106.7<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>127-132<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>111.7-116.8<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>137.1-142.2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>121.9-127<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "jump_to_2": "Bottoms",
+              "radio_jump_to_2a": "in.",
+              "html_jump_to_2a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bottom (US)<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Seat\/Low (IN)<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Inseam<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>S<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28-30<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>35-36<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32-34<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36-40<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36-38<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>40-44<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38-40<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>44-47<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42-44<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>47-49<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>46-48<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>49-51<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_2b": "cm",
+              "html_jump_to_2b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bottom<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Seat\/Low<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Inseam<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>S<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>71.1-76.2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>88.9-91.4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.2-86.3<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91.4-101.6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91.4-96.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7-111.7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>96.5-101.6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>111.7-119.4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7-111.7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>119.4-124.4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>116.8-121.9<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>124.4-129.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81.3<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "jump_to_3": "Tops",
+              "radio_jump_to_3a": "in.",
+              "html_jump_to_3a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Top(US)<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Chest(IN)<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>S<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>34-36<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>35-37<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38-40<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38-40<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42-44<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>46<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>46-48<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>48<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>50-52<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>50<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>54-56<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_3b": "cm",
+              "html_jump_to_3b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Top<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Chest<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>S<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>86.4-91.4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>88.9-94<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>M<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>96.5-101.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>96.5-101.5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>L<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7-111.7<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>116.8<\/span><br>\n<div><meta charset=\"utf-8\"><\/div>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>116.8-121.9<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>121.9<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>127-132<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>XXXL<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>127<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>137.1-142.2<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "jump_to_4": "Jeans",
+              "radio_jump_to_4a": "in.",
+              "html_jump_to_4a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>30<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>30<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>32<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>32<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>34<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>34<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>36<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>38<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>38<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>40<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>40<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>42<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_4b": "cm",
+              "html_jump_to_4b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>CM<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>71<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>30<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>76<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>32<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>81<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>34<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>86<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>36<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>38<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>96<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>40<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>101.6<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>42<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>"
+            }
+          },
+          "size_tab_nHWtjB": {
+            "type": "size_tab",
+            "disabled": true,
+            "settings": {
+              "title_tab": "Women",
+              "c_title_tab": "#000000",
+              "fz_title_tab": "15px",
+              "jump_to_1": "Tops + Dresses",
+              "radio_jump_to_1a": "in.",
+              "html_jump_to_1a": "",
+              "radio_jump_to_1b": "cm",
+              "html_jump_to_1b": "",
+              "jump_to_2": "Tops + Dresses",
+              "radio_jump_to_2a": "in.",
+              "html_jump_to_2a": "",
+              "radio_jump_to_2b": "cm",
+              "html_jump_to_2b": "",
+              "jump_to_3": "Tops + Dresses",
+              "radio_jump_to_3a": "in.",
+              "html_jump_to_3a": "",
+              "radio_jump_to_3b": "cm",
+              "html_jump_to_3b": "",
+              "jump_to_4": "Tops + Dresses",
+              "radio_jump_to_4a": "in.",
+              "html_jump_to_4a": "",
+              "radio_jump_to_4b": "cm",
+              "html_jump_to_4b": ""
+            }
+          },
+          "8094758a-bc68-4728-9b21-71216fdda2f4": {
+            "type": "size_tab",
+            "disabled": true,
+            "settings": {
+              "title_tab": "Kids",
+              "c_title_tab": "#000000",
+              "fz_title_tab": "15px",
+              "jump_to_1": "Clothing",
+              "radio_jump_to_1a": "in.",
+              "html_jump_to_1a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>US Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Age (years)<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Height<\/span>\n<\/td>\n<td>Weight (lb)<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Bust<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hip<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Inseam<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>1.5-2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>33-36<\/span>\n<\/td>\n<td>30-33<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>20-21<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>19.5-20.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>20.5-21.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>13.4-14.5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>3<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>2-3<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36-39<\/span>\n<\/td>\n<td>33-36<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>20.5-21.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>20-21<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>21.5-22.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>15-16<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>4<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>3-4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>39-42<\/span>\n<\/td>\n<td>36-40<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>21.5-22.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>21-22<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>22.5-23.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>16-17.5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>5<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>4-5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>42-45<\/span>\n<\/td>\n<td>42-46<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>22.5-23.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>22-23<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>23.5-24.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>18-19<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>6<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>5-6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>45-48<\/span>\n<\/td>\n<td>48-54<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>23.5-24.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>23-24<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>24.5-25.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>19.5-20.5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>7<\/td>\n<td>6-7<\/td>\n<td>48-51<\/td>\n<td>56-60<\/td>\n<td>25-26<\/td>\n<td>25<\/td>\n<td>26 1\/2<\/td>\n<td>21-22<\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>7-8<\/td>\n<td>51-53<\/td>\n<td>62-66<\/td>\n<td>26.5-27.5<\/td>\n<td>27 1\/2<\/td>\n<td>28<\/td>\n<td>22.5-23.5<\/td>\n<\/tr>\n<tr>\n<td>10<\/td>\n<td>10<\/td>\n<td>53-55<\/td>\n<td>68-74<\/td>\n<td>28-29<\/td>\n<td>29<\/td>\n<td>29 1\/2<\/td>\n<td>24-25<\/td>\n<\/tr>\n<tr>\n<td>12<\/td>\n<td>12<\/td>\n<td>55-59<\/td>\n<td>76-84<\/td>\n<td>29.5-30.5<\/td>\n<td>30 1\/2<\/td>\n<td>31<\/td>\n<td>25.5-26.5<\/td>\n<\/tr>\n<tr>\n<td>14<\/td>\n<td>14<\/td>\n<td>59-63<\/td>\n<td>86-96<\/td>\n<td>31-32<\/td>\n<td>32<\/td>\n<td>32 1\/2<\/td>\n<td>27-28<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_1b": "cm",
+              "html_jump_to_1b": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>US Size<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Age (years)<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Height<\/span>\n<\/td>\n<td>Weight (kg)<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Chest<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Waist<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Hip<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Inseam<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>1.5-2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>84-91.5<\/span>\n<\/td>\n<td>13.6-15<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>50.8-53.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>49.5-52.1<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>52.1-54.6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>34.3-36.8<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>3<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>2-3<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>91.5-99<\/span>\n<\/td>\n<td>15-16.3<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>52.1-54.6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>50.8-53.5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>54.6-57.2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>36.8-40.6<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>4<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>3-4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>99-106.7<\/span>\n<\/td>\n<td>16.3-18.1<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>54.6-57.2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>53.5-55.9<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>57.2-59.7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>40.6-44.5<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>5<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>4-5<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>106.7-114.3<\/span>\n<\/td>\n<td>19.1-20.9<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>57.2-59.7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>55.9-58.4<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>59.7-62.2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>44.5-48.3<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>6<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>5-6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>114.3-121.9<\/span>\n<\/td>\n<td>21.8-24.5<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>59.7-62.2<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>58.4-61<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>62.2-64.8<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>48.3-52.1<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>7<\/td>\n<td>6-7<\/td>\n<td>121.9-129.5<\/td>\n<td>25.4-27.2<\/td>\n<td>63.5-66<\/td>\n<td>63.5<\/td>\n<td>67.3<\/td>\n<td>53.3-55.9<\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>7-8<\/td>\n<td>129.5-134.6<\/td>\n<td>28.1-29.9<\/td>\n<td>67.3-69.9<\/td>\n<td>69.9<\/td>\n<td>71.1<\/td>\n<td>57.2-59.7<\/td>\n<\/tr>\n<tr>\n<td>10<\/td>\n<td>10<\/td>\n<td>134.6-139.7<\/td>\n<td>30.8-33.6<\/td>\n<td>71.1-73.7<\/td>\n<td>73.7<\/td>\n<td>74.9<\/td>\n<td>61-63.5<\/td>\n<\/tr>\n<tr>\n<td>12<\/td>\n<td>12<\/td>\n<td>139.7-149.9<\/td>\n<td>34.5-38.1<\/td>\n<td>74.9-77.5<\/td>\n<td>77.5<\/td>\n<td>78.7<\/td>\n<td>64.8-67.3<\/td>\n<\/tr>\n<tr>\n<td>14<\/td>\n<td>14<\/td>\n<td>149.9-160<\/td>\n<td>39-43.5<\/td>\n<td>78.7-81.3<\/td>\n<td>81.3<\/td>\n<td>82.6<\/td>\n<td>68.6-71.1<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "jump_to_2": "Shoes + Boots",
+              "radio_jump_to_2a": "",
+              "html_jump_to_2a": "<table>\n<tbody>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>Size US\/CAN<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>UK<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>EU<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>6<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>23<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>8<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>7<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>24<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>9<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>8<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>25<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>10<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>9<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>27<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>11<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>10<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>28<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>12<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>11<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>30<\/span>\n<\/td>\n<\/tr>\n<tr>\n<td>13<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>12<\/span>\n<\/td>\n<td>\n<div><meta charset=\"utf-8\"><\/div>\n<span>31<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+              "radio_jump_to_2b": "",
+              "html_jump_to_2b": "",
+              "jump_to_3": "",
+              "radio_jump_to_3a": "",
+              "html_jump_to_3a": "",
+              "radio_jump_to_3b": "",
+              "html_jump_to_3b": "",
+              "jump_to_4": "",
+              "radio_jump_to_4a": "",
+              "html_jump_to_4a": "",
+              "radio_jump_to_4b": "",
+              "html_jump_to_4b": ""
+            }
+          }
+        },
+        "block_order": [
+          "3c48c1d8-1244-4f74-94c5-d7f518782a15",
+          "8ce46592-307f-48ce-9880-999aa40cd272",
+          "size_tab_nHWtjB",
+          "8094758a-bc68-4728-9b21-71216fdda2f4"
+        ],
+        "settings": {
+          "c_jump_to": "#272727",
+          "fz_jump_to": "12px",
+          "w_page": 750
+        }
+      },
+      "112c6ebf-0d3e-4474-a810-89df30908ec0": {
+        "type": "nov-slideshow",
+        "blocks": {
+          "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-0": {
+            "type": "image",
+            "settings": {
+              "img_animate": false,
+              "position_img": "Width: 23%; Left:39%; Top: 20%",
+              "position_xl_img": "Width: 23%; Left:39%; Top: 20%",
+              "position_lg_img": "Width: 23%; Left:39%; Top: 20%",
+              "position_md_img": "Width: 23%; Left:39%; Top: 20%",
+              "position_sm_img": "Width: 28%; Left:37%; Top: 6%",
+              "position_xs_img": "Width: 23%; Left:39%; Top: 20%",
+              "caption_1": "Men style",
+              "color_cap1": "#ffffff",
+              "fz_cap1_xxl": 26,
+              "fz_cap1_xl": 24,
+              "fz_cap1_lg": 22,
+              "fz_cap1_md": 20,
+              "fz_cap1_sm": 18,
+              "fz_cap1_xs": 16,
+              "fw1": "900",
+              "fs1": "normal",
+              "tt1": "uppercase",
+              "ff1": "heading",
+              "let1": 0,
+              "line_height1": "1.5",
+              "ts1_w": 0,
+              "ts1_c": "#167bd3",
+              "mb1": 15,
+              "mb1_lg": 10,
+              "mb1_md": 10,
+              "mb1_xs": 5,
+              "cap_animate_1": "fadeInLeft",
+              "caption_2": "Glasses",
+              "color_cap2": "#ffffff",
+              "fz_cap2_xxl": 60,
+              "fz_cap2_xl": 50,
+              "fz_cap2_lg": 40,
+              "fz_cap2_md": 30,
+              "fz_cap2_sm": 25,
+              "fz_cap2_xs": 20,
+              "fw2": "900",
+              "fs2": "normal",
+              "tt2": "uppercase",
+              "ff2": "heading",
+              "let2": 0,
+              "line_height2": "1.5",
+              "mb2": 10,
+              "mb2_lg": 10,
+              "mb2_md": 10,
+              "mb2_xs": 10,
+              "cap_animate_2": "fadeInRight",
+              "caption_3": "Best eyeglasses for men to channel<br> \nyour inner Clark Kent",
+              "color_cap3": "#ffffff",
+              "fz_cap3_xxl": 16,
+              "fz_cap3_xl": 15,
+              "fz_cap3_lg": 14,
+              "fz_cap3_md": 13,
+              "fz_cap3_sm": 12,
+              "fz_cap3_xs": 11,
+              "fw3": "400",
+              "fs3": "normal",
+              "tt3": "none",
+              "ff3": "heading",
+              "let3": 0,
+              "line_height3": "1.5",
+              "mb3": 35,
+              "mb3_lg": 25,
+              "mb3_md": 10,
+              "mb3_xs": 10,
+              "cap_animate_3": "fadeInUp",
+              "caption_4": "",
+              "color_cap4": "#ffffff",
+              "fz_cap4_xxl": 14,
+              "fz_cap4_xl": 14,
+              "fz_cap4_lg": 13,
+              "fz_cap4_md": 12,
+              "fz_cap4_sm": 11,
+              "fz_cap4_xs": 10,
+              "fw4": "400",
+              "fs4": "normal",
+              "tt4": "none",
+              "ff4": "heading",
+              "let4": 2,
+              "line_height4": "1.5",
+              "ts4_w": 0,
+              "ts4_c": "",
+              "mb4": 50,
+              "mb4_lg": 0,
+              "mb4_md": 20,
+              "mb4_xs": 10,
+              "cap_animate_4": "fadeInUp",
+              "caption_btn": "Shop now",
+              "slider_link": "#",
+              "c_btn": "#000000",
+              "b_btn": "#ffffff",
+              "c_btn_h": "#ffffff",
+              "b_btn_h": "#dd5621",
+              "caption2_btn": "",
+              "slider_link2": "",
+              "c_btn2": "#ffffff",
+              "b_btn2": "#222222",
+              "c_btn2_h": "#ffffff",
+              "b_btn2_h": "#222222",
+              "cap_content": "fullbox",
+              "text_align": "left",
+              "position": "Width: 100%; Left:4%; Top: 34%",
+              "position_xl": "Width: 100%; Left:4%; Top: 35%",
+              "position_lg": "Width: 100%; Left:4%; Top: 30%",
+              "position_md": "Width: 100%; Left:4%; Top: 20%",
+              "position_sm": "Width: 100%; Left:4%; Top: 15%",
+              "position_xs": "Width: 100%; Left:4%; Top: 22%"
+            }
+          },
+          "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-1": {
+            "type": "image",
+            "settings": {
+              "img_animate": false,
+              "position_img": "Width: 33%; Left:33%; Top: 10%",
+              "position_xl_img": "Width: 33%; Left:33%; Top: 10%",
+              "position_lg_img": "Width: 33%; Left:33%; Top: 10%",
+              "position_md_img": "Width: 33%; Left:33%; Top: 10%",
+              "position_sm_img": "Width: 33%; Left:33%; Top: 10%",
+              "position_xs_img": "Width: 33%; Left:33%; Top: 10%",
+              "caption_1": "Women Fashion",
+              "color_cap1": "#ffffff",
+              "fz_cap1_xxl": 26,
+              "fz_cap1_xl": 24,
+              "fz_cap1_lg": 22,
+              "fz_cap1_md": 20,
+              "fz_cap1_sm": 18,
+              "fz_cap1_xs": 16,
+              "fw1": "900",
+              "fs1": "normal",
+              "tt1": "uppercase",
+              "ff1": "heading",
+              "let1": 0,
+              "line_height1": "1.5",
+              "ts1_w": 1,
+              "ts1_c": "",
+              "mb1": 15,
+              "mb1_lg": 10,
+              "mb1_md": 10,
+              "mb1_xs": 5,
+              "cap_animate_1": "fadeInDown",
+              "caption_2": "hipster style",
+              "color_cap2": "#ffffff",
+              "fz_cap2_xxl": 60,
+              "fz_cap2_xl": 50,
+              "fz_cap2_lg": 40,
+              "fz_cap2_md": 30,
+              "fz_cap2_sm": 26,
+              "fz_cap2_xs": 20,
+              "fw2": "900",
+              "fs2": "normal",
+              "tt2": "uppercase",
+              "ff2": "heading",
+              "let2": 0,
+              "line_height2": "1.5",
+              "mb2": 10,
+              "mb2_lg": 10,
+              "mb2_md": 10,
+              "mb2_xs": 5,
+              "cap_animate_2": "fadeInRight",
+              "caption_3": "Best eyeglasses for men to channel your inner Clark Kent",
+              "color_cap3": "#ffffff",
+              "fz_cap3_xxl": 16,
+              "fz_cap3_xl": 15,
+              "fz_cap3_lg": 14,
+              "fz_cap3_md": 13,
+              "fz_cap3_sm": 12,
+              "fz_cap3_xs": 11,
+              "fw3": "400",
+              "fs3": "normal",
+              "tt3": "none",
+              "ff3": "heading",
+              "let3": 0,
+              "line_height3": "1",
+              "mb3": 65,
+              "mb3_lg": 50,
+              "mb3_md": 30,
+              "mb3_xs": 20,
+              "cap_animate_3": "fadeInLeft",
+              "caption_4": "",
+              "color_cap4": "#ffffff",
+              "fz_cap4_xxl": 14,
+              "fz_cap4_xl": 14,
+              "fz_cap4_lg": 13,
+              "fz_cap4_md": 12,
+              "fz_cap4_sm": 11,
+              "fz_cap4_xs": 10,
+              "fw4": "300",
+              "fs4": "normal",
+              "tt4": "uppercase",
+              "ff4": "heading",
+              "let4": 2,
+              "line_height4": "1.5",
+              "ts4_w": 0,
+              "ts4_c": "",
+              "mb4": 50,
+              "mb4_lg": 0,
+              "mb4_md": 20,
+              "mb4_xs": 10,
+              "cap_animate_4": "fadeInUp",
+              "caption_btn": "Shop now",
+              "slider_link": "#",
+              "c_btn": "#000000",
+              "b_btn": "#ffffff",
+              "c_btn_h": "#ffffff",
+              "b_btn_h": "#dd5621",
+              "caption2_btn": "",
+              "slider_link2": "",
+              "c_btn2": "#ffffff",
+              "b_btn2": "#222222",
+              "c_btn2_h": "#ffffff",
+              "b_btn2_h": "#222222",
+              "cap_content": "fullbox",
+              "text_align": "left",
+              "position": "Width: 100%; Left:4%; Top: 34%",
+              "position_xl": "Width: 100%; Left:4%; Top: 34%",
+              "position_lg": "Width: 100%; Left:4%; Top: 30%",
+              "position_md": "Width: 100%; Left:4%; Top: 25%",
+              "position_sm": "Width: 100%; Left:4%; Top: 15%",
+              "position_xs": "Width: 100%; Left:4%; Top: 25%"
+            }
+          },
+          "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-2": {
+            "type": "image",
+            "settings": {
+              "img_animate": true,
+              "position_img": "Width: 50%; Left:10%; Top: 40%",
+              "position_xl_img": "Width: 50%; Left:10%; Top: 50%",
+              "position_lg_img": "Width: 50%; Left:10%; Top: 40%",
+              "position_md_img": "Width: 70%; Left:10%; Top: 40%",
+              "position_sm_img": "Width: 80%; Left:10%; Top: 40%",
+              "position_xs_img": "Width: 90%; Left:5%; Top: 40%",
+              "caption_1": "Women Fashion",
+              "color_cap1": "#ffffff",
+              "fz_cap1_xxl": 26,
+              "fz_cap1_xl": 24,
+              "fz_cap1_lg": 22,
+              "fz_cap1_md": 20,
+              "fz_cap1_sm": 18,
+              "fz_cap1_xs": 16,
+              "fw1": "900",
+              "fs1": "normal",
+              "tt1": "uppercase",
+              "ff1": "heading",
+              "let1": 0,
+              "line_height1": "1.5",
+              "ts1_w": 0,
+              "ts1_c": "#c42121",
+              "mb1": 15,
+              "mb1_lg": 10,
+              "mb1_md": 5,
+              "mb1_xs": 5,
+              "cap_animate_1": "fadeInLeft",
+              "caption_2": "Cardigan",
+              "color_cap2": "#ffffff",
+              "fz_cap2_xxl": 60,
+              "fz_cap2_xl": 50,
+              "fz_cap2_lg": 40,
+              "fz_cap2_md": 30,
+              "fz_cap2_sm": 26,
+              "fz_cap2_xs": 20,
+              "fw2": "900",
+              "fs2": "normal",
+              "tt2": "uppercase",
+              "ff2": "heading",
+              "let2": 0,
+              "line_height2": "1.5",
+              "mb2": 10,
+              "mb2_lg": 10,
+              "mb2_md": 10,
+              "mb2_xs": 5,
+              "cap_animate_2": "fadeInRight",
+              "caption_3": "NEW ARRIVALS",
+              "color_cap3": "#ffffff",
+              "fz_cap3_xxl": 16,
+              "fz_cap3_xl": 15,
+              "fz_cap3_lg": 14,
+              "fz_cap3_md": 13,
+              "fz_cap3_sm": 12,
+              "fz_cap3_xs": 11,
+              "fw3": "400",
+              "fs3": "normal",
+              "tt3": "uppercase",
+              "ff3": "heading",
+              "let3": 2,
+              "line_height3": "1",
+              "mb3": 65,
+              "mb3_lg": 50,
+              "mb3_md": 30,
+              "mb3_xs": 20,
+              "cap_animate_3": "fadeInLeft",
+              "caption_4": "",
+              "color_cap4": "#ffffff",
+              "fz_cap4_xxl": 14,
+              "fz_cap4_xl": 14,
+              "fz_cap4_lg": 13,
+              "fz_cap4_md": 12,
+              "fz_cap4_sm": 11,
+              "fz_cap4_xs": 10,
+              "fw4": "400",
+              "fs4": "normal",
+              "tt4": "uppercase",
+              "ff4": "heading",
+              "let4": 2,
+              "line_height4": "1.5",
+              "ts4_w": 0,
+              "ts4_c": "",
+              "mb4": 50,
+              "mb4_lg": 0,
+              "mb4_md": 20,
+              "mb4_xs": 10,
+              "cap_animate_4": "fadeInUp",
+              "caption_btn": "Shop now",
+              "slider_link": "#",
+              "c_btn": "#000000",
+              "b_btn": "#ffffff",
+              "c_btn_h": "#ffffff",
+              "b_btn_h": "#dd5621",
+              "caption2_btn": "",
+              "slider_link2": "",
+              "c_btn2": "#ffffff",
+              "b_btn2": "#222222",
+              "c_btn2_h": "#ffffff",
+              "b_btn2_h": "#222222",
+              "cap_content": "fullbox",
+              "text_align": "left",
+              "position": "Width: 100%; Left:4%; Top: 34%",
+              "position_xl": "Width: 100%; Left:4%; Top: 34%",
+              "position_lg": "Width: 100%; Left:4%; Top: 30%",
+              "position_md": "Width: 100%; Left:4%; Top: 25%",
+              "position_sm": "Width: 100%; Left:4%; Top: 15%",
+              "position_xs": "Width: 100%; Left:4%; Top: 25%"
+            }
+          }
+        },
+        "block_order": [
+          "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-0",
+          "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-1",
+          "112c6ebf-0d3e-4474-a810-89df30908ec0-1671855192387fbb9b-2"
+        ],
+        "settings": {
+          "autoplay": true,
+          "zoom": true,
+          "autoplay_speed": "4000",
+          "h_xs": 300,
+          "loading_bar": false,
+          "bg_load": "#ffffff",
+          "bg_load_opacity": 15,
+          "border_radius": 0,
+          "arrows": false,
+          "dots": true,
+          "s_dot": "style-2",
+          "p_dot": 4,
+          "c_dot": "#ffffff",
+          "bg_dot2": "#ffffff",
+          "bg_dot2_opacity": 20,
+          "show_banner": false,
+          "bn_t1": "",
+          "bn_link1": "",
+          "bn_t2": "",
+          "bn_link2": "",
+          "bn_t3": "",
+          "bn_link3": "",
+          "br_banner": 0,
+          "c_bn_t": "",
+          "gradient": "",
+          "animate": false,
+          "container": "container-full",
+          "background_color": "",
+          "class": "",
+          "distance_top": 0,
+          "distance_bottom": 0
+        }
+      },
+      "b28d5555-8555-476a-99d0-5cdcb296f7b1": {
+        "type": "nov-gallery-image",
+        "blocks": {
+          "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-0": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "cta_label": "",
+              "cta_label_c": "#ffffff",
+              "cta_label_n": 18,
+              "cta_label2": "",
+              "cta_label2_c": "#666666",
+              "cta_label2_n": 16,
+              "btn_label": "Shop now",
+              "btn_label_c": "#222222",
+              "btn_label_ch": "#ffffff",
+              "btn_label_br": "#ffffff",
+              "btn_label_b": "#ffffff",
+              "btn_label_bh": "#dd5621",
+              "text_align": "center",
+              "bg": "",
+              "bg_opacity": 100,
+              "class": ""
+            }
+          },
+          "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-1": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "cta_label": "",
+              "cta_label_c": "#ffffff",
+              "cta_label_n": 16,
+              "cta_label2": "",
+              "cta_label2_c": "#666666",
+              "cta_label2_n": 16,
+              "btn_label": "Shop now",
+              "btn_label_c": "#222222",
+              "btn_label_ch": "#ffffff",
+              "btn_label_br": "#ffffff",
+              "btn_label_b": "#ffffff",
+              "btn_label_bh": "#dd5621",
+              "text_align": "center",
+              "bg": "",
+              "bg_opacity": 100,
+              "class": ""
+            }
+          }
+        },
+        "block_order": [
+          "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-0",
+          "b28d5555-8555-476a-99d0-5cdcb296f7b1-16728939961f6f19b6-1"
+        ],
+        "settings": {
+          "heading": "",
+          "heading_c": "#222222",
+          "subheading": "",
+          "subheading_c": "#666666",
+          "title_alignment": "text-left",
+          "md": 2,
+          "bd_radius": 0,
+          "spacing": 15,
+          "style_img_1": false,
+          "style_img_2": true,
+          "animate": false,
+          "background_color": "",
+          "container": "container-full",
+          "class_section": "",
+          "distance_top": 0,
+          "distance_bottom": 30
+        }
+      },
+      "7c850b54-3c52-4eb1-9136-eaa4ab21cfe8": {
+        "type": "nov-collection",
+        "blocks": {
+          "8c78c34f-d28e-41e3-8454-9526d5338c02": {
+            "type": "item",
+            "settings": {
+              "title": "Women Collections",
+              "item1": true,
+              "text1": "Women Boots",
+              "link1": "#",
+              "item2": true,
+              "text2": "Denim Jacket",
+              "link2": "#",
+              "item3": true,
+              "text3": "T-Shirt",
+              "link3": "#",
+              "item4": true,
+              "text4": "Hoodies",
+              "link4": "#",
+              "item5": true,
+              "text5": "Women Coats",
+              "link5": "#",
+              "item6": true,
+              "text6": "Women Dresses",
+              "link6": "#",
+              "item7": true,
+              "text7": "Cardigans",
+              "link7": "#",
+              "item8": true,
+              "text8": "Sweatpants",
+              "link8": "#",
+              "item9": false,
+              "text9": "",
+              "link9": "",
+              "item10": false,
+              "text10": "",
+              "link10": ""
+            }
+          },
+          "49a44052-3a83-4ca6-bc07-819b2e931ba8": {
+            "type": "item",
+            "settings": {
+              "title": "Men Collection",
+              "item1": true,
+              "text1": "Men Sweatshirts",
+              "link1": "#",
+              "item2": true,
+              "image2": "shopify:\/\/shop_images\/c-10.png",
+              "text2": "Denim Jacket",
+              "link2": "#",
+              "item3": true,
+              "image3": "shopify:\/\/shop_images\/c-11.png",
+              "text3": "Men Leather",
+              "link3": "#",
+              "item4": true,
+              "image4": "shopify:\/\/shop_images\/c-12.png",
+              "text4": "T-Shirt",
+              "link4": "#",
+              "item5": true,
+              "image5": "shopify:\/\/shop_images\/c-13.png",
+              "text5": "Polo Shirt",
+              "link5": "#",
+              "item6": true,
+              "image6": "shopify:\/\/shop_images\/c-14.png",
+              "text6": "Men Cardigans",
+              "link6": "#",
+              "item7": true,
+              "image7": "shopify:\/\/shop_images\/c-15.png",
+              "text7": "Skinny Jeans",
+              "link7": "#",
+              "item8": true,
+              "image8": "shopify:\/\/shop_images\/c-16.png",
+              "text8": "Winter Coats",
+              "link8": "#",
+              "item9": false,
+              "text9": "",
+              "link9": "",
+              "item10": false,
+              "text10": "",
+              "link10": ""
+            }
+          }
+        },
+        "block_order": [
+          "8c78c34f-d28e-41e3-8454-9526d5338c02",
+          "49a44052-3a83-4ca6-bc07-819b2e931ba8"
+        ],
+        "settings": {
+          "heading": "<p>POPULAR CATEGORIES<\/p>",
+          "heading_c": "#ffffff",
+          "subheading": "",
+          "subheading_c": "#666666",
+          "title_alignment": "text-center",
+          "aspect": "11",
+          "border_radius": 0,
+          "round": true,
+          "c_tab": "#ffffff",
+          "c_tab_act": "#222222",
+          "bg_tab": "#000000",
+          "bg_tab_act": "#ffffff",
+          "b_tab": "#333333",
+          "color_link": "#ffffff",
+          "color_link_h": "#dd5621",
+          "xxl": 8,
+          "xl": 6,
+          "lg": 5,
+          "md": 4,
+          "sm": 3,
+          "xs": 3,
+          "spacing": 70,
+          "nav": false,
+          "container": "container-fluid",
+          "background_color": "#000000",
+          "class": "",
+          "distance_top": 95,
+          "distance_bottom": 90
+        }
+      },
+      "7468b340-cf51-429f-bc51-4288984ba785": {
+        "type": "nov-gallery-image",
+        "blocks": {
+          "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-0": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "cta_label": "",
+              "cta_label_c": "#ffffff",
+              "cta_label_n": 22,
+              "cta_label2": "",
+              "cta_label2_c": "#666666",
+              "cta_label2_n": 16,
+              "btn_label": "Shop Now",
+              "btn_label_c": "#222222",
+              "btn_label_ch": "#ffffff",
+              "btn_label_br": "#ffffff",
+              "btn_label_b": "#ffffff",
+              "btn_label_bh": "#dd5621",
+              "text_align": "center",
+              "bg": "",
+              "bg_opacity": 100,
+              "class": ""
+            }
+          },
+          "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-1": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "cta_label": "",
+              "cta_label_c": "#ffffff",
+              "cta_label_n": 22,
+              "cta_label2": "",
+              "cta_label2_c": "#666666",
+              "cta_label2_n": 16,
+              "btn_label": "Shop Now",
+              "btn_label_c": "#222222",
+              "btn_label_ch": "#ffffff",
+              "btn_label_br": "#ffffff",
+              "btn_label_b": "#ffffff",
+              "btn_label_bh": "#dd5621",
+              "text_align": "center",
+              "bg": "",
+              "bg_opacity": 100,
+              "class": ""
+            }
+          },
+          "42fd6276-a7b0-44f8-8ecc-b8164921dde1": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "cta_label": "",
+              "cta_label_c": "#222222",
+              "cta_label_n": 22,
+              "cta_label2": "",
+              "cta_label2_c": "#666666",
+              "cta_label2_n": 16,
+              "btn_label": "Shop Now",
+              "btn_label_c": "#000000",
+              "btn_label_ch": "#ffffff",
+              "btn_label_br": "#ffffff",
+              "btn_label_b": "#ffffff",
+              "btn_label_bh": "#dd5621",
+              "text_align": "left",
+              "bg": "",
+              "bg_opacity": 100,
+              "class": ""
+            }
+          }
+        },
+        "block_order": [
+          "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-0",
+          "7468b340-cf51-429f-bc51-4288984ba785-1673511806b95f9833-1",
+          "42fd6276-a7b0-44f8-8ecc-b8164921dde1"
+        ],
+        "settings": {
+          "heading": "<p>SUMMER TRENDS<\/p>",
+          "heading_c": "#222222",
+          "subheading": "<p>See the hottest trends in eyewear and eyeglass styles and find your next pair that fits your face shape and personality. <\/p>",
+          "subheading_c": "#666666",
+          "title_alignment": "text-center",
+          "md": 3,
+          "bd_radius": 0,
+          "spacing": 15,
+          "style_img_1": false,
+          "style_img_2": true,
+          "animate": false,
+          "background_color": "",
+          "container": "container-full",
+          "class_section": "",
+          "distance_top": 55,
+          "distance_bottom": 0
+        }
+      },
+      "80cd93df-e4f2-4f43-b2dd-49e03c87eb60": {
+        "type": "nov-collection-tabs",
+        "blocks": {
+          "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-0": {
+            "type": "tabitem",
+            "settings": {
+              "tab_title": "New Arrivals",
+              "collection_handle": "women"
+            }
+          },
+          "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-1": {
+            "type": "tabitem",
+            "settings": {
+              "tab_title": "Best Sellers",
+              "collection_handle": "funny-quote"
+            }
+          },
+          "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-2": {
+            "type": "tabitem",
+            "settings": {
+              "tab_title": "On Sale",
+              "collection_handle": "men"
+            }
+          }
+        },
+        "block_order": [
+          "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-0",
+          "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-1",
+          "80cd93df-e4f2-4f43-b2dd-49e03c87eb60-1673844158b7e828ef-2"
+        ],
+        "settings": {
+          "heading": "<p>GOTTA HAVE IT<\/p>",
+          "heading_c": "#222222",
+          "subheading": "",
+          "subheading_c": "#666666",
+          "title_alignment": "text-center",
+          "xxl": 3,
+          "xl": 3,
+          "lg": 3,
+          "md": 3,
+          "sm": 2,
+          "xs": 2,
+          "row_number": 1,
+          "row_mobile": 2,
+          "spacing": 30,
+          "show_dot": false,
+          "show_nav": true,
+          "nav_style": "style2",
+          "nav_c": "#909090",
+          "nav_ca": "#000000",
+          "nav_bg": "rgba(0,0,0,0)",
+          "nav_bga": "rgba(0,0,0,0)",
+          "nav_bd": "#e2e2e2",
+          "animate": false,
+          "snow": false,
+          "container": "container-full",
+          "background_color": "",
+          "class": "",
+          "distance_top": 95,
+          "distance_bottom": 85
+        }
+      },
+      "ae3eac1a-ca70-4467-a805-0c2c8e47a35c": {
+        "type": "nov-countdown",
+        "settings": {
+          "heading": "Don't Miss <strong>70% Off<\/strong> All Sale! No Code Needed!",
+          "heading_c": "#ffffff",
+          "heading_hl": "#fff000",
+          "countdown_timeend": "2024\/09\/03",
+          "border_radius": 100,
+          "c_cd": "#222222",
+          "bg_cd": "#fff000",
+          "btn": "Shop now",
+          "btn_link": "shopify:\/\/collections\/flash-deals",
+          "c_btn": "#222222",
+          "b_btn": "#ffffff",
+          "c_btn_h": "#000000",
+          "b_btn_h": "#fff000",
+          "container": "container",
+          "background_color": "#232323",
+          "class": "",
+          "distance_top": 30,
+          "distance_bottom": 30
+        }
+      },
+      "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2": {
+        "type": "nov-text-scroll",
+        "blocks": {
+          "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-0": {
+            "type": "item",
+            "settings": {
+              "icon": "zmdi zmdi-flash",
+              "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+            }
+          },
+          "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-1": {
+            "type": "item",
+            "settings": {
+              "icon": "zmdi zmdi-flash",
+              "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+            }
+          },
+          "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-2": {
+            "type": "item",
+            "settings": {
+              "icon": "zmdi zmdi-flash",
+              "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+            }
+          },
+          "7baa7e32-a93b-4967-920c-ece117f9e391": {
+            "type": "item",
+            "settings": {
+              "icon": "zmdi zmdi-flash",
+              "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+            }
+          },
+          "5a9cc39a-da0d-4f75-b10d-66da5b10f4cc": {
+            "type": "item",
+            "settings": {
+              "icon": "zmdi zmdi-flash",
+              "t": "<p>FREE SHIPPING ON ALL US ORDER OR ORDER ABOVE $200<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-0",
+          "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-1",
+          "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2-1679107132d3fbf313-2",
+          "7baa7e32-a93b-4967-920c-ece117f9e391",
+          "5a9cc39a-da0d-4f75-b10d-66da5b10f4cc"
+        ],
+        "settings": {
+          "time": 60,
+          "t_s": 10,
+          "t_s_md": 11,
+          "t_c": "#222222",
+          "t_fw": "font-700",
+          "t_tt": "none",
+          "t_lh": "1.5",
+          "t_lt": "0",
+          "animate": false,
+          "container": "container-full",
+          "background_color": "#ffc5ae",
+          "bg_opacity": 100,
+          "class": "",
+          "distance_top": 20,
+          "distance_bottom": 15
+        }
+      },
+      "8ca94ba4-99b0-4635-bf7c-c5347e242700": {
+        "type": "nov-image-slider",
+        "blocks": {
+          "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-0": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "align": "text-center",
+              "title": "",
+              "t_c": "#222222",
+              "t_s": 13,
+              "t_s_md": 13,
+              "stitle": "",
+              "st_c": "#666666",
+              "st_s": 13,
+              "st_s_md": 13,
+              "btn": "Shop Now",
+              "c_btn": "#000000",
+              "b_btn": "#ffffff",
+              "c_btn_h": "#ffffff",
+              "b_btn_h": "#dd5621"
+            }
+          },
+          "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-1": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "align": "text-center",
+              "title": "",
+              "t_c": "#222222",
+              "t_s": 13,
+              "t_s_md": 13,
+              "stitle": "",
+              "st_c": "#666666",
+              "st_s": 13,
+              "st_s_md": 13,
+              "btn": "Read more",
+              "c_btn": "#000000",
+              "b_btn": "#ffffff",
+              "c_btn_h": "#ffffff",
+              "b_btn_h": "#dd5621"
+            }
+          },
+          "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-2": {
+            "type": "image",
+            "settings": {
+              "link": "#",
+              "align": "text-center",
+              "title": "",
+              "t_c": "#222222",
+              "t_s": 13,
+              "t_s_md": 13,
+              "stitle": "",
+              "st_c": "#666666",
+              "st_s": 13,
+              "st_s_md": 13,
+              "btn": "Read more",
+              "c_btn": "#000000",
+              "b_btn": "#ffffff",
+              "c_btn_h": "#ffffff",
+              "b_btn_h": "#dd5621"
+            }
+          }
+        },
+        "block_order": [
+          "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-0",
+          "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-1",
+          "8ca94ba4-99b0-4635-bf7c-c5347e242700-1679112756f3b6ca68-2"
+        ],
+        "settings": {
+          "auto": false,
+          "time": 3,
+          "s_dot": false,
+          "s_nav": true,
+          "spacing": "15",
+          "border_radius": 0,
+          "lg": 1,
+          "md": 1,
+          "sm": 1,
+          "xs": 1,
+          "one_slider": false,
+          "animate": true,
+          "container": "container",
+          "class": "",
+          "distance_top": 30,
+          "distance_bottom": 120
+        }
+      },
+      "edde0110-7127-4e43-acfb-dcdb0e2c51af": {
+        "type": "nov-lookbook-product",
+        "blocks": {
+          "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-1": {
+            "type": "lookbook",
+            "settings": {
+              "pin_position_1": "Top: 56%; Left: 57%",
+              "pin_product_1": "t-shirt-sleeve-blouse"
+            }
+          },
+          "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-0": {
+            "type": "lookbook",
+            "settings": {
+              "pin_position_1": "Top: 40%; Left: 25%",
+              "pin_product_1": "copy-of-t-shirt-little-guy"
+            }
+          }
+        },
+        "block_order": [
+          "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-1",
+          "edde0110-7127-4e43-acfb-dcdb0e2c51af-16791286769ebb1bfc-0"
+        ],
+        "settings": {
+          "heading": "",
+          "heading_c": "#222222",
+          "subheading": "",
+          "subheading_c": "#666666",
+          "title_alignment": "text-left",
+          "border_radius": 0,
+          "autoplay": true,
+          "dot": true,
+          "container": "container",
+          "background_color": "#ffffff",
+          "class": "",
+          "distance_top": 30,
+          "distance_bottom": 120
+        }
+      },
+      "f3383534-6809-4d13-9248-61b1ec35cbe1": {
+        "type": "nov-line",
+        "settings": {
+          "height": 1,
+          "color": "#eaeaea",
+          "style": "solid",
+          "opacity": 100,
+          "animate": true,
+          "has_fullwidth": true,
+          "class": "",
+          "distance_top": 30,
+          "distance_bottom": 30
+        }
+      },
+      "d8b810c5-1e86-4f87-b456-ced41e248932": {
+        "type": "nov-policy",
+        "blocks": {
+          "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-0": {
+            "type": "item_policy",
+            "settings": {
+              "title_policy": "30 DAYS RETURN",
+              "desc_policy": "<p>Simply return it within 30 days for an exchange.<\/p>",
+              "tl": "",
+              "link": "",
+              "class": "mb-sm-30"
+            }
+          },
+          "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-1": {
+            "type": "item_policy",
+            "settings": {
+              "title_policy": "FREE US DELIVERY",
+              "desc_policy": "<p>On orders over $200!<\/p>",
+              "tl": "",
+              "link": "",
+              "class": "mb-sm-30"
+            }
+          },
+          "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-2": {
+            "type": "item_policy",
+            "settings": {
+              "title_policy": "Support 24\/7",
+              "desc_policy": "<p>Contact us 24 hours a day, 7 days a week<\/p>",
+              "tl": "",
+              "link": "",
+              "class": ""
+            }
+          }
+        },
+        "block_order": [
+          "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-0",
+          "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-1",
+          "d8b810c5-1e86-4f87-b456-ced41e248932-167912899432e14bae-2"
+        ],
+        "settings": {
+          "heading": "",
+          "heading_c": "#222222",
+          "subheading": "",
+          "subheading_c": "#666666",
+          "title_alignment": "text-left",
+          "style": "style1",
+          "width_icon": 90,
+          "height_icon": 30,
+          "bg_i": false,
+          "bg_i_w": 85,
+          "bg_icon": "#ffffff",
+          "text_fz": 13,
+          "text_color": "#000000",
+          "desc_color": "#000000",
+          "desc_fz": 12,
+          "width_xl": "col-xl-4",
+          "width_lg": "col-lg-4",
+          "width_md": "col-md-4",
+          "width_sm": "col-sm-12",
+          "width_xs": "col-12",
+          "animate": true,
+          "container": "container-full",
+          "background_color": "",
+          "bg_opacity": 100,
+          "class": "",
+          "distance_top": 120,
+          "distance_bottom": 140
+        }
+      },
+      "e8069628-9f10-44e6-a4d5-1c7b466ba25c": {
+        "type": "nov-gallery-ins",
+        "blocks": {
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-0": {
+            "type": "image",
+            "settings": {}
+          },
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-1": {
+            "type": "image",
+            "settings": {}
+          },
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-2": {
+            "type": "image",
+            "settings": {}
+          },
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-3": {
+            "type": "image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-0",
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-1",
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-2",
+          "e8069628-9f10-44e6-a4d5-1c7b466ba25c-1679129786d079e8eb-3"
+        ],
+        "settings": {
+          "heading": "<p>Follow us on Instagram<\/p>",
+          "heading_c": "#222222",
+          "subheading": "<p>@vinovatheme<\/p>",
+          "subheading_c": "#393939",
+          "desc": "<p>Contemporary wardrobe staples and authentic style for the modern man and women. Follow us for the latest trends.<br\/>Tag us and get featured @vinovatheme<br\/><br\/>instagram.com\/vinovatheme<\/p>",
+          "desc_c": "#505157",
+          "title_alignment": "text-left",
+          "xl": 2,
+          "lg": 2,
+          "md": 2,
+          "sm": 2,
+          "xs": 2,
+          "spacing": 10,
+          "animate": true,
+          "container": "container-full",
+          "background_color": "#e7e8eb",
+          "class": "",
+          "distance_top": 0,
+          "distance_bottom": 0
+        }
+      },
+      "eb943b35-6685-4229-89ba-ea2a316b21e0": {
+        "type": "nov-testimonials",
+        "blocks": {
+          "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-0": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "Very good i love it, Amazing quality",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          },
+          "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-1": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "Cum sociis natoque",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          },
+          "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-2": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "Great fit very comfortable",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          },
+          "02ba30b7-7798-40cf-9675-583c0670ead2": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "I love this product so much",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          },
+          "1a9ca0a4-36fc-4172-8cf7-9632af689c04": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "Accessorize with a straw",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          },
+          "1700f124-748c-4067-a4fd-8ce73b97560e": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "Best Design",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          },
+          "ad18e750-8edf-4dd4-bc63-8734fbcf11e1": {
+            "type": "quote",
+            "settings": {
+              "star": 5,
+              "info_other": "Yllamcorper miaculis",
+              "quote": "<p>Best purchase I’ve made this winter! The color and knitting are exquisite and it's so comfy! Went from NYC to Miami without ever taking it off. Super cute!!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-0",
+          "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-1",
+          "eb943b35-6685-4229-89ba-ea2a316b21e0-16791301172193a811-2",
+          "02ba30b7-7798-40cf-9675-583c0670ead2",
+          "1a9ca0a4-36fc-4172-8cf7-9632af689c04",
+          "1700f124-748c-4067-a4fd-8ce73b97560e",
+          "ad18e750-8edf-4dd4-bc63-8734fbcf11e1"
+        ],
+        "settings": {
+          "heading": "<p>LET CUSTOMERS SPEAK FOR US<\/p>",
+          "heading_c": "#222222",
+          "subheading": "<p><strong>FROM 27 REVIEWS<\/strong><\/p>",
+          "subheading_c": "#a3a3a3",
+          "title_alignment": "text-center",
+          "xl": 3,
+          "lg": 3,
+          "md": 2,
+          "sm": 1,
+          "xs": 1,
+          "spacing": 30,
+          "show_nav": false,
+          "show_dots": true,
+          "c_info": "#222222",
+          "c_t": "#505157",
+          "s_star": true,
+          "c_star": "#27895c",
+          "show_avatar": false,
+          "animate": true,
+          "br_container": 0,
+          "tl_radius": true,
+          "tr_radius": true,
+          "bl_radius": true,
+          "br_radius": true,
+          "container": "container-fluid",
+          "background_color": "",
+          "bg_size": "full",
+          "class": "",
+          "distance_top": 140,
+          "distance_bottom": 130
+        }
+      },
+      "nov-promotion-bar": {
+        "type": "nov-promotion-bar",
+        "settings": {
+          "show_promotion_bar": false,
+          "type": "slider",
+          "time": 10,
+          "auto": false,
+          "timeauto": 3,
+          "show_nav": false,
+          "c_nav": "",
+          "t_s": 13,
+          "t_s_md": 13,
+          "t_c": "#222222",
+          "t_fw": "font-400",
+          "t_tt": "none",
+          "t_lh": "1.5",
+          "t_lt": "0",
+          "cd_c": "#ffffff",
+          "cd_bg": "#222222",
+          "icon_c": "#222222",
+          "dot_c": "#222222",
+          "show_close": false,
+          "close_c": "",
+          "bd_b": false,
+          "bd_bc": "",
+          "container": "container",
+          "background_color": "",
+          "bg_opacity": 100,
+          "distance_top": 5,
+          "distance_bottom": 5
+        }
+      }
+    },
+    "content_for_index": [
+      "ae3eac1a-ca70-4467-a805-0c2c8e47a35c",
+      "ec83bf9c-886b-4a7f-9e39-ab6c8ba34ed2",
+      "112c6ebf-0d3e-4474-a810-89df30908ec0",
+      "7468b340-cf51-429f-bc51-4288984ba785",
+      "b28d5555-8555-476a-99d0-5cdcb296f7b1",
+      "80cd93df-e4f2-4f43-b2dd-49e03c87eb60",
+      "8ca94ba4-99b0-4635-bf7c-c5347e242700",
+      "edde0110-7127-4e43-acfb-dcdb0e2c51af",
+      "f3383534-6809-4d13-9248-61b1ec35cbe1",
+      "d8b810c5-1e86-4f87-b456-ced41e248932",
+      "e8069628-9f10-44e6-a4d5-1c7b466ba25c",
+      "eb943b35-6685-4229-89ba-ea2a316b21e0",
+      "7c850b54-3c52-4eb1-9136-eaa4ab21cfe8"
+    ],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "highest",
+          "greeting_message": ""
+        }
+      },
+      "1804893150726543839": {
+        "type": "shopify:\/\/apps\/nova-multi-currency-converter\/blocks\/app-embed\/a5be3c35-cbd0-46a1-ac3a-1ace57a9c1ce",
+        "disabled": false,
+        "settings": {}
+      },
+      "6174324309569838175": {
+        "type": "shopify:\/\/apps\/smile-io\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": true,
+        "settings": {}
+      },
+      "15404810374585504564": {
+        "type": "shopify:\/\/apps\/videeo-mobile-commerce\/blocks\/app-embed-sdk\/acf9f8eb-c211-4324-a19b-9f362f43b225",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,832 @@
+{%- assign sst = section.settings -%}
+<div class="distance{% if sst.class != blank %} {{ sst.class }}{% endif %}{% if sst.animate == true %} wow fadeInUp animated{% endif %}">
+  {% if sst.container == 'container' %}
+    <div class="container">
+  {% elsif sst.container == 'container-fluid' %}
+    <div class="container-fluid">
+  {% else %}
+    <div class="container-full">
+  {% endif %} 
+    {% if sst.heading != blank or sst.subheading != blank %}
+      <div class="title_section {{ sst.title_alignment }}">
+        {% if sst.heading != blank %}
+          <span class="title" style="color: {{ sst.heading_c }};">{{ sst.heading }}</span>
+        {% endif %}
+        {% if sst.subheading != blank %}
+          <span class="sub_title" style="color: {{ sst.subheading_c }};">{{ sst.subheading }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="row spacing-{{ sst.spacing }}">
+      {% for block in section.blocks %}
+        {%- assign bst = block.settings -%}
+        <div class="{{ bst.wg_lg }} {{ bst.wg_md }} {{ bst.wg_sm }}{% if bst.class_group_image != blank %} {{ bst.class_group_image }}{% endif %}">
+          <div class="row spacing-{{ sst.spacing }} spacing-sm-10">
+            <div class="{{ bst.wi1 }} {{ bst.wi1_md }} {{ bst.wi1_sm }} {{ bst.wi1_xs }}{% if bst.class_1 != blank %} {{ bst.class_1 }}{% endif %}">
+              {% if bst.image_1 != blank %}
+                <div class="gallery-image__item{% if sst.style_img_1 == true %} nov-sh-image-1{% endif %}{% if sst.style_img_2 == true %} nov-sh-image-2{% endif %}">
+                  {% if bst.link_1 != blank and bst.title_1 == blank %}
+                    <a class="w-100" href="{{ bst.link_1 }}">
+                  {% endif %}
+                  {% assign img_url = bst.image_1 %}
+                  <div class="respone_image" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                    <img class="lazyload"
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                      data-src="{{ img_url | img_url: '180x' }}"
+                      data-srcset="{{ img_url | img_url: '180x' }} 180w,{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w,{{ img_url | img_url: '768x' }} 768w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w,{{ img_url | img_url: '1170x' }} 1200w,{{ img_url | img_url: '1512x' }} 1512w,{{ img_url | img_url: '1728x' }} 1728w, {{ img_url | img_url: '2048x' }} 2048w" data-sizes="auto" alt="{{ img_url.alt }}">
+                  </div>
+                  {% if bst.link_1 != blank and bst.title_1 == blank %}
+                    </a>
+                  {% endif %}
+                  {% if bst.title_1 != blank %}
+                    <a href="{{ bst.link_1 }}" class="btn">{{ bst.title_1 }}</a>
+                  {% endif %}
+                </div>
+              {% else %}
+                {%- capture current -%}{% cycle 1, 2, 3 %}{%- endcapture -%}
+                {{ 'blog-apparel-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+            {% if bst.image_2 != blank %}
+              <div class="{{ bst.wi2 }} {{ bst.wi2_md }} {{ bst.wi2_sm }} {{ bst.wi2_xs }}{% if bst.class_2 != blank %} {{ bst.class_2 }}{% endif %}">
+                <div class="gallery-image__item{% if sst.style_img_1 == true %} nov-sh-image-1{% endif %}{% if sst.style_img_2 == true %} nov-sh-image-2{% endif %}">
+                  {% if bst.link_2 != blank and bst.title_2 == blank %}
+                    <a class="w-100" href="{{ bst.link_2 }}">
+                  {% endif %}
+                  {% assign img_url = bst.image_2 %}
+                  <div class="respone_image" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                    <img class="lazyload"
+                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                      data-src="{{ img_url | img_url: '180x' }}"
+                      data-srcset="{{ img_url | img_url: '180x' }} 180w,{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w,{{ img_url | img_url: '768x' }} 768w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w,{{ img_url | img_url: '1170x' }} 1200,{{ img_url | img_url: '1512x' }} 1512w,{{ img_url | img_url: '1728x' }} 1728w, {{ img_url | img_url: '2048x' }} 2048w" data-sizes="auto" alt="{{ img_url.alt }}">
+                  </div>
+                  {% if bst.link_2 != blank and bst.title_2 == blank %}
+                    </a>
+                  {% endif %}
+                  {% if bst.title_2 != blank %}
+                    <a href="{{ bst.link_2 }}" class="btn">{{ bst.title_2 }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+            {% if bst.image_3 != blank %}
+              <div class="{{ bst.wi3 }} {{ bst.wi3_md }} {{ bst.wi3_sm }} {{ bst.wi3_xs }}{% if bst.class_3 != blank %} {{ bst.class_3 }}{% endif %}">
+                <div class="gallery-image__item{% if sst.style_img_1 == true %} nov-sh-image-1{% endif %}{% if sst.style_img_2 == true %} nov-sh-image-2{% endif %}">
+                  {% if bst.link_3 != blank and bst.title_3 == blank %}
+                    <a class="w-100" href="{{ bst.link_3 }}">
+                  {% endif %}
+                    {% assign img_url = bst.image_3 %}
+                    <div class="respone_image" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                      <img class="lazyload"
+                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                        data-src="{{ img_url | img_url: '180x' }}"
+                        data-srcset="{{ img_url | img_url: '180x' }} 180w,{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w,{{ img_url | img_url: '768x' }} 768w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w,{{ img_url | img_url: '1170x' }} 1200,{{ img_url | img_url: '1512x' }} 1512w,{{ img_url | img_url: '1728x' }} 1728w, {{ img_url | img_url: '2048x' }} 2048w" data-sizes="auto" alt="{{ img_url.alt }}">
+                    </div>
+                  {% if bst.link_3 != blank and bst.title_3 == blank %}
+                    </a>
+                  {% endif %}
+                  {% if bst.title_3 != blank %}
+                    <a href="{{ bst.link_3 }}" class="btn">{{ bst.title_3 }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+            {% if bst.image_4 != blank %}
+              <div class="{{ bst.wi4 }} {{ bst.wi4_md }} {{ bst.wi4_sm }} {{ bst.wi4_xs }}{% if bst.class_4 != blank %} {{ bst.class_4 }}{% endif %}">
+                <div class="gallery-image__item{% if sst.style_img_1 == true %} nov-sh-image-1{% endif %}{% if sst.style_img_2 == true %} nov-sh-image-2{% endif %}">
+                  {% if bst.link_4 != blank and bst.title_4 == blank %}
+                    <a class="w-100" href="{{ bst.link_4 }}">
+                  {% endif %}
+                    {% assign img_url = bst.image_4 %}
+                    <div class="respone_image" style="padding-top:{{ 1 | divided_by: img_url.aspect_ratio | times: 100}}%;">
+                      <img class="lazyload"
+                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+                        data-src="{{ img_url | img_url: '180x' }}"
+                        data-srcset="{{ img_url | img_url: '180x' }} 180w,{{ img_url | img_url: '380x' }} 380w,{{ img_url | img_url: '580x' }} 580w,{{ img_url | img_url: '768x' }} 768w,{{ img_url | img_url: '900x' }} 900w,{{ img_url | img_url: '1080x' }} 1080w,{{ img_url | img_url: '1170x' }} 1200,{{ img_url | img_url: '1512x' }} 1512w,{{ img_url | img_url: '1728x' }} 1728w, {{ img_url | img_url: '2048x' }} 2048w" data-sizes="auto" alt="{{ img_url.alt }}">
+                    </div>
+                  {% if bst.link_4 != blank and bst.title_4 == blank %}
+                    </a>
+                  {% endif %}
+                  {% if bst.title_4 != blank %}
+                    <a href="{{ bst.link_4 }}" class="btn">{{ bst.title_4 }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Gallery Image Custom",
+    "class": "section-img-group",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<p>Vinova Group Image</p>"
+      },
+      {
+        "type": "color",
+        "id": "heading_c",
+        "label": "Heading color",
+        "default": "#222222"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Sub heading",
+        "default": "<p>Subtitle from happy customers</p>"
+      },
+      {
+        "type": "color",
+        "id": "subheading_c",
+        "label": "Sub heading color",
+        "default": "#666666"
+      },
+      {
+        "type": "select",
+        "id": "title_alignment",
+        "label": "Heading alignment",
+        "default": "text-left",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Center"
+          },
+          {
+            "value": "text-right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "spacing",
+        "min": 0,
+        "max": 60,
+        "step": 5,
+        "label": "Spacing items",
+        "default": 30
+      },
+      {
+        "type": "header",
+        "content": "Style hover image"
+      },
+      {
+        "type": "checkbox",
+        "id": "style_img_1",
+        "label": "Style hover image 1"
+      },
+      {
+        "type": "checkbox",
+        "id": "style_img_2",
+        "label": "Style hover image 2"
+      },
+      {
+        "type": "header",
+        "content": "Button style"
+      },
+      {
+        "type": "color",
+        "id": "btn_label_c",
+        "label": "Text button color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "btn_label_ch",
+        "label": "Button color hover",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "btn_label_br",
+        "label": "Button border color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "btn_label_b",
+        "label": "Button background",
+        "default": "#222222"
+      },
+      {
+        "type": "color",
+        "id": "btn_label_bh",
+        "label": "Button background hover",
+        "default": "#000000"
+      },
+      {
+        "type": "header",
+        "content": "Design options"
+      },
+      {
+        "type": "checkbox",
+        "id": "animate",
+        "label": "Show animated",
+        "default":   true
+      },
+      {
+        "type": "select",
+        "id": "container",
+        "label": "Container",
+        "default": "container",
+        "options": [
+          { "value": "container", "label": "Container" },
+          { "value": "container-fluid", "label": "Container fluid" },
+          { "value": "container-full", "label": "Container full width" }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background colors"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background image"
+      },
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Class"
+      },
+      {
+        "type": "number",
+        "id": "distance_top",
+        "label": "Top spacing section (px)",
+        "default": 30
+      },
+      {
+        "type": "number",
+        "id": "distance_bottom",
+        "label": "Bottom spacing section (px)",
+        "default": 30
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "select",
+            "id": "wg_lg",
+            "label": "Width group image desktop 992px ↑",
+            "default": "col-lg-4",
+            "options": [
+              {"value": "col-lg-1", "label": "1/12"},
+              {"value": "col-lg-2", "label": "2/12"},
+              {"value": "col-lg-3", "label": "3/12"},
+              {"value": "col-lg-4", "label": "4/12"},
+              {"value": "col-lg-5", "label": "5/12"},
+              {"value": "col-lg-6", "label": "6/12"},
+              {"value": "col-lg-7", "label": "7/12"},
+              {"value": "col-lg-8", "label": "8/12"},
+              {"value": "col-lg-9", "label": "9/12"},
+              {"value": "col-lg-10", "label": "10/12"},
+              {"value": "col-lg-11", "label": "11/12"},
+              {"value": "col-lg-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wg_md",
+            "label": "Width group image tablet 768px ↑",
+            "default": "col-md-4",
+            "options": [
+              {"value": "col-md-1", "label": "1/12"},
+              {"value": "col-md-2", "label": "2/12"},
+              {"value": "col-md-3", "label": "3/12"},
+              {"value": "col-md-4", "label": "4/12"},
+              {"value": "col-md-5", "label": "5/12"},
+              {"value": "col-md-6", "label": "6/12"},
+              {"value": "col-md-7", "label": "7/12"},
+              {"value": "col-md-8", "label": "8/12"},
+              {"value": "col-md-9", "label": "9/12"},
+              {"value": "col-md-10", "label": "10/12"},
+              {"value": "col-md-11", "label": "11/12"},
+              {"value": "col-md-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wg_sm",
+            "label": "Width group image large mobile 576px ↑",
+            "default": "col-sm-6",
+            "options": [
+              {"value": "col-sm-1", "label": "1/12"},
+              {"value": "col-sm-2", "label": "2/12"},
+              {"value": "col-sm-3", "label": "3/12"},
+              {"value": "col-sm-4", "label": "4/12"},
+              {"value": "col-sm-5", "label": "5/12"},
+              {"value": "col-sm-6", "label": "6/12"},
+              {"value": "col-sm-7", "label": "7/12"},
+              {"value": "col-sm-8", "label": "8/12"},
+              {"value": "col-sm-9", "label": "9/12"},
+              {"value": "col-sm-10", "label": "10/12"},
+              {"value": "col-sm-11", "label": "11/12"},
+              {"value": "col-sm-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "text",
+            "id": "class_group_image",
+            "label": "Class Group"
+          },
+          {
+            "type": "header",
+            "content": "Image 1"
+          },
+          {
+            "type": "select",
+            "id": "wi1",
+            "label": "Width image desktop 992px ↑",
+            "default": "col-lg-12",
+            "options": [
+              {"value": "col-lg-1", "label": "1/12"},
+              {"value": "col-lg-2", "label": "2/12"},
+              {"value": "col-lg-3", "label": "3/12"},
+              {"value": "col-lg-4", "label": "4/12"},
+              {"value": "col-lg-5", "label": "5/12"},
+              {"value": "col-lg-6", "label": "6/12"},
+              {"value": "col-lg-7", "label": "7/12"},
+              {"value": "col-lg-8", "label": "8/12"},
+              {"value": "col-lg-9", "label": "9/12"},
+              {"value": "col-lg-10", "label": "10/12"},
+              {"value": "col-lg-11", "label": "11/12"},
+              {"value": "col-lg-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi1_md",
+            "label": "Width image tablet 768px ↑",
+            "default": "col-md-4",
+            "options": [
+              {"value": "col-md-1", "label": "1/12"},
+              {"value": "col-md-2", "label": "2/12"},
+              {"value": "col-md-3", "label": "3/12"},
+              {"value": "col-md-4", "label": "4/12"},
+              {"value": "col-md-5", "label": "5/12"},
+              {"value": "col-md-6", "label": "6/12"},
+              {"value": "col-md-7", "label": "7/12"},
+              {"value": "col-md-8", "label": "8/12"},
+              {"value": "col-md-9", "label": "9/12"},
+              {"value": "col-md-10", "label": "10/12"},
+              {"value": "col-md-11", "label": "11/12"},
+              {"value": "col-md-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi1_sm",
+            "label": "Width image large mobile 576px ↑",
+            "default": "col-sm-12",
+            "options": [
+              {"value": "col-sm-1", "label": "1/12"},
+              {"value": "col-sm-2", "label": "2/12"},
+              {"value": "col-sm-3", "label": "3/12"},
+              {"value": "col-sm-4", "label": "4/12"},
+              {"value": "col-sm-5", "label": "5/12"},
+              {"value": "col-sm-6", "label": "6/12"},
+              {"value": "col-sm-7", "label": "7/12"},
+              {"value": "col-sm-8", "label": "8/12"},
+              {"value": "col-sm-9", "label": "9/12"},
+              {"value": "col-sm-10", "label": "10/12"},
+              {"value": "col-sm-11", "label": "11/12"},
+              {"value": "col-sm-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi1_xs",
+            "label": "Width image mobile 575px ↓",
+            "default": "col-12",
+            "options": [
+              {"value": "col-1", "label": "1/12"},
+              {"value": "col-2", "label": "2/12"},
+              {"value": "col-3", "label": "3/12"},
+              {"value": "col-4", "label": "4/12"},
+              {"value": "col-5", "label": "5/12"},
+              {"value": "col-6", "label": "6/12"},
+              {"value": "col-7", "label": "7/12"},
+              {"value": "col-8", "label": "8/12"},
+              {"value": "col-9", "label": "9/12"},
+              {"value": "col-10", "label": "10/12"},
+              {"value": "col-11", "label": "11/12"},
+              {"value": "col-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title_1",
+            "label": "Button"
+          },
+          {
+            "type": "url",
+            "id": "link_1",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "class_1",
+            "label": "Class"
+          },
+          {
+            "type": "header",
+            "content": "Image 2"
+          },
+          {
+            "type": "select",
+            "id": "wi2",
+            "label": "Width image 992px ↑",
+            "default": "col-lg-4",
+            "options": [
+              {"value": "col-lg-1", "label": "1/12"},
+              {"value": "col-lg-2", "label": "2/12"},
+              {"value": "col-lg-3", "label": "3/12"},
+              {"value": "col-lg-4", "label": "4/12"},
+              {"value": "col-lg-5", "label": "5/12"},
+              {"value": "col-lg-6", "label": "6/12"},
+              {"value": "col-lg-7", "label": "7/12"},
+              {"value": "col-lg-8", "label": "8/12"},
+              {"value": "col-lg-9", "label": "9/12"},
+              {"value": "col-lg-10", "label": "10/12"},
+              {"value": "col-lg-11", "label": "11/12"},
+              {"value": "col-lg-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi2_md",
+            "label": "Width image tablet 768px ↑",
+            "default": "col-md-4",
+            "options": [
+              {"value": "col-md-1", "label": "1/12"},
+              {"value": "col-md-2", "label": "2/12"},
+              {"value": "col-md-3", "label": "3/12"},
+              {"value": "col-md-4", "label": "4/12"},
+              {"value": "col-md-5", "label": "5/12"},
+              {"value": "col-md-6", "label": "6/12"},
+              {"value": "col-md-7", "label": "7/12"},
+              {"value": "col-md-8", "label": "8/12"},
+              {"value": "col-md-9", "label": "9/12"},
+              {"value": "col-md-10", "label": "10/12"},
+              {"value": "col-md-11", "label": "11/12"},
+              {"value": "col-md-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi2_sm",
+            "label": "Width image large mobile 576px ↑",
+            "default": "col-sm-12",
+            "options": [
+              {"value": "col-sm-1", "label": "1/12"},
+              {"value": "col-sm-2", "label": "2/12"},
+              {"value": "col-sm-3", "label": "3/12"},
+              {"value": "col-sm-4", "label": "4/12"},
+              {"value": "col-sm-5", "label": "5/12"},
+              {"value": "col-sm-6", "label": "6/12"},
+              {"value": "col-sm-7", "label": "7/12"},
+              {"value": "col-sm-8", "label": "8/12"},
+              {"value": "col-sm-9", "label": "9/12"},
+              {"value": "col-sm-10", "label": "10/12"},
+              {"value": "col-sm-11", "label": "11/12"},
+              {"value": "col-sm-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi2_xs",
+            "label": "Width image mobile 575px ↓",
+            "default": "col-12",
+            "options": [
+              {"value": "col-1", "label": "1/12"},
+              {"value": "col-2", "label": "2/12"},
+              {"value": "col-3", "label": "3/12"},
+              {"value": "col-4", "label": "4/12"},
+              {"value": "col-5", "label": "5/12"},
+              {"value": "col-6", "label": "6/12"},
+              {"value": "col-7", "label": "7/12"},
+              {"value": "col-8", "label": "8/12"},
+              {"value": "col-9", "label": "9/12"},
+              {"value": "col-10", "label": "10/12"},
+              {"value": "col-11", "label": "11/12"},
+              {"value": "col-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image_2",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title_2",
+            "label": "Button"
+          },
+          {
+            "type": "url",
+            "id": "link_2",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "class_2",
+            "label": "Class"
+          },
+          {
+            "type": "header",
+            "content": "Image 3"
+          },
+          {
+            "type": "select",
+            "id": "wi3",
+            "label": "Width image desktop 992px ↑",
+            "default": "col-lg-4",
+            "options": [
+              {"value": "col-lg-1", "label": "1/12"},
+              {"value": "col-lg-2", "label": "2/12"},
+              {"value": "col-lg-3", "label": "3/12"},
+              {"value": "col-lg-4", "label": "4/12"},
+              {"value": "col-lg-5", "label": "5/12"},
+              {"value": "col-lg-6", "label": "6/12"},
+              {"value": "col-lg-7", "label": "7/12"},
+              {"value": "col-lg-8", "label": "8/12"},
+              {"value": "col-lg-9", "label": "9/12"},
+              {"value": "col-lg-10", "label": "10/12"},
+              {"value": "col-lg-11", "label": "11/12"},
+              {"value": "col-lg-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi3_md",
+            "label": "Width image tablet 768px ↑",
+            "default": "col-md-4",
+            "options": [
+              {"value": "col-md-1", "label": "1/12"},
+              {"value": "col-md-2", "label": "2/12"},
+              {"value": "col-md-3", "label": "3/12"},
+              {"value": "col-md-4", "label": "4/12"},
+              {"value": "col-md-5", "label": "5/12"},
+              {"value": "col-md-6", "label": "6/12"},
+              {"value": "col-md-7", "label": "7/12"},
+              {"value": "col-md-8", "label": "8/12"},
+              {"value": "col-md-9", "label": "9/12"},
+              {"value": "col-md-10", "label": "10/12"},
+              {"value": "col-md-11", "label": "11/12"},
+              {"value": "col-md-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi3_sm",
+            "label": "Width image large mobile 576px ↑",
+            "default": "col-sm-12",
+            "options": [
+              {"value": "col-sm-1", "label": "1/12"},
+              {"value": "col-sm-2", "label": "2/12"},
+              {"value": "col-sm-3", "label": "3/12"},
+              {"value": "col-sm-4", "label": "4/12"},
+              {"value": "col-sm-5", "label": "5/12"},
+              {"value": "col-sm-6", "label": "6/12"},
+              {"value": "col-sm-7", "label": "7/12"},
+              {"value": "col-sm-8", "label": "8/12"},
+              {"value": "col-sm-9", "label": "9/12"},
+              {"value": "col-sm-10", "label": "10/12"},
+              {"value": "col-sm-11", "label": "11/12"},
+              {"value": "col-sm-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi3_xs",
+            "label": "Width image mobile 575px ↓",
+            "default": "col-12",
+            "options": [
+              {"value": "col-1", "label": "1/12"},
+              {"value": "col-2", "label": "2/12"},
+              {"value": "col-3", "label": "3/12"},
+              {"value": "col-4", "label": "4/12"},
+              {"value": "col-5", "label": "5/12"},
+              {"value": "col-6", "label": "6/12"},
+              {"value": "col-7", "label": "7/12"},
+              {"value": "col-8", "label": "8/12"},
+              {"value": "col-9", "label": "9/12"},
+              {"value": "col-10", "label": "10/12"},
+              {"value": "col-11", "label": "11/12"},
+              {"value": "col-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image_3",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title_3",
+            "label": "Button"
+          },
+          {
+            "type": "url",
+            "id": "link_3",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "class_3",
+            "label": "Class"
+          },
+          {
+            "type": "header",
+            "content": "Image 4"
+          },
+          {
+            "type": "select",
+            "id": "wi4",
+            "label": "Width image desktop 992px ↑",
+            "default": "col-lg-4",
+            "options": [
+              {"value": "col-lg-1", "label": "1/12"},
+              {"value": "col-lg-2", "label": "2/12"},
+              {"value": "col-lg-3", "label": "3/12"},
+              {"value": "col-lg-4", "label": "4/12"},
+              {"value": "col-lg-5", "label": "5/12"},
+              {"value": "col-lg-6", "label": "6/12"},
+              {"value": "col-lg-7", "label": "7/12"},
+              {"value": "col-lg-8", "label": "8/12"},
+              {"value": "col-lg-9", "label": "9/12"},
+              {"value": "col-lg-10", "label": "10/12"},
+              {"value": "col-lg-11", "label": "11/12"},
+              {"value": "col-lg-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi4_md",
+            "label": "Width image tablet 768px ↑",
+            "default": "col-md-4",
+            "options": [
+              {"value": "col-md-1", "label": "1/12"},
+              {"value": "col-md-2", "label": "2/12"},
+              {"value": "col-md-3", "label": "3/12"},
+              {"value": "col-md-4", "label": "4/12"},
+              {"value": "col-md-5", "label": "5/12"},
+              {"value": "col-md-6", "label": "6/12"},
+              {"value": "col-md-7", "label": "7/12"},
+              {"value": "col-md-8", "label": "8/12"},
+              {"value": "col-md-9", "label": "9/12"},
+              {"value": "col-md-10", "label": "10/12"},
+              {"value": "col-md-11", "label": "11/12"},
+              {"value": "col-md-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi4_sm",
+            "label": "Width image large mobile 576px ↑",
+            "default": "col-sm-12",
+            "options": [
+              {"value": "col-sm-1", "label": "1/12"},
+              {"value": "col-sm-2", "label": "2/12"},
+              {"value": "col-sm-3", "label": "3/12"},
+              {"value": "col-sm-4", "label": "4/12"},
+              {"value": "col-sm-5", "label": "5/12"},
+              {"value": "col-sm-6", "label": "6/12"},
+              {"value": "col-sm-7", "label": "7/12"},
+              {"value": "col-sm-8", "label": "8/12"},
+              {"value": "col-sm-9", "label": "9/12"},
+              {"value": "col-sm-10", "label": "10/12"},
+              {"value": "col-sm-11", "label": "11/12"},
+              {"value": "col-sm-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "wi4_xs",
+            "label": "Width image mobile 575px ↓",
+            "default": "col-12",
+            "options": [
+              {"value": "col-1", "label": "1/12"},
+              {"value": "col-2", "label": "2/12"},
+              {"value": "col-3", "label": "3/12"},
+              {"value": "col-4", "label": "4/12"},
+              {"value": "col-5", "label": "5/12"},
+              {"value": "col-6", "label": "6/12"},
+              {"value": "col-7", "label": "7/12"},
+              {"value": "col-8", "label": "8/12"},
+              {"value": "col-9", "label": "9/12"},
+              {"value": "col-10", "label": "10/12"},
+              {"value": "col-11", "label": "11/12"},
+              {"value": "col-12", "label": "12/12"}
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image_4",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title_4",
+            "label": "Button"
+          },
+          {
+            "type": "url",
+            "id": "link_4",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "class_4",
+            "label": "Class"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vinova Images Group",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image",
+            "settings": {
+              "wg_lg": "col-lg-4",
+              "class_group_image": "mb-30"
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "wg_lg": "col-lg-4"
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "wg_lg": "col-lg-4"
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "wg_lg": "col-lg-6"
+            }
+          },
+          {
+            "type": "image",
+            "settings": {
+              "wg_lg": "col-lg-6"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+{%- assign bg_image = sst.background_image -%}
+<style>
+  #shopify-section-{{ section.id }} .distance {
+    padding-top: {{ sst.distance_top | append: 'px' }};
+    padding-bottom: {{ sst.distance_bottom | append: 'px' }};
+    {% if sst.background_color != blank %}
+      background-color: {{ sst.background_color }};
+    {% endif %}
+    {% if bg_image.src != blank %}
+      background-image: url("{{ bg_image | img_url: '1920x' }}");
+      background-repeat: no-repeat;
+      background-position: center top;
+    {% endif %}
+  }
+  #shopify-section-{{ section.id }} .btn {
+    color: {{ sst.btn_label_c }} !important;
+    border-color: {{ sst.btn_label_b }} !important;
+    background-color: {{ sst.btn_label_b }} !important;
+  }
+  #shopify-section-{{ section.id }} .btn:hover {
+    color: {{ sst.btn_label_ch }} !important;
+    border-color: {{ sst.btn_label_bh }} !important;
+    background-color: {{ sst.btn_label_bh }} !important;
+  }
+</style>

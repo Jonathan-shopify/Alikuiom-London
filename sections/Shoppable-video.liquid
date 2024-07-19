@@ -1,0 +1,78 @@
+<!-- shoppable-video.liquid -->
+{% schema %}
+{
+  "name": "Shoppable Video",
+  "settings": [
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video URL"
+    },
+    {
+      "type": "product",
+      "id": "product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "number",
+      "id": "product_1_time",
+      "label": "Time for Product 1 (seconds)",
+      "default": 10
+    },
+    {
+      "type": "product",
+      "id": "product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "number",
+      "id": "product_2_time",
+      "label": "Time for Product 2 (seconds)",
+      "default": 20
+    }
+  ]
+}
+{% endschema %}
+
+<div class="shoppable-video">
+  <video id="shoppable-video-element-{{ section.id }}" controls>
+    <source src="{{ section.settings.video_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div id="product-links-{{ section.id }}" style="display: none;">
+    {% if section.settings.product_1 %}
+      <a href="{{ section.settings.product_1 | product_url }}" id="product-link-1-{{ section.id }}">
+        {{- all_products[section.settings.product_1].title -}}
+      </a>
+    {% endif %}
+    {% if section.settings.product_2 %}
+      <a href="{{ section.settings.product_2 | product_url }}" id="product-link-2-{{ section.id }}">
+        {{- all_products[section.settings.product_2].title -}}
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById('shoppable-video-element-{{ section.id }}');
+    var productLink1 = document.getElementById('product-link-1-{{ section.id }}');
+    var productLink2 = document.getElementById('product-link-2-{{ section.id }}');
+
+    video.addEventListener('timeupdate', function() {
+      var currentTime = video.currentTime;
+
+      {% if section.settings.product_1_time %}
+      if (currentTime >= {{ section.settings.product_1_time }}) {
+        productLink1.style.display = 'block';
+      }
+      {% endif %}
+
+      {% if section.settings.product_2_time %}
+      if (currentTime >= {{ section.settings.product_2_time }}) {
+        productLink2.style.display = 'block';
+      }
+      {% endif %}
+    });
+  });
+</script>

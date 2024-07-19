@@ -1,0 +1,174 @@
+{% assign sst = section.settings %}
+<div class="distance{% if sst.class != blank %} {{ sst.class }}{% endif %}{% if sst.animate == true %} wow fadeInUp animated{% endif %}">
+  {% if sst.container == 'container' %}
+    <div class="container">
+  {% elsif sst.container == 'container-fluid' %}
+    <div class="container-fluid">
+  {% else %}
+    <div class="container-full">
+  {% endif %}
+    <div class="position-relative">
+      <div class="title_section text-center position-absolute">
+        {% if sst.subheading != blank %}
+        <span class="sub_title mt-0 mb-10" style="color: {{ sst.subheading_c }};">{{ sst.subheading }}</span>
+        {% endif %}
+        {% if sst.heading != blank %}
+        <span class="title" style="color: {{ sst.heading_c }};">{{ sst.heading }}</span>
+        {% endif %}
+        {% if sst.desc != blank %}
+        <div class="desc mt-10" style="color: {{ sst.desc_c }};">{{ sst.desc }}</div>
+        {% endif %}
+        {% if sst.sn != blank %}
+          <a href="{{ sst.l_sn }}" class="btn mt-40 mt-xs-20 bg_white hover:bg_pr"><span>{{ sst.sn }}</span></a>
+        {% endif %}
+      </div>
+      <div class="item youtube position-relative d-flex"> 
+        {% if sst.video != blank %}
+        {{ sst.video | video_tag: image_size: '1100x', autoplay: true, loop: true, controls: false, muted: true, data-id: section.id, style: "width: 100%;max-width: 100%;height: auto;object-fit: cover;" }}
+        {% else %}
+          {{ 'hero-apparel-3' | placeholder_svg_tag : 'placeholder-svg' }}
+        {% endif %}
+        {% if sst.button_enable == true %}
+          <div class="cap_link">
+            <a href="{{ sst.cap_link }}">
+              <span>{{ sst.title_link }}</span>
+              <i class="zmdi zmdi-long-arrow-right"></i>
+            </a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Vinova Video",
+    "class": "section-video",
+    "settings": [
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video",
+        "info": "Only for mp4"
+      },
+      {
+        "type": "richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<p>Vinova Video</p>"
+      },
+      {
+        "type": "color",
+        "id": "heading_c",
+        "label": "Heading color",
+        "default": "#222222"
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Sub heading",
+        "default": "<p>Subtitle from happy customers</p>"
+      },
+      {
+        "type": "color",
+        "id": "subheading_c",
+        "label": "Sub heading color",
+        "default": "#666666"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "desc",
+        "label": "Description",
+        "default": "You can upload videos, customize text, buttons in this section"
+      },
+      {
+        "type": "color",
+        "id": "desc_c",
+        "label": "Description color",
+        "default": "#666666"
+      },
+      {
+        "type": "text",
+        "id": "sn",
+        "label": "Text button"
+      },
+      {
+        "type": "url",
+        "id": "l_sn",
+        "label": "Link button"
+      },
+      {
+        "type": "range",
+        "id": "image_overlay_opacity",
+        "label": "Image overlay opacity",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "default": 5
+      },
+      {
+        "type": "select",
+        "id": "container",
+        "label": "Container",
+        "default": "container",
+        "options": [
+          { "value": "container", "label": "Container" },
+          { "value": "container-fluid", "label": "Container fluid" },
+          { "value": "container-full", "label": "Container full width" }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "animate",
+        "label": "Show animated",
+        "default":   true
+      },
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Class"
+      },
+      {
+        "type": "number",
+        "id": "distance_top",
+        "label": "Top spacing section (px)",
+        "default": 30
+      },
+      {
+        "type": "number",
+        "id": "distance_bottom",
+        "label": "Bottom spacing section (px)",
+        "default": 30
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vinova Video",
+        "category": "Video"
+      }
+    ]
+  }
+{% endschema %}
+<style>
+  #shopify-section-{{ section.id }} .distance {
+    padding-top: {{ sst.distance_top | append: 'px' }};
+    padding-bottom: {{ sst.distance_bottom | append: 'px' }};
+  }
+  @media(max-width: 991px) {
+    #shopify-section-{{ section.id }} .distance {
+      padding-top: {{ sst.distance_top | times: 0.7 | round: 0 | append: 'px' }};
+      padding-bottom: {{ sst.distance_bottom | times: 0.7 | round: 0 | append: 'px' }};
+    }
+  }
+  #shopify-section-{{ section.id }} .youtube::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, {{ sst.image_overlay_opacity }}%);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+</style>
